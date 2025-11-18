@@ -1,4 +1,4 @@
-## Policy and Approved Technology
+## Approved Technology, Policies, and Resources
 
 ### University
 
