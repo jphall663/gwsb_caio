@@ -1,6 +1,6 @@
 ## Policy and Approved Technology
 
-* [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy)
+* [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy) (GWU Office of Ethics, Compliance, and Risk, October 2015)
 * [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices) (GWU IT, in alignment with GWU acceptable use, code of ethical conduct, cyber risk, identity and access management, IT, privacy, and procurement policies)
 * [AI Tools and Services ("Approved Tools List")](https://it.gwu.edu/explore-tools-services#tools-tab-3-name) (GWU IT)
 * [George Washington University, Faculty Resources: Generative AI](https://guides.himmelfarb.gwu.edu/faculty/generative-AI)
