@@ -5,8 +5,8 @@
 * [AI Tools and Services ("Approved Tools List")](https://it.gwu.edu/explore-tools-services#tools-tab-3-name) (GWU IT)
 * [Artificial Intelligence (AI) Evaluation & Status](https://it.gwu.edu/ai-tools-status)  (GWU IT)
 * [Data Classification Guidelines](https://it.gwu.edu/data-classification-guide) (GWU IT)
-* [Generative Artificial Intelligence](https://it.gwu.edu/gen-ai) (GWU IT)
 * [Faculty Resources: Generative AI](https://guides.himmelfarb.gwu.edu/faculty/generative-AI) (Himmelfarb Health Sciences Library, November 2025)
+* [Generative Artificial Intelligence](https://it.gwu.edu/gen-ai) (GWU IT)
 * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (GWU, Office of the Provost, April 2023)
   * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (GWU, Office of the Provost, April 2023)
   * [Additional Guidance Regarding Generative Artificial
