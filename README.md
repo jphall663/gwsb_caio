@@ -16,3 +16,4 @@ Intelligence at the George Washington University](https://provost.gwu.edu/sites/
 ### Schools
 
 * [Faculty Resources: Generative AI](https://guides.himmelfarb.gwu.edu/faculty/generative-AI) (Himmelfarb Health Sciences Library, November 2025)
+* [Artificial Intelligence in Action](https://business.gwu.edu/artificial-intelligence-in-action) (GWSB)
