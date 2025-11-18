@@ -11,4 +11,3 @@
   * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (GWU, Office of the Provost, April 2023)
   * [Additional Guidance Regarding Generative Artificial
 Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) (GWU Office of the Provost, August 2023)
-* [George Washington University, 
