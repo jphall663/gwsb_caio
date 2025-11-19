@@ -12,6 +12,7 @@
   * [Communicating Your GenAI Expectations to Your Students](https://library.gwu.edu/communicating-your-genai-expectations-your-students) (GWU Libraries & Academic Innovation)
   * [Deciding on Appropriate Use of GenAI in Academic Classes](https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes) (GWU Libraries & Academic Innovation)
   * [Teaching with Generative AI](https://library.gwu.edu/teaching-generative-ai) (GWU Libraries & Academic Innovation)
+    * [Karen Singer](https://library.gwu.edu/users/karen-singer-freeman) (GWU Libraries & Academic Innovation, Generative AI in Teaching lead)
 * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (GWU, Office of the Provost, April 2023)
   * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (GWU, Office of the Provost, April 2023)
   * [Additional Guidance Regarding Generative Artificial
