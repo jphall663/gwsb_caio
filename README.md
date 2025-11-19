@@ -8,7 +8,7 @@
   * [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices) (GWU IT, in alignment with GWU acceptable use, code of ethical conduct, cyber risk, identity and access management, IT, privacy, and procurement policies)
   * [AI Tools and Services ("Approved Tools List")](https://it.gwu.edu/explore-tools-services#tools-tab-3-name) (GWU IT)
   * [Artificial Intelligence (AI) Evaluation & Status](https://it.gwu.edu/ai-tools-status)  (GWU IT)
-* Generative Artificial Intelligence (GenAI): https://library.gwu.edu/generative-ai (GWU Libraries & Academic Innovation, broken links?) 
+* Generative Artificial Intelligence (GenAI): https://library.gwu.edu/generative-ai (GWU Libraries & Academic Innovation, broken links-paste into browswer) 
   * Communicating Your GenAI Expectations to Your Students: https://library.gwu.edu/communicating-your-genai-expectations-your-students (GWU Libraries & Academic Innovation, May 2025)
   * Deciding on Appropriate Use of GenAI in Academic Classes: https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes (GWU Libraries & Academic Innovation, May 2025)
   * Teaching with Generative AI: https://library.gwu.edu/teaching-generative-ai (GWU Libraries & Academic Innovation)
