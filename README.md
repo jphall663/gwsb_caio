@@ -1,4 +1,4 @@
-# AI Knowlegde Base
+# AI Knowledge Base
 George Washington School of Business, Chief AI Officer
 
 © 2025 George Washington University. Some rights reserved.  This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -22,7 +22,7 @@ You are free to share and adapt this material for noncommercial purposes, provid
     * [AI Tools and Services ("Approved Tools List")](https://it.gwu.edu/explore-tools-services#tools-tab-3-name)
     * [Artificial Intelligence (AI) Evaluation & Status](https://it.gwu.edu/ai-tools-status)
 
-* **Libraries & Academic Innovation** (broken linking--paste link into browswer)
+* **Libraries & Academic Innovation** (broken linking--paste link into browser)
   * Generative Artificial Intelligence (GenAI): `https://library.gwu.edu/generative-ai` 
     * Communicating Your GenAI Expectations to Your Students: `https://library.gwu.edu/communicating-your-genai-expectations-your-students` (May 2025)
     * Deciding on Appropriate Use of GenAI in Academic Classes: `https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes` (May 2025)
@@ -52,7 +52,7 @@ You are free to share and adapt this material for noncommercial purposes, provid
   * Ask AI for feedback and improvements to your own ideas or decisions. 
 
 * **Don't let AI answer a factual request for you, instead ...**
-  * Search/research for the result yourself using a non-broken search engine (Kagi, Wayback Machine, Google Scholar) or libraries, books, indices, databases, or human experts.
+  * Search/research for the result yourself using a credible search engine (Kagi, Wayback Machine, Google Scholar) or libraries, books, indices, databases, or human experts.
 
 * **Don't let AI write for you, instead ...**
   * You make the outline.
@@ -67,7 +67,7 @@ You are free to share and adapt this material for noncommercial purposes, provid
 * **Understand when to use other types of AI ...**
   * Use statistics and ML for data analysis and direct decision-making.
   * Use real-time sensor networks for real-time info (maps, weather, etc.).
-  * Use non-broken search for factual information retrieval (Kagi, Wayback Machine, Google Scholar).
+  * Use credible search for factual information retrieval (Kagi, Wayback Machine, Google Scholar).
 
 * **Understand how AI fails you ...**
   * by hallucinating/making up information.
