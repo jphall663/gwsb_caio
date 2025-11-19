@@ -1,3 +1,50 @@
+# AI Knowlegde Base
+George Washington School of Business, Cheif AI Officer
+
+© 2025 George Washington University. Some rights reserved.  This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+You are free to share and adapt this material for noncommercial purposes, provided that you give appropriate credit, link to the license, indicate if changes were made, and distribute any contributions under the same license.
+
+## Contents
+* [Policies and Resources](https://github.com/jphall663/gwsb_caio/edit/main/README.md#policies-and-resources)
+* [Basic Human AI Teaming Guidance](https://github.com/jphall663/gwsb_caio/edit/main/README.md#basic-human-ai-teaming-guidance)
+* [Advanced Human-AI Teaming Guidance and Resources](https://github.com/jphall663/gwsb_caio/edit/main/README.md#advanced-human-ai-teaming-guidance-and-resources)
+* [Public Working Group](https://github.com/jphall663/gwsb_caio/edit/main/README.md#public-working-group)
+
+## Policies and Resources
+
+### University Policies
+[**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) (Click to request access to a Google Notebook LM session grounded on these resources.)
+
+* **Information Technology** 
+  * [Data Classification Guidelines](https://it.gwu.edu/data-classification-guide)
+  * [Generative Artificial Intelligence](https://it.gwu.edu/gen-ai)
+    * [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices) (in alignment with GWU acceptable use, code of ethical conduct, cyber risk, identity and access management, IT, privacy, and procurement policies)
+    * [AI Tools and Services ("Approved Tools List")](https://it.gwu.edu/explore-tools-services#tools-tab-3-name)
+    * [Artificial Intelligence (AI) Evaluation & Status](https://it.gwu.edu/ai-tools-status)
+
+* **Libraries & Academic Innovation** (broken linking--paste link into browswer)
+  * Generative Artificial Intelligence (GenAI): `https://library.gwu.edu/generative-ai` 
+    * Communicating Your GenAI Expectations to Your Students: `https://library.gwu.edu/communicating-your-genai-expectations-your-students` (May 2025)
+    * Deciding on Appropriate Use of GenAI in Academic Classes: `https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes` (May 2025)
+    * Teaching with Generative AI: `https://library.gwu.edu/teaching-generative-ai`
+    * Karen Singer-Freeman: https://library.gwu.edu/users/karen-singer-freeman (GWU Libraries & Academic Innovation, Generative AI in Teaching Lead)
+      
+* **Office of Ethics, Compliance, and Risk**
+  * [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy) (September 2023)
+
+* **Office of the Provost**    
+  * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (April 2023)
+    * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (April 2023)
+    * [Additional Guidance Regarding Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) (August 2023)
+
+### School Policies
+
+* **Himmelfarb Health Sciences Library**
+  * [Faculty Resources: Generative AI](https://guides.himmelfarb.gwu.edu/faculty/generative-AI) (November 2025)
+ 
+* **School of Business**
+  * [Artificial Intelligence in Action](https://business.gwu.edu/artificial-intelligence-in-action)
+
 ## Basic Human AI Teaming Guidance
 
 * **Don't let AI decide for you, instead ...**
@@ -34,30 +81,7 @@
   * by anthropomorphizing (ideas like "think," "understand," "reason," "feel" don't apply to AI ... AI systems memorize, calculate, and generate).
   * by anchoring to AI results because they are the first information you see.
   * by its sycophancy (allowing it to suck up to).
+ 
+## Advanced Human-AI Teaming Guidance and Resources
 
-## Policies and Resources
-
-### University
-
-* [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy) (GWU Office of Ethics, Compliance, and Risk, September 2023)
-* [Data Classification Guidelines](https://it.gwu.edu/data-classification-guide) (GWU IT)
-* [Generative Artificial Intelligence](https://it.gwu.edu/gen-ai) (GWU IT)
-  * [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices) (GWU IT, in alignment with GWU acceptable use, code of ethical conduct, cyber risk, identity and access management, IT, privacy, and procurement policies)
-  * [AI Tools and Services ("Approved Tools List")](https://it.gwu.edu/explore-tools-services#tools-tab-3-name) (GWU IT)
-  * [Artificial Intelligence (AI) Evaluation & Status](https://it.gwu.edu/ai-tools-status)  (GWU IT)
-* Generative Artificial Intelligence (GenAI): https://library.gwu.edu/generative-ai (GWU Libraries & Academic Innovation, broken links-paste into browswer) 
-  * Communicating Your GenAI Expectations to Your Students: https://library.gwu.edu/communicating-your-genai-expectations-your-students (GWU Libraries & Academic Innovation, May 2025)
-  * Deciding on Appropriate Use of GenAI in Academic Classes: https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes (GWU Libraries & Academic Innovation, May 2025)
-  * Teaching with Generative AI: https://library.gwu.edu/teaching-generative-ai (GWU Libraries & Academic Innovation)
-    * Karen Singer-Freeman: https://library.gwu.edu/users/karen-singer-freeman (GWU Libraries & Academic Innovation, Generative AI in Teaching Lead)
-* [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (GWU, Office of the Provost, April 2023)
-  * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (GWU, Office of the Provost, April 2023)
-  * [Additional Guidance Regarding Generative Artificial
-Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) (GWU Office of the Provost, August 2023)
-
-[**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184)
-
-### Schools
-
-* [Faculty Resources: Generative AI](https://guides.himmelfarb.gwu.edu/faculty/generative-AI) (Himmelfarb Health Sciences Library, November 2025)
-* [Artificial Intelligence in Action](https://business.gwu.edu/artificial-intelligence-in-action) (GWSB)
+## Public Working Group
