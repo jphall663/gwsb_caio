@@ -10,7 +10,7 @@
   * [Artificial Intelligence (AI) Evaluation & Status](https://it.gwu.edu/ai-tools-status)  (GWU IT)
 * Generative Artificial Intelligence (GenAI): https://library.gwu.edu/generative-ai (GWU Libraries & Academic Innovation, broken links?) 
   * Communicating Your GenAI Expectations to Your Students: https://library.gwu.edu/communicating-your-genai-expectations-your-students (GWU Libraries & Academic Innovation)
-  * Deciding on Appropriate Use of GenAI in Academic Classes: https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes (GWU Libraries & Academic Innovation)
+  * Deciding on Appropriate Use of GenAI in Academic Classes: https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes (GWU Libraries & Academic Innovation, May 2025)
   * Teaching with Generative AI: https://library.gwu.edu/teaching-generative-ai (GWU Libraries & Academic Innovation)
     * [Karen Singer](https://library.gwu.edu/users/karen-singer-freeman) (GWU Libraries & Academic Innovation, Generative AI in Teaching lead)
 * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (GWU, Office of the Provost, April 2023)
