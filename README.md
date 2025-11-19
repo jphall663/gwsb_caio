@@ -1,5 +1,5 @@
 # AI Knowlegde Base
-George Washington School of Business, Cheif AI Officer
+George Washington School of Business, Chief AI Officer
 
 © 2025 George Washington University. Some rights reserved.  This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 You are free to share and adapt this material for noncommercial purposes, provided that you give appropriate credit, link to the license, indicate if changes were made, and distribute any contributions under the same license.
