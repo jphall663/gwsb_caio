@@ -1,3 +1,40 @@
+## Basic Human AI Teaming Guidance
+
+* Don't let AI decide for you, instead ...
+  * Ask AI for options and you pick the best option combined with real-world knowledge.
+  * Ask AI for feedback and improvements to your own ideas or decisions. 
+
+* Don't let AI answer a factual request for you, instead ...
+  * Search/research for the result yourself using a non-broken search engine (Kagi, Wayback Machine, Google Scholar) or libraries, books, indices, databases, or human experts.
+
+* Don't let AI write for you, instead ...
+  * You make the outline.
+  * Ask AI to draft the outline into coherent text.
+  * You proof and edit the result.
+  * You add citations, figures, and tables, etc.
+
+* Don't trust AI to code for you, instead ...
+  * Have AI write the code and you write the tests and documentation OR ...
+  * You write the code and have AI write the tests and documentation.
+
+* Understand when to use other types of AI ...
+ * Use statistics and ML for data analysis and direct decision-making.
+ * Use real-time sensor networks for real-time info (maps, weather, etc.).
+ * Use non-broken search for factual information retrieval (Kagi, Wayback Machine, Google Scholar).
+
+* Understand how AI fails you ...
+ * by hallucinating/making up information.
+ * by generating fake citations.
+ * by combining true information incorrectly.
+ * by having poor knowledge in niche subjects.
+ * by failing at complex reasoning tasks.
+
+* Understand how you fail with AI ...
+ * by allowing AI results to confirm your pre-existing biases.
+ * by anthropomorphizing (ideas like "think," "understand," "reason," "feel" don't apply to AI ... AI systems memorize, calculate, and generate).
+ * by anchoring to AI results because they are the first information you see.
+ * by its sycophancy (allowing it to suck up to).
+
 ## Policies and Resources
 
 ### University
