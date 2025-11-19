@@ -5,10 +5,10 @@ George Washington School of Business, Cheif AI Officer
 You are free to share and adapt this material for noncommercial purposes, provided that you give appropriate credit, link to the license, indicate if changes were made, and distribute any contributions under the same license.
 
 ## Contents
-* [Policies and Resources](https://github.com/jphall663/gwsb_caio/edit/main/README.md#policies-and-resources)
-* [Basic Human AI Teaming Guidance](https://github.com/jphall663/gwsb_caio/edit/main/README.md#basic-human-ai-teaming-guidance)
-* [Advanced Human-AI Teaming Guidance and Resources](https://github.com/jphall663/gwsb_caio/edit/main/README.md#advanced-human-ai-teaming-guidance-and-resources)
-* [Public Working Group](https://github.com/jphall663/gwsb_caio/edit/main/README.md#public-working-group)
+* [Policies and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#policies-and-resources)
+* [Basic Human AI Teaming Guidance](https://github.com/jphall663/gwsb_caio/blob/main/README.md#basic-human-ai-teaming-guidance)
+* [Advanced Human-AI Teaming Guidance and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#advanced-human-ai-teaming-guidance-and-resources)
+* [Public Working Group](https://github.com/jphall663/gwsb_caio/blob/main/README.md#public-working-group)
 
 ## Policies and Resources
 
