@@ -18,6 +18,8 @@
   * [Additional Guidance Regarding Generative Artificial
 Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) (GWU Office of the Provost, August 2023)
 
+[**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184)
+
 ### Schools
 
 * [Faculty Resources: Generative AI](https://guides.himmelfarb.gwu.edu/faculty/generative-AI) (Himmelfarb Health Sciences Library, November 2025)
