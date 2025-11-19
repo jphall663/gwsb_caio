@@ -1,8 +1,8 @@
-## Approved Technology, Policies, and Resources
+## Policies and Resources
 
 ### University
 
-* [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy) (GWU Office of Ethics, Compliance, and Risk, October 2015)
+* [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy) (GWU Office of Ethics, Compliance, and Risk, September 2023)
 * [Data Classification Guidelines](https://it.gwu.edu/data-classification-guide) (GWU IT)
 * [Generative Artificial Intelligence](https://it.gwu.edu/gen-ai) (GWU IT)
   * [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices) (GWU IT, in alignment with GWU acceptable use, code of ethical conduct, cyber risk, identity and access management, IT, privacy, and procurement policies)
@@ -12,7 +12,7 @@
   * Communicating Your GenAI Expectations to Your Students: https://library.gwu.edu/communicating-your-genai-expectations-your-students (GWU Libraries & Academic Innovation, May 2025)
   * Deciding on Appropriate Use of GenAI in Academic Classes: https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes (GWU Libraries & Academic Innovation, May 2025)
   * Teaching with Generative AI: https://library.gwu.edu/teaching-generative-ai (GWU Libraries & Academic Innovation)
-    * [Karen Singer](https://library.gwu.edu/users/karen-singer-freeman) (GWU Libraries & Academic Innovation, Generative AI in Teaching lead)
+    * Karen Singer-Freeman: https://library.gwu.edu/users/karen-singer-freeman (GWU Libraries & Academic Innovation, Generative AI in Teaching Lead)
 * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (GWU, Office of the Provost, April 2023)
   * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (GWU, Office of the Provost, April 2023)
   * [Additional Guidance Regarding Generative Artificial
