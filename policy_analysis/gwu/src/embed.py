@@ -80,7 +80,7 @@ for i in tqdm(range(0, N)):
 
 ### verify putput ###########################################################
 
-logger.info(f'Correct data shape: {data_.shape == (N, 318)}.')
+logger.info(f'Correct data shape: {data_.shape == (N, 1539)}.')
 
 no_empties = data_.isna().any().any()
 logger.info(f'Any empty data cells: {no_empties}.')
