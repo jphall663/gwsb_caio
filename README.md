@@ -10,10 +10,11 @@ You are free to share and adapt this material for noncommercial purposes, provid
 ## Policies and Resources
 
 ### University Policies
-[**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) (Click to request access to a Google Notebook LM session grounded on these resources.)
+[**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) (Faculty and staff click to request access to a Google Notebook LM session grounded on these resources.)
 
 * **Information Technology** 
   * [Data Classification Guidelines](https://it.gwu.edu/data-classification-guide)
+  * [Data Protection Guidelines](https://it.gwu.edu/data-protection-guide)
   * [Generative Artificial Intelligence](https://it.gwu.edu/gen-ai)
     * [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices) (in alignment with GWU acceptable use, code of ethical conduct, cyber risk, identity and access management, IT, privacy, and procurement policies)
     * [AI Tools and Services ("Approved Tools List")](https://it.gwu.edu/explore-tools-services#tools-tab-3-name)
@@ -28,11 +29,17 @@ You are free to share and adapt this material for noncommercial purposes, provid
       
 * **Office of Ethics, Compliance, and Risk**
   * [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy) (September 2023)
+  * [Cybersecurity Risk Policy](https://compliance.gwu.edu/cybersecurity-risk-policy) (October 2023)
+  * [Identity and Access Management Policy](https://compliance.gwu.edu/identity-and-access-management-policy) (October 2023)
 
 * **Office of the Provost**    
   * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (April 2023)
     * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (April 2023)
     * [Additional Guidance Regarding Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) (August 2023)
+
+* **Privacy Office**
+  * [Privacy Guidance for use of Artificial Intelligence](https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence)
+  * [Privacy Considerations when using Virtual Meeting and Collaboration Platforms](https://privacy.gwu.edu/privacy-considerations-when-using-virtual-meeting-and-collaboration-platforms)
 
 ### School Policies
 
