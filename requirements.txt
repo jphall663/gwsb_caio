@@ -1,0 +1,13 @@
+matplotlib
+numpy
+openai
+openpyxl
+pandas
+scikit-learn
+tika
+tiktoken
+tqdm
+vaderSentiment
+wordcloud
+umap-learn
+xlrd

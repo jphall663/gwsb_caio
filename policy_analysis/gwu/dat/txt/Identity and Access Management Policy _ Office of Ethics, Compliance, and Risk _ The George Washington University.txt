@@ -1,0 +1,241 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Identity and Access Management Policy | Office of Ethics, Compliance, and Risk | The George Washington University
+
+
+Office of Ethics, Compliance,
+and Risk
+
+Report a Concern
+
+Identity and Access Management Policy
+
+Policy Summary
+
+The George Washington University (hereinafter, “GW” or “University”) provides Information
+
+Technology Resources (“GW IT Resources”) to its community members to promote and advance
+
+teaching, learning, research, and administrative support. This policy establishes the issuance,
+
+maintenance, and use of Digital Identities to safeguard the confidentiality, availability, and
+
+integrity of GW IT Resources.
+
+Who is Governed by this Policy
+This policy applies to all University students, faculty and staff and all other individuals and entities including, but not
+
+limited to, contractors, temporary employees, sponsored researchers, affiliates, visitors, and volunteers (collectively,
+
+“Authorized Users”).
+
+Home Policies Find a Policy Alphabetical Policy Listing Identity and Access Management Policy
+
+| | | | | |Ethics Compliance Reporting Policies Conflicts of Interest & Commitment Protection of Minors About Us
+
+12/7/25, 9:17 AM Identity and Access Management Policy | Office of Ethics, Compliance, and Risk | The George Washington University
+
+https://compliance.gwu.edu/identity-and-access-management-policy 1/3
+
+https://compliance.gwu.edu/
+https://compliance.gwu.edu/
+https://compliance.gwu.edu/
+https://compliance.gwu.edu/
+https://compliance.gwu.edu/
+https://compliance.gwu.edu/reporting
+https://compliance.gwu.edu/
+https://compliance.gwu.edu/policies
+https://compliance.gwu.edu/find-a-policy
+https://compliance.gwu.edu/alphabetical-policy-listing
+https://compliance.gwu.edu/ethics
+https://compliance.gwu.edu/compliance
+https://compliance.gwu.edu/reporting
+https://compliance.gwu.edu/policies
+https://compliance.gwu.edu/conflict-interest
+https://compliance.gwu.edu/protection-minors-0
+https://compliance.gwu.edu/team
+
+
+Policy
+ 
+
+Authorized Users shall be provided a unique identifier (e.g., GWID) at the point of joining the GW community. GW’s unique
+
+identifier serves as a partial confirmation of an account owner’s identity and is part of the Authorized User’s Digital Identity.
+
+The Authorized User’s Digital Identity will remain active until such time the user’s relationship with GW has concluded or
+
+access to GW IT Resources is no longer required.
+
+The process, procedures, roles, and responsibilities related to a Digital Identity are governed by the GW IT’s Identity and
+
+Access Management Standards. Any requests and decisions related to accessing GW IT Resources via a Digital Identity shall
+
+be made in accordance with the Identity and Access Management Standards, and the University Access to Accounts and
+
+Electronic Information Policy.
+
+All Authorized Users associated with GW are responsible for safeguarding their assigned Digital Identity from unauthorized
+
+use by complying with the Acceptable Use of IT Resources Policy, Cybersecurity Risk Policy, and Identity and Access
+
+Management Standards.
+
+To mitigate the University’s cybersecurity risk, access to GW IT Resources shall be based on an Authorized User’s position or
+
+function. Physical access to GW campus buildings and facilities are addressed in the Physical Access Policy.
+
+Definitions
+Authorized Users: All University students, faculty and staff. It also applies to all other individuals and entities granted use of
+
+GW IT Resources, including, but not limited to, contractors, temporary employees, sponsored researchers, affiliates, visitors
+
+and volunteers.
+
+Digital Identity: A digital identity is associated to a unique identifier that is specific to each Authorized User who has an
+
+active relationship with the University, and can consist of multiple unique attributes, accounts, credentials, and entitlements
+
+associated with an individual.
+
+GW Identification (GWID): A GWID is an alpha-numeric value used to identify an Authorized User within GW's
+
+administrative systems and is required to access GW IT resources. A GWID is the letter G followed by an 8-digit number.
+
+GW IT Resources: Any technology resource or equipment that supports one or more functional objectives of the university.
+
+This includes any system, service or physical facility owned, contracted, or managed by the University to acquire, store,
+
+process, transmit, scan, receive, or dispose of data or information (e.g., software, computers, mobile phones, tablets, storage
+
+devices necessary for security and surveillance).
+
+Related Information
+Acceptable Use of IT Resources Policy
+
+Cybersecurity Risk Policy
+
+Identity and Access Management Standards
+
+Physical Access Policy
+
+Contacts
+
+Contact Phone Number Email Address
+
+GW Information Technology 202-994-4948 ithelp@gwu.edu
+
+12/7/25, 9:17 AM Identity and Access Management Policy | Office of Ethics, Compliance, and Risk | The George Washington University
+
+https://compliance.gwu.edu/identity-and-access-management-policy 2/3
+
+https://go.gwu.edu/iamstandard
+https://go.gwu.edu/iamstandard
+https://go.gwu.edu/iamstandard
+https://compliance.gwu.edu/acceptable-use-it-resources-policy
+https://compliance.gwu.edu/cybersecurity-risk-policy
+https://go.gwu.edu/iamstandard
+https://go.gwu.edu/iamstandard
+https://compliance.gwu.edu/physical-access-policy
+https://compliance.gwu.edu/acceptable-use-it-resources-policy
+https://compliance.gwu.edu/cybersecurity-risk-policy
+https://go.gwu.edu/iamstandard
+https://compliance.gwu.edu/physical-access-policy
+mailto:ithelp@gwu.edu
+
+
+Responsible University Official: Vice Provost for Libraries and Information Technology
+
+Responsible Office: GW Information Technology
+
+Origination Date: October 18, 2023
+
+Last Material Change: N/A
+
+Next Scheduled Review: August 2025
+
+To provide feedback on this policy, please contact the Responsible Office(s) listed above or the
+
+Office of Ethics, Compliance, and Risk. More information describing university policies is outlined
+
+in the University Policy Principles.
+
+Noncompliance with this policy can be reported through this website.
+
+Office of Ethics, Compliance, and Risk
+
+Email the Office
+
+Report a Concern
+
+Call the Office
+
+ 
+
+Campus Advisories
+
+EO/Nondiscrimination Policy
+
+Website Privacy Notice
+
+Contact GW
+
+Accessibility
+
+Terms of Use
+
+Copyright
+
+Report a Barrier to Accessibility
+
+12/7/25, 9:17 AM Identity and Access Management Policy | Office of Ethics, Compliance, and Risk | The George Washington University
+
+https://compliance.gwu.edu/identity-and-access-management-policy 3/3
+
+https://compliance.gwu.edu/university-policy-principles
+https://compliance.gwu.edu/reporting
+mailto:comply@gwu.edu
+https://compliance.gwu.edu/reporting
+tel:+12029943386
+https://www.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=gwu
+https://campusadvisories.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=campus-advisories
+https://compliance.gwu.edu/equal-opportunity-nondiscrimination-anti-harassment-and-non-retaliation?utm_medium=link&utm_campaign=global-footer&utm_source=EEO-nondiscrimination-policy
+https://www.gwu.edu/privacy-notice?utm_medium=link&utm_campaign=global-footer&utm_source=privacy-notice
+https://www.gwu.edu/contact-gw?utm_medium=link&utm_campaign=global-footer&utm_source=contact-gw
+https://accessibility.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=accessibility
+https://www.gwu.edu/terms-use?utm_medium=link&utm_campaign=global-footer&utm_source=terms-use
+https://www.gwu.edu/copyright?utm_medium=link&utm_campaign=global-footer&utm_source=copyright
+https://accessibility.gwu.edu/report-barrier-accessibility?utm_medium=link&utm_campaign=global-footer&utm_source=accessibility-feedback
+

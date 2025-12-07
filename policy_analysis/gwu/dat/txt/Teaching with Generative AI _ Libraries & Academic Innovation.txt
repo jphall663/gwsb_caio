@@ -1,0 +1,575 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Teaching with Generative AI | Libraries & Academic Innovation
+
+
+Libraries & Academic
+
+Innovation
+
+Gelman Library: 24 hours
+
+Complete Hours Info
+Ask Us
+
+Teaching with Generative AI
+
+Generative AI (GenAI) tools invite us to take a step back and examine our pedagogy with fresh eyes. Even as
+
+the capabilities of these tools expand and change, the principles of good, evidence-informed pedagogy
+
+continue to apply.
+
+We realize everyone is in a different place on their journey of learning what GenAI tools can do and
+
+considering whether or how to integrate them into their teaching. Wherever you are, we encourage you to be
+
+intentional and reflective about your goals, to communicate your expectations around GenAI use clearly to
+
+students, and to avoid attempting to police perceived student misuse. Increasingly, AI is integrated into the
+
+programs and apps students use to write and edit. Moreover, AI detection tools have been shown to be
+
+deeply flawed, flagging human-written text as AI-generated and vice-versa.
+
+If you have never experimented with a GenAI tool, we recommend trying some out. Different tools have
+
+different strengths. Consider trying Microsoft Copilot (GW has an enterprise license), ChatGPT, Claude, or
+
+Google Gemini for generating texts, and Adobe Firefly or DALL-E for generating images. Ask some of these
+
+tools to complete assignments you currently use in your classes to see what they can and cannot do well. Do
+
+not input any sensitive data, including student work (which may be a FERPA violation).
+
+After reviewing the tips below, consider joining us for a workshop. The Center for Teaching Excellence
+
+regularly holds workshops that address teaching with GenAI. You can see this semester’s full schedule on
+
+the LAI Events page. We also can offer a custom workshop for your department or other unit. Please email us
+
+at teaching@gwu.edu to discuss.
+
+Examine your objectives and purpose
+
+Where you choose to integrate GenAI tools into your classroom will depend on your discipline, your course,
+
+and your course’s place in a curriculum. Considering your course objectives can help you clarify where you
+
+want students to use GenAI tools and where you want them to do their own intellectual work. Where does the
+
+learning happen, and where can GenAI tools help students get to where the learning happens?
+
+⟵ Center for Teaching Excellence / Resources / Generative Artificial Intelligence (GenAI)
+
+Libraries & Academic Innovation
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+12/7/25, 11:08 AM Teaching with Generative AI | Libraries & Academic Innovation
+
+https://library.gwu.edu/teaching-generative-ai 1/7
+
+https://library.gwu.edu/
+https://library.gwu.edu/
+https://library.gwu.edu/
+https://library.gwu.edu/hours
+https://library.gwu.edu/ask-us
+https://universityaffairs.ca/career-advice/focusing-on-genai-detection-is-a-no-win-approach-for-instructors/?utm_source=substack&utm_medium=email
+https://universityaffairs.ca/career-advice/focusing-on-genai-detection-is-a-no-win-approach-for-instructors/?utm_source=substack&utm_medium=email
+https://it.gwu.edu/microsoft-copilot
+https://library.gwu.edu/events
+mailto:teaching@gwu.edu
+https://library.gwu.edu/teaching
+https://library.gwu.edu/resources-teaching
+https://library.gwu.edu/generative-ai
+https://library.gwu.edu/
+
+
+Consider the skills and knowledge your students already have and those they will need outside of your
+
+classroom. How can you convey the value of those things to your students to motivate them? Do your
+
+students have the necessary expertise yet to judge the output of a GenAI tool?
+
+Have a syllabus policy
+
+After considering your course objectives, write a clear policy for your syllabus outlining what GenAI uses are
+
+allowed or disallowed and when. Different assignments may have different policies, so remind students of
+
+your policy frequently. GW faculty member Ryan Watkins has developed a free tool that creates a chart laying
+
+out what GenAI uses are permitted for an assignment.
+
+Discuss GenAI with your students
+
+You do not need to be an expert on GenAI to discuss it with your students. Consider the following questions:
+
+How is your field approaching GenAI? What are professionals using it for?
+
+What do scholars in your field have to say about the many ethical issues raised by GenAI tools? Are they
+
+concerned with the environmental impact, the human labor required during training of the tools,
+
+intellectual property concerns, the reproduction of biases, data privacy issues, or concerns about equity
+
+(more powerful tools cost money)?
+
+What questions do your students have about GenAI? How are your students using GenAI?
+
+In addition, consider exploring this Student Guide to Artificial Intelligence from Elon University and sharing
+
+and discussing it with your students. The guide includes practical tips, addresses student FAQs, and discusses
+
+how students' careers may intersect with GenAI.
+
+Design assignments purposefully and transparently
+
+Many GW faculty have adopted the research-backed Transparency Framework for their assignments. The
+
+framework involves describing:
+
+Purpose: Why are students doing this work?
+
+Task: What do students need to do?
+
+Criteria: How will students know they have done the work well?
+
+Including these three components in your assignment handouts increases student motivation and success.
+
+Consider building in information about GenAI to each component:
+
+Purpose: Why should students use or avoid using GenAI in a particular way? How will following your
+
+guidelines for appropriate use support their success in your class, their major, or a future career?
+
+Task: What steps can GenAI support? What steps must be done without support from GenAI?
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+12/7/25, 11:08 AM Teaching with Generative AI | Libraries & Academic Innovation
+
+https://library.gwu.edu/teaching-generative-ai 2/7
+
+https://sites.google.com/view/aiassignments
+https://studentguidetoai.org/
+https://www.tilthighered.com/resources
+
+
+Criteria: Will students need to cite or reflect on their GenAI use? Will they be graded on the quality of their
+
+final product or will you also evaluate some aspect of their process, including ways in which they
+
+interacted with GenAI?
+
+Value the process
+
+Learning requires attention to the process as well as the final product, but students often focus on the product.
+
+Think about how your course can help students value the process and figure out if they are on the right track
+
+before they reach the final paper or big exam. You might break larger projects into smaller pieces (some of
+
+which may benefit from using GenAI tools), or provide more opportunities for students to reflect about their
+
+own processes. You might ask students questions like:
+
+What kinds of feedback would help you move this project forward?
+
+What do you feel proud of in this draft?
+
+Did you find GenAI helpful when completing this task?
+
+What did GenAI get wrong and how did you evaluate the quality of the GenAI output?
+
+Consider the value of the human
+
+The way we bring our unique human traits to GenAI can create the most productive learning encounters. As
+
+our Georgetown colleague J Palmeri puts it, “If we ask students to start a task by consulting AI, they may defer
+
+too strongly to the AI’s advice. If we engage students in human writing and speaking activities before bringing
+
+in AI, we can then frame AI as an additional conversation partner whose ideas may or may not be helpful.”
+
+You can also consider your students’ work processes, needs, and anxieties. Students are most likely to use
+
+GenAI tools in an unauthorized manner when they are working on a large task at the last minute. Breaking
+
+down large assignments into smaller, scaffolded tasks can help students budget their time and feel less
+
+overwhelmed. Your late work policy can also help students seek support from you or other authorized
+
+resources rather than turning to GenAI.
+
+Explore GenAI tools
+
+As you explore different GenAI tools, consider trying to use them in the following ways:
+
+Enter an assignment prompt you give to students to see what different GenAI tools generate. ChatGPT,
+
+CoPilot, and Claude produce very different results, so it is worth trying more than one. Consider asking the
+
+tool that produces the strongest result to refine the response further, thinking about how your students
+
+might interact with the tool.
+
+Sample prompt: “I am a [type of student, class, etc.: e.g., first-year college student in introductory
+
+biology] writing [type of assignment: e.g., a lab report on cell division]. [Paste in the assignment prompt,
+
+including any sections or subsections you require.] Can you complete it for me? Go step by step.”
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+12/7/25, 11:08 AM Teaching with Generative AI | Libraries & Academic Innovation
+
+https://library.gwu.edu/teaching-generative-ai 3/7
+
+https://gufaculty360.georgetown.edu/s/contact/003Hp00002jOsa6IAC/j-palmeri
+
+
+Give the tool an assignment prompt that you use with students and ask it to help you make it more
+
+transparent or identify questions that students might have. What seems clear to us may not be readily
+
+obvious to our students, and AI can help us bridge that gap.
+
+Sample prompt: “I am a college professor teaching [discipline, type of class: e.g., a senior capstone
+
+seminar]. I give my students the following assignment prompt [include the prompt]. Using the
+
+transparent assignment design framework, can you identify what questions students might have and
+
+suggest changes that I could make to increase the assignment’s transparency?”
+
+Ask a tool to identify the steps a student will need to take to complete an assignment successfully. When
+
+you think about the “tasks” step of the transparent assignment design framework discussed above, it is
+
+sometimes hard to identify all the sub-steps you are asking from your students. Having a clearer sense of
+
+the sub-steps can help you plan how to support students where needed.
+
+Sample prompt: “I am trying to scaffold an assignment for students. They are undergraduates in an
+
+introductory history course writing a 12–15-page term paper. I would like to think of all the tasks my
+
+students must complete. Be as detailed as possible: so, if one step is ‘researching,’ what tasks go into
+
+that?”
+
+Try your own prompt! Prompts that include a role for the GenAI tool (e.g., student, researcher, concerned
+
+citizen), specific context (e.g., in a specific class, about to go to a research site, writing an op-ed), and an
+
+expected output (e.g., number of ideas, length of response, in a specific style, at a specific reading level)
+
+often give more useful responses. You can ask for it to go step by step, or ask for revisions or an entirely
+
+new output.
+
+Upcoming Teaching with Generative AI events
+
+Jan
+
+28
+
+Workshop
+
+Integrating Bite-Size AI Literacy into Your Course
+
+Wed 12PM - 1PM
+
+Feb
+
+6
+
+Workshop
+
+Motivating Academic Integrity When A.I. Makes Most Coursework Optional
+
+Fri 10AM - 11AM
+
+Feb
+
+Workshop
+
+Making Writing Matter When A.I. Exists
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+12/7/25, 11:08 AM Teaching with Generative AI | Libraries & Academic Innovation
+
+https://library.gwu.edu/teaching-generative-ai 4/7
+
+https://library.gwu.edu/events/integrating-bite-size-ai-literacy-your-course-2026-01-28
+https://library.gwu.edu/events/integrating-bite-size-ai-literacy-your-course-2026-01-28
+https://library.gwu.edu/events/motivating-academic-integrity-when-ai-makes-most-coursework-optional-2026-02-06
+https://library.gwu.edu/events/motivating-academic-integrity-when-ai-makes-most-coursework-optional-2026-02-06
+https://library.gwu.edu/events/making-writing-matter-when-ai-exists-2026-02-09
+https://library.gwu.edu/events/making-writing-matter-when-ai-exists-2026-02-09
+
+
+9 Mon 10AM - 11AM
+
+See all events at GW Libraries & Academic Innovation
+
+Navigation
+
+Center for Teaching Excellence —
+
+About the Center for Teaching Excellence (CTE)
+
+Programs & Special Events
+
+Resources
+
+Course Design
+
+Making Your Course More Accessible
+
+Example Showcase
+
+Teaching Tips
+
+Generative Artificial Intelligence (GenAI)
+
+Teaching with Generative AI
+
+Deciding on Appropriate Use of GenAI in Academic Classes
+
+Communicating Your GenAI Expectations to Your Students
+
+Ways GW Faculty are Using GenAI
+
+Services
+
+Get Research Help
+
+Course Reserves +
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+12/7/25, 11:08 AM Teaching with Generative AI | Libraries & Academic Innovation
+
+https://library.gwu.edu/teaching-generative-ai 5/7
+
+https://library.gwu.edu/events
+https://library.gwu.edu/teaching
+https://library.gwu.edu/about-center-teaching-excellence
+https://library.gwu.edu/programs-special-events
+https://library.gwu.edu/resources-teaching
+https://library.gwu.edu/course-design
+https://library.gwu.edu/making-your-course-more-accessible
+https://library.gwu.edu/example-showcase
+https://library.gwu.edu/teaching-tips
+https://library.gwu.edu/generative-ai
+https://library.gwu.edu/teaching-generative-ai
+https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes
+https://library.gwu.edu/communicating-your-genai-expectations-your-students
+https://library.gwu.edu/ways-gw-faculty-are-using-genai-their-classes
+https://library.gwu.edu/services-0
+https://library.gwu.edu/get-research-help
+https://library.gwu.edu/course-reserves
+
+
+Open & Affordable Course Materials +
+
+Research Instruction +
+
+Book/Media Requests +
+
+2130 H Street NW
+
+Washington, DC 20052
+
+202.994.6558
+
+gelman@gwu.edu
+
+My Account
+
+Contact GW Libraries
+
+Staff Login
+
+Campus Advisories
+
+EO/Nondiscrimination Policy
+
+Website Privacy Notice
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+12/7/25, 11:08 AM Teaching with Generative AI | Libraries & Academic Innovation
+
+https://library.gwu.edu/teaching-generative-ai 6/7
+
+https://library.gwu.edu/open-affordable-course-materials
+https://library.gwu.edu/request-research-instruction
+https://library.gwu.edu/book-media-request-form
+mailto:gelman@gwu.edu
+https://wrlc-gwu.primo.exlibrisgroup.com/discovery/account?vid=01WRLC_GWA:live&section=overview&lang=en
+https://library.gwu.edu/contact-us
+https://library.gwu.edu/user
+https://www.gwu.edu/?utm_medium=link&utm_campaign=editorial-footer&utm_source=gwu
+https://www.gwu.edu/?utm_medium=link&utm_campaign=editorial-footer&utm_source=gwu
+https://campusadvisories.gwu.edu/?utm_medium=link&utm_campaign=lai-footer&utm_source=campus-advisories
+https://compliance.gwu.edu/equal-opportunity-nondiscrimination-anti-harassment-and-non-retaliation?utm_medium=link&utm_campaign=lai-footer&utm_source=EEO-nondiscrimination-policy
+https://www.gwu.edu/privacy-notice?utm_medium=link&utm_campaign=lai-footer&utm_source=privacy-notice
+
+
+Contact GW
+
+Accessibility
+
+Terms of Use
+
+Copyright
+
+Report a Barrier to Accessibility
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+12/7/25, 11:08 AM Teaching with Generative AI | Libraries & Academic Innovation
+
+https://library.gwu.edu/teaching-generative-ai 7/7
+
+https://www.gwu.edu/contact-gw?utm_medium=link&utm_campaign=lai-footer&utm_source=contact-gw
+https://accessibility.gwu.edu/?utm_medium=link&utm_campaign=lai-footer&utm_source=accessibility
+https://www.gwu.edu/terms-use?utm_medium=link&utm_campaign=lai-footer&utm_source=terms-use
+https://www.gwu.edu/copyright?utm_medium=link&utm_campaign=lai-footer&utm_source=copyright
+https://accessibility.gwu.edu/report-barrier-accessibility?utm_medium=link&utm_campaign=lai-footer&utm_source=report-barrier-accessibility
+

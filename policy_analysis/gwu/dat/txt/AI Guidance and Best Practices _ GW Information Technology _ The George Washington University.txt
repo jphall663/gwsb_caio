@@ -1,0 +1,472 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+AI Guidance and Best Practices | GW Information Technology | The George Washington University
+
+
+Information Technology Get Help
+
+About
+
+Leadership
+
+IT Initiatives
+
+Policies, Standards &
+
+Guidelines
+
+AI Guidance and Best
+
+Practices
+
+Faculty & Staff Workstation
+
+Initiative Guidelines
+
+LISTSERV ® Email Lists
+
+Terms of Service
+
+Sharepoint Access Control
+
+Using AI in GW Meetings
+
+IT Events
+
+AI Guidance and Best Practices
+
+This administrative guidance directs GW staff and administrators on the responsible use and
+
+procurement of artificial intelligence (AI) technologies and informs them about GW-approved
+
+AI tools available for administrative functions. Guidance for AI in academic work is provided
+
+separately in “GW’s Guidelines for Using Generative Artificial Intelligence in Academic
+
+Work."
+
+AI refers to computer systems designed to perform tasks that typically require human
+
+intelligence. These systems use advanced analytical and logic-based techniques, including
+
+Machine Learning (ML), to interpret patterns in large datasets, make predictions, and inform
+
+actions. ML is a core AI component where systems learn from data to improve their
+
+performance on specific tasks without being explicitly programmed for every scenario.
+
+Generative AI is a specialized form of AI that can create new, original content such as text,
+
+images, or code based on inferences drawn from existing information. Trained on vast
+
+amounts of data, these tools (like chatbots and large language models) learn underlying
+
+patterns to produce novel outputs in response to prompts. They can assist with
+
+administrative tasks like drafting, summarizing, and organizing information, freeing up
+
+human expertise for work requiring deeper insight and collaboration. Results of generative AI
+
+should always be reviewed by humans for accuracy and context.
+
+While generative AI is a popular example of AI, the principles outlined in this guidance apply
+
+broadly to other AI applications used in administrative contexts, such as automation,
+
+analytics, and predictive tools.
+
+When used thoughtfully, AI can enhance productivity and support decision-making. When
+
+used carelessly, it risks exposing sensitive data, introducing bias, or eroding institutional
+
+trust. This guidance promotes appropriate, value-added AI use that reinforces professional
+
+judgment and aligns with university policy.
+
+This guidance aligns with GW's information technology, procurement, and privacy policies,
+
+and its Code of Ethical Conduct.
+
+Guiding Principles for Administrative Use of AI
+
+ Use Only GW-Approved AI Tools
+
+Use AI tools that have been reviewed and approved through GW’s procurement and risk review process. This pr
+
+for ensuring security, compliance, and responsible AI use, especially when handling non-public information* to 
+
+sensitive data.
+
+For approved tools, always use your GW UserID to apply required security and data protections.
+
+If unsure of a tool’s approval status, you must verify its approval by checking the Approved AI Tools List befo
+
+ensure compliance and adherence to university
+
+policy.
+
+*Non-public information is data not publicly available. Examples include, but are not limited to: internal commu
+
+student/employee data, unpublished research, drafts, and budget materials. With such data, even if anonymize
+
+essential to prevent exposure of sensitive or identifiable details.
+
+This guidance aligns with GW’s Cybersecurity Risk Policy, Identity and Access Management Policy and Acceptab
+
+Resources Policy. 
+
+ Protect GW Institutional Data and Personal Information
+
+Be vigilant with data input into AI tools. All tools used must be GW-approved, but data suitability within these to
+
+some types require more protection or are unsuitable for certain AI applications. To handle data appropriately w
+
+tools:
+
+Home About Policies, Standards & Guidelines AI Guidance and Best Practices
+
+| | | | | |Get Started Support Security Academic Technology Explore Tools & Services GW Status About
+
+11/19/25, 5:25 AM AI Guidance and Best Practices | GW Information Technology | The George Washington University
+
+https://it.gwu.edu/ai-guidance-and-best-practices 1/4
+
+https://it.gwu.edu/
+https://it.gwu.edu/
+https://it.gwu.edu/
+https://it.gwu.edu/
+https://it.gwu.edu/support
+https://it.gwu.edu/about
+https://it.gwu.edu/leadership
+https://it.gwu.edu/it-initiatives
+https://it.gwu.edu/policies-standards
+https://it.gwu.edu/ai-guidance-and-best-practices
+https://it.gwu.edu/faculty-staff-workstation-initiative-guidelines
+https://it.gwu.edu/listserv-email-lists-terms-service
+https://it.gwu.edu/sharepoint-access-control
+https://it.gwu.edu/ai-gw-meetings
+https://it.gwu.edu/it-events
+https://provost.gwu.edu/policies-procedures-and-guidelines
+https://provost.gwu.edu/policies-procedures-and-guidelines
+https://compliance.gwu.edu/information-technology-policies
+https://compliance.gwu.edu/procurement
+https://compliance.gwu.edu/gw-privacy-policies
+https://compliance.gwu.edu/code-ethical-conduct
+https://it.gwu.edu/ai
+https://compliance.gwu.edu/cybersecurity-risk-policy
+https://compliance.gwu.edu/identity-and-access-management-policy
+https://compliance.gwu.edu/acceptable-use-it-resources-policy
+https://compliance.gwu.edu/acceptable-use-it-resources-policy
+https://it.gwu.edu/
+https://it.gwu.edu/about
+https://it.gwu.edu/policies-standards
+https://it.gwu.edu/get-started
+https://it.gwu.edu/support
+https://it.gwu.edu/security
+https://it.gwu.edu/academic-technology-and-support
+https://it.gwu.edu/explore-tools-services
+https://it.gwu.edu/status-gw
+https://it.gwu.edu/about
+
+
+First, determine the classification of your data. Review GW's Privacy Guidance for AI and Data Classification Gu
+
+definitions and learn to identify:
+
+Public Data: e.g., public website content, event information.
+
+Restricted Data: e.g., non-public internal communications, plans, contracts – not for general public acce
+
+Regulated data: e.g., legally protected data like FERPA/HIPAA records, government IDs – subject to spe
+
+and representing the highest level of data sensitivity.
+
+Once classified, ensure data is used only in GW-approved AI tools appropriate for its sensitivity level:
+
+Public Data: May be used with any GW-approved AI tool, provided all other guidelines are followed.
+
+Restricted Data: Must only be used in GW-approved AI tools specifically designated for handling this lev
+
+sensitivity. Consult the Approved AI Tools List to verify a tool’s suitability for restricted data.
+
+Regulated Data: Due to its extreme sensitivity and legal protections, regulated data may only be used in 
+
+limited number of GW-approved AI tools explicitly certified by GW for this specific purpose. Extreme caut
+
+required; always verify a tool’s certification for regulated data the Approved AI Tools List before any use.
+
+Special Care for Personal Information (PII): This data, regardless of its primary
+
+classification (which could be Restricted or Regulated), requires extreme caution. Use PII only if the AI too
+
+approved for it and regulated data, and only if its use is absolutely essential and minimized.
+
+Before using any data with AI, especially PII, carefully consider whether your objectives can be achieved withou
+
+personal information, or if de-identified aggregate data would suffice. Remove any identifying details not strictl
+
+for your task. For example, an AI analysis of support tickets can often be performed effectively without including
+
+GW UserIDs or other PII.
+
+This guidance aligns with GW's Privacy Guidance for use of Artificial Intelligence, Privacy of Personal Information
+
+Protection Guide, and Cybersecurity Risk Policy. 
+
+Understand Privacy & Data Classifications
+
+Match Approved Tools to Data Sensitivity
+
+Protect the Privacy of Personal Information
+
+  Keep a Human in the Loop
+
+AI tools can assist with tasks like brainstorming, summarizing, or drafting in your GW role, but they are designed
+
+complement, not replace, your expertise and judgment. You are ultimately responsible for ensuring all AI-assiste
+
+meets GW’s operational and ethical standards.
+
+To do this effectively:
+
+Critically Evaluate & Revise: Always treat AI-generated content as a first draft. Final decisions, interpreta
+
+quality assurance must come from you. Verify its accuracy, originality, context, completeness, and tone usin
+
+knowledge. Be aware that AI can produce errors or “hallucinations” and should never be accepted at face 
+
+Thoroughly review and revise all output to ensure it aligns with GW’s data quality standards before use or s
+
+Check for Copyright Issues: AI content may incorporate copyrighted material from its training data. (the 
+
+the AI learned from, such as books, websites, or documents). Do not assume AI-generated content is clear
+
+without careful review for potential infringement.
+
+Identify and Mitigate Bias: Examine AI outputs for potential bias or discrimination. Apply objectivity and
+
+perspective to avoid perpetuating harmful assumptions.
+
+Maintain Final Oversight: Your decisions, interpretations, and quality assurance are paramount. You are 
+
+for the final product.
+
+ Practice Transparency
+
+When you use AI to assist in creating content or deliver services, especially for materials or
+
+interactions involving others, be clear about its involvement.
+
+To practice transparency effectively:
+
+Disclose AI Assistance in Content: When sharing content that has been AI-generated or significantly AI-a
+
+provide a clear note about AI’s role.
+
+Example: A simple statement such as, “Draft created with AI assistance and reviewed by [Your Name]”
+
+sufficient.
+
+Be Transparent About AI in Meetings and Collaboration: If AI tools are utilized during virtual meetings
+
+collaborative sessions (e.g., for AI-powered transcription, summarization, or automated note-taking), revie
+
+privacy considerations for virtual platforms. Ensure participants are appropriately notified to uphold transp
+
+privacy standards.
+
+11/19/25, 5:25 AM AI Guidance and Best Practices | GW Information Technology | The George Washington University
+
+https://it.gwu.edu/ai-guidance-and-best-practices 2/4
+
+https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence
+https://it.gwu.edu/data-classification-guide
+https://it.gwu.edu/ai
+https://it.gwu.edu/ai
+https://privacy.gwu.edu/privacy-gw#WhatisPersonalDataorPersonallyIdentifiableInformation
+https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence
+https://compliance.gwu.edu/privacy-personal-information-policy
+https://it.gwu.edu/data-protection-guide
+https://compliance.gwu.edu/cybersecurity-risk-policy
+https://it.gwu.edu/data-quality
+https://privacy.gwu.edu/privacy-considerations-when-using-virtual-meeting-and-collaboration-platforms
+
+
+ 
+
+ 
+
+Ensure Team Clarity (Managerial Responsibility): Managers should discuss the use of AI tools with the
+
+includes setting clear expectations for applying AI to tasks and ensuring all team members are informed ab
+
+aligned on disclosure practices.
+
+ Uphold GW Brand Consistency
+
+Ensure all AI-generated content strictly adheres to GW’s official branding and communication standards. This inv
+
+verifying compliance with:
+
+Visual Identity: Correct use of logos, colors, fonts, and imagery as defined in GW’s Visual Identity Guideli
+
+Editorial Style: Proper tone, voice, grammar, and formatting according to GW's Editorial Style Guide.
+
+ Explore, Learn, and Stay Up to Date
+
+By staying informed and collaborative, you can help foster a culture of responsible AI use at GW. Visit the Linked
+
+page for:
+
+Tutorials on using approved tools.
+
+Tips for effectively integrating AI into your role.
+
+ Request a Consultation
+
+GW IT is available to assist if you:
+
+Are unsure whether your use of AI aligns with this guidance.
+
+Are planning a new AI use case.
+
+Are evaluating AI tools.
+
+Will be handling sensitive data with AI.
+
+Service owners who identify new AI capabilities within existing GW-acquired products should contact GW IT for
+
+consultation. This step ensures an appropriate administrative AI review is conducted. Such a review will evaluate
+
+capabilities, confirm compliance with GW policies, assess data security and privacy implications, and address an
+
+risks.
+
+To request a consultation, complete the Technology Consultation Form and a member of GW IT’s AI team will fo
+
+schedule a discussion.
+
+Submit a Request
+
+ithelp@gwu.edu
+
+View My Tickets
+
+Reset Password
+
+Classroom Support
+
+202-994-7900
+
+Classroom Search
+
+Phone
+
+202-994-4948
+
+24 hours / 7 days a week
+
+Walk-In
+
+Walk-In Support Centers
+
+Knowledge Base
+
+Explore our knowledge base for how-to articles and guides.
+
+IT Help
+
+11/19/25, 5:25 AM AI Guidance and Best Practices | GW Information Technology | The George Washington University
+
+https://it.gwu.edu/ai-guidance-and-best-practices 3/4
+
+https://communications.gwu.edu/visual-identity
+https://communications.gwu.edu/editorial-style-guide
+https://it.gwu.edu/linkedin-learning
+https://gwu-myit.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUSQZTIZMECRKSIY3ECUSIGZGTSMCSJA3E2OJQGBIUURRGOJSXG33VOJRWKSLEHUYTCMZQGITGG33OORSXQ5CUPFYGKPKDIFKECTCPI5PUQT2NIU======
+https://go.gwu.edu/ithelp
+mailto:ithelp@gwu.edu
+https://go.gwu.edu/myreqs
+https://it.gwu.edu/node/206
+https://go.gwu.edu/classroomsupport
+https://it.gwu.edu/classroom-search
+tel:202-994-4948
+https://it.gwu.edu/node/301
+https://ithelp.gwu.edu/
+
+
+Academic Center
+
+801 22nd Street, NW B101
+
+Washington, DC 20052
+
+Phone: 202-994-GWIT (4948)
+
+ithelp@gwu.edu
+
+Campus Advisories
+
+EO/Nondiscrimination Policy
+
+Website Privacy Notice
+
+Contact GW
+
+Accessibility
+
+Terms of Use
+
+Copyright
+
+Report a Barrier to Accessibility
+
+11/19/25, 5:25 AM AI Guidance and Best Practices | GW Information Technology | The George Washington University
+
+https://it.gwu.edu/ai-guidance-and-best-practices 4/4
+
+mailto:ithelp@gwu.edu
+https://www.linkedin.com/company/the-george-washington-university-division-of-information-technology/about/
+https://www.linkedin.com/company/the-george-washington-university-division-of-information-technology/about/
+https://www.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=gwu
+https://campusadvisories.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=campus-advisories
+https://compliance.gwu.edu/equal-opportunity-nondiscrimination-anti-harassment-and-non-retaliation?utm_medium=link&utm_campaign=global-footer&utm_source=EEO-nondiscrimination-policy
+https://www.gwu.edu/privacy-notice?utm_medium=link&utm_campaign=global-footer&utm_source=privacy-notice
+https://www.gwu.edu/contact-gw?utm_medium=link&utm_campaign=global-footer&utm_source=contact-gw
+https://accessibility.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=accessibility
+https://www.gwu.edu/terms-use?utm_medium=link&utm_campaign=global-footer&utm_source=terms-use
+https://www.gwu.edu/copyright?utm_medium=link&utm_campaign=global-footer&utm_source=copyright
+https://accessibility.gwu.edu/report-barrier-accessibility?utm_medium=link&utm_campaign=global-footer&utm_source=accessibility-feedback
+

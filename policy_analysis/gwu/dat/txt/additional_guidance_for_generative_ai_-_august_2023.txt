@@ -1,0 +1,163 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 1918 F St. NW | Washington, DC 20052 
+
+t 202-994-6510 | e gwprovost@gwu.edu 
+
+Additional Guidance Regarding Generative Artificial 
+Intelligence at the George Washington University
+
+August 2023 
+
+In spring 2023, the Office of the Provost distributed Guidelines for Using Generative Artificial 
+Intelligence at GW. This document provides additional guidance to faculty at the beginning 
+of the new academic year and highlights GAI-related resources available through the LAI 
+Instructional Core. 
+
+Help students understand the meaning of academic integrity as well as your 
+expectations for written products 
+
+• Reinforce what plagiarism/cheating is – why it’s wrong and your expectations for turning
+in original work.
+
+• Reference pertinent policies and ethics related to student conduct.
+
+• Consider including a declaration of honesty in your assignments where students promise
+to abide by the integrity standards you, the instructor, GW, and students expect of
+themselves.
+
+• Allow students to disclose, if the instructor permits the use of GAI, the use of GAI tools
+like ChatGPT and GPT-3 and explain how it was useful in completing an assignment.
+
+• Require at all levels meticulous citing of peer-reviewed and published work and identify
+the reason for this.
+
+• Consider allowing draft submissions prior to final submissions so that faculty and
+instructional staff can get to know students’ writing voice and make targeted
+recommendations for improvement, thus minimizing last-minute attempts at using
+unauthorized tools.
+
+• Plagiarism detection tools are available and should be used if you suspect a breach in
+academic integrity.  SafeAssign is available to all GW instructors and can be found in the
+Blackboard suite of tools.  Keep in mind that there are no tools that can reliably detect
+GAI-generated text and that false positives may put you in a very difficult position with
+students. 
+
+• Be clear in your expectations and refer to learning objectives and grading rubrics or
+criteria  when assessing a student’s work.
+
+• When possible, ask students to present work they have done orally or in a public forum
+like a class session.
+
+Understand the limitations of GAI chatbots 
+
+In understanding the behaviors and limitations of GAI tools outlined below, you can look more 
+critically at student responses and better detect inappropriate use of GAI to generate work. 
+
+• Chatbots can sometimes use verbiage repetitively or in unusual contexts.  Look for
+phrases that were never used in the classroom but somehow find themselves in written
+work by a student.
+
+https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf
+https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf
+https://libguides.gwu.edu/c.php?g=1294883
+https://libguides.gwu.edu/c.php?g=1294883
+https://libguides.gwu.edu/plagiarism
+https://libguides.gwu.edu/plagiarism
+https://studentconduct.gwu.edu/promoting-academic-integrity
+https://libguides.gwu.edu/styleguide
+https://library.gwu.edu/safeassign
+https://arxiv.org/abs/2303.11156
+https://arxiv.org/abs/2303.11156
+https://arxiv.org/abs/2303.11156
+
+
+ 
+ 1918 F St. NW | Washington, DC 20052 
+
+t 202-994-6510 | e gwprovost@gwu.edu 
+
+ 
+
+• Chatbots cannot create new ideas but only pull from the vast data sets that exist on the 
+internet provided by others in digital formats.  Encourage creative and critical writing 
+prompts in your assignments, asking students to perform more analysis and synthesis 
+rather than repeat facts.  
+
+• Chatbots do not cite their own writing and can generate false citations.  Require citations 
+by students to ensure that peer-reviewed and published material from your course or 
+elsewhere are supporting their thoughts.  Look for originality in writing. Spot-check cited 
+materials to ensure that they exist. 
+
+• Chatbots do not produce error-free content. Seek out inconsistencies and materials that 
+do not adhere to course materials and adjacent assignments.  
+
+• Chatbots do not produce contextually aware prose (especially for the casual user).  
+Require students to write within context using real or even fictitious scenarios to ground 
+their thinking.  
+
+ 
+Final Thoughts and Additional Resources 
+ 
+Remember, there is no failsafe method to prevent plagiarism.  However, you can use available 
+tools to attempt to limit the use of GAI to take the place of original work.  Your human skills as 
+instructors continue to be your best defense against dishonesty, and education about why 
+integrity is important to the communication of knowledge is key.  
+ 
+Assistance from the LAI Instructional Core professional staff is always available by contacting 
+instructioncore@gwu.edu. 
+ 
+For more information about these suggestions and the emerging chatbot landscape refer to:  
+ 
+
+• Debby R. E. Cotton, Peter A. Cotton & J. Reuben Shipway (2023): Chatting and 
+cheating: Ensuring academic integrity in the era of ChatGPT, Innovations in Education 
+and Teaching International, DOI: 10.1080/14703297.2023.2190148  
+
+• Ryan Watkins (2022): Update Your Course Syllabus for chatGPT 
+ 
+
+mailto:instructioncore@gwu.edu
+https://doi.org/10.1080/14703297.2023.2190148
+https://doi.org/10.1080/14703297.2023.2190148
+https://medium.com/@rwatkins_7167/updating-your-course-syllabus-for-chatgpt-965f4b57b003
+
+
+

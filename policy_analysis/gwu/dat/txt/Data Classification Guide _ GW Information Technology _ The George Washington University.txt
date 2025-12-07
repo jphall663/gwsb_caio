@@ -1,0 +1,455 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data Classification Guide | GW Information Technology | The George Washington University
+
+
+Information Technology Get Help
+
+Explore Tools & Services
+
+Tools & Services by
+
+Category
+
+Administrative and
+
+Business
+
+Business Capability and
+
+Process Automation
+
+Data, Reporting, and
+
+Analytics
+
+Data Management
+
+Business Intelligence
+
+Services
+
+Data Integration
+
+Data Lake
+
+Data Governance
+
+Data & Reporting
+
+Institutional Data
+
+Data Governance
+
+Center
+
+Data Classification
+
+& Protection
+
+Data
+
+Classification
+
+Guide
+
+Data Protection
+
+Guide
+
+Data Quality
+
+Data Stewardship
+
+Data Sharing
+
+Data Awareness
+
+Financial and
+
+Procurement Systems
+
+Human Resource
+
+Systems
+
+Student Information
+
+Systems
+
+Communication and
+
+Collaboration
+
+Desktop and Mobile
+
+Computing
+
+IT Professional Services
+
+Information Security
+
+Infrastructure
+
+Data Classification Guide
+
+Data Classification is the means used to define and categorize files and critical business
+
+information based on the data’s level of sensitivity, value and criticality, including the scope in
+
+which the data can be shared. GW institutional data classification levels are Regulated,
+
+Home Explore Tools & Services Tools & Services by Category Administrative and Business Data, Reporting, and Analytics Data Management Data
+
+Governance Data Classification & Protection Data Classification Guide
+
+| | | | | |Get Started Support Security Academic Technology Explore Tools & Services GW Status About
+
+11/19/25, 5:32 AM Data Classification Guide | GW Information Technology | The George Washington University
+
+https://it.gwu.edu/data-classification-guide 1/4
+
+https://it.gwu.edu/
+https://it.gwu.edu/
+https://it.gwu.edu/
+https://it.gwu.edu/
+https://it.gwu.edu/support
+https://it.gwu.edu/explore-tools-services
+https://it.gwu.edu/tools-services-category
+https://it.gwu.edu/administrative-and-business
+https://it.gwu.edu/business-capability-and-process-automation
+https://it.gwu.edu/data-reporting-and-analytics
+https://it.gwu.edu/data-management
+https://it.gwu.edu/business-intelligence-services
+https://it.gwu.edu/data-integration
+https://it.gwu.edu/data-lake
+https://it.gwu.edu/data-governance
+https://it.gwu.edu/data-reporting
+https://it.gwu.edu/institutional-data
+https://it.gwu.edu/data-governance-center
+https://it.gwu.edu/data-classification
+https://it.gwu.edu/data-classification-guide
+https://it.gwu.edu/data-protection-guide
+https://it.gwu.edu/data-quality
+https://it.gwu.edu/data-stewardship
+https://it.gwu.edu/data-sharing
+https://it.gwu.edu/data-awareness
+https://it.gwu.edu/financial-and-procurement-systems
+https://it.gwu.edu/human-resource-systems
+https://it.gwu.edu/student-information-systems
+https://it.gwu.edu/communication-and-collaboration
+https://it.gwu.edu/desktop-and-mobile-computing
+https://it.gwu.edu/it-professional-services
+https://it.gwu.edu/information-security
+https://it.gwu.edu/infrastructure
+https://it.gwu.edu/
+https://it.gwu.edu/explore-tools-services
+https://it.gwu.edu/tools-services-category
+https://it.gwu.edu/administrative-and-business
+https://it.gwu.edu/data-reporting-and-analytics
+https://it.gwu.edu/data-management
+https://it.gwu.edu/data-governance
+https://it.gwu.edu/data-governance
+https://it.gwu.edu/data-classification
+https://it.gwu.edu/get-started
+https://it.gwu.edu/support
+https://it.gwu.edu/security
+https://it.gwu.edu/academic-technology-and-support
+https://it.gwu.edu/explore-tools-services
+https://it.gwu.edu/status-gw
+https://it.gwu.edu/about
+
+
+Research
+
+Teaching and Learning
+
+For Faculty
+
+For Staff
+
+For Students
+
+For Researchers
+
+For Alumni
+
+For Affiliates
+
+For Visitors
+
+Restricted and Public.
+
+Classification
+
+Level Description
+
+Regulated Regulated data is information that is protected by local, national, or
+
+international statute or regulation mandating certain restrictions.
+
+Regulated information constitutes an area of critical concern because of
+
+the severe risk to the university, its affiliates and to individuals, should
+
+information be inappropriately accessed, altered, disclosed or
+
+destroyed.
+
+Regulated information requires strict control, very limited access and
+
+disclosure, which may be subject to legal restrictions. Access to
+
+regulated data must be limited to authorized university employees
+
+(staff and faculty) with a valid business need. Where access to
+
+regulated data has been authorized, use of such data shall be limited to
+
+the purpose required to perform university business. Authorized users
+
+must respect the confidentiality and privacy of individuals whose
+
+regulated information they access, observe ethical restrictions that
+
+apply to the information they access, and abide by applicable laws and
+
+policies with respect to accessing, using, or disclosing information.
+
+Examples of regulated data include:
+
+Student academic and financial records, regulated by the
+
+Family Educational Rights and Privacy Act (FERPA).
+
+Government-issued identification numbers, including social
+
+security numbers, driver license numbers, and passport
+
+numbers.
+
+Individuals' financial account numbers, including credit
+
+card numbers and bank account numbers.
+
+Data, information, or technical specifications not in the
+
+public domain that are regulated by export control laws,
+
+excluding technology or software that arises during, or
+
+results from, fundamental research under Section 734.8 of
+
+the Export Administration Regulations (EAR).
+
+Data Owners in partnership with their appointed Data Stewards
+
+ are responsible for implementing appropriate managerial,
+
+operational, physical, and role-based controls. Consult with the
+
+GW Data Governance team and GW Information Technology, for
+
+guidance or questions regarding access to, use of, transmission of, and
+
+disposal of Regulated Information (Data Protection Guide)
+
+Restricted Restricted data is information that is not generally available to the
+
+public, but deemed confidential due to university policies, contracts,
+
+regulations or due to proprietary considerations.
+
+Access to restricted data must be limited to appropriate university
+
+faculty, staff, students, or other authorized users with a valid business
+
+need. This information must be protected from unauthorized access,
+
+use, or disclosure. If disclosed, altered or destroyed, restricted data
+
+could cause a moderate adverse impact to the individual, university or
+
+its affiliates.
+
+Examples of restricted data include:
+
+payroll and tax information, performance appraisals
+
+legal records and contracts;
+
+general ledger data, Facilities records
+
+internal directory information
+
+11/19/25, 5:32 AM Data Classification Guide | GW Information Technology | The George Washington University
+
+https://it.gwu.edu/data-classification-guide 2/4
+
+https://it.gwu.edu/research
+https://it.gwu.edu/teaching-and-learning
+https://it.gwu.edu/faculty
+https://it.gwu.edu/staff
+https://it.gwu.edu/students
+https://it.gwu.edu/researchers
+https://it.gwu.edu/alumni
+https://it.gwu.edu/affiliates
+https://it.gwu.edu/visitors
+https://businessintelligence.gwu.edu/data-protection-guide
+
+
+Classification
+
+Level Description
+
+Public Public data is information that can be freely used, reused and
+
+redistributed by anyone with no existing local, national or international
+
+legal restrictions on access or usage.
+
+Security controls are required to protect public data, against
+
+unauthorized modification or destruction. If altered or destroyed,
+
+public data would cause little or no adverse impact to the university, its
+
+affiliates, or the individual.
+
+Example of public data include:
+
+announcements and press releases
+
+public event information
+
+public directories and maps
+
+View Examples of regulated and restricted data types.
+
+ 
+
+ 
+
+ 
+
+Submit a Request
+
+ithelp@gwu.edu
+
+View My Tickets
+
+Reset Password
+
+Classroom Support
+
+202-994-7900
+
+Classroom Search
+
+Phone
+
+202-994-4948
+
+24 hours / 7 days a week
+
+Walk-In
+
+Walk-In Support Centers
+
+Knowledge Base
+
+Explore our knowledge base for how-to articles and guides.
+
+IT Help
+
+Academic Center
+
+801 22nd Street, NW B101
+
+Washington, DC 20052
+
+Phone: 202-994-GWIT (4948)
+
+ithelp@gwu.edu
+
+11/19/25, 5:32 AM Data Classification Guide | GW Information Technology | The George Washington University
+
+https://it.gwu.edu/data-classification-guide 3/4
+
+https://gwu.box.com/s/a4160ob5nt9bt0f17gv78m2wc6ysofgg
+https://go.gwu.edu/ithelp
+mailto:ithelp@gwu.edu
+https://go.gwu.edu/myreqs
+https://it.gwu.edu/node/206
+https://go.gwu.edu/classroomsupport
+https://it.gwu.edu/classroom-search
+tel:202-994-4948
+https://it.gwu.edu/node/301
+https://ithelp.gwu.edu/
+mailto:ithelp@gwu.edu
+https://www.linkedin.com/company/the-george-washington-university-division-of-information-technology/about/
+https://www.linkedin.com/company/the-george-washington-university-division-of-information-technology/about/
+
+
+Campus Advisories
+
+EO/Nondiscrimination Policy
+
+Website Privacy Notice
+
+Contact GW
+
+Accessibility
+
+Terms of Use
+
+Copyright
+
+Report a Barrier to Accessibility
+
+11/19/25, 5:32 AM Data Classification Guide | GW Information Technology | The George Washington University
+
+https://it.gwu.edu/data-classification-guide 4/4
+
+https://www.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=gwu
+https://campusadvisories.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=campus-advisories
+https://compliance.gwu.edu/equal-opportunity-nondiscrimination-anti-harassment-and-non-retaliation?utm_medium=link&utm_campaign=global-footer&utm_source=EEO-nondiscrimination-policy
+https://www.gwu.edu/privacy-notice?utm_medium=link&utm_campaign=global-footer&utm_source=privacy-notice
+https://www.gwu.edu/contact-gw?utm_medium=link&utm_campaign=global-footer&utm_source=contact-gw
+https://accessibility.gwu.edu/?utm_medium=link&utm_campaign=global-footer&utm_source=accessibility
+https://www.gwu.edu/terms-use?utm_medium=link&utm_campaign=global-footer&utm_source=terms-use
+https://www.gwu.edu/copyright?utm_medium=link&utm_campaign=global-footer&utm_source=copyright
+https://accessibility.gwu.edu/report-barrier-accessibility?utm_medium=link&utm_campaign=global-footer&utm_source=accessibility-feedback
+

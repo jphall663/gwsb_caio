@@ -1,0 +1,340 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deciding on Appropriate Use of GenAI in Academic Classes | Libraries & Academic Innovation
+
+
+Libraries & Academic
+
+Innovation
+
+Gelman Library: 24 hours
+
+Complete Hours Info
+Ask Us
+
+Deciding on Appropriate Use of GenAI in
+
+Academic Classes
+
+Although GW has provided general guidance to faculty (see: George Washington University Guidelines for
+
+Using GenerativeAI, Additional Guidance Regarding Generative Artificial Intelligence, and Educational Policy
+
+and Technology Committee Guidelines for GAI in WID), faculty have flexibility in how and when they
+
+encourage, allow, or prohibit students to use GenAI in their courses. The GenAI and Teaching Group (GAIT)
+
+created these guidelines for faculty deciding on appropriate use of GenAI in academic classes. 
+
+Developing a Policy That Will Work for Your Class and
+
+Students
+
+1. Review the costs and risks of GenAI use and factor these into your decision to encourage, allow, or
+
+prohibit GenAI usage.
+
+2. Consider ways GenAI use might facilitate or interfere with learning. This Expectations Worksheet
+
+can help you think about different possible uses of GenAI. Be sure to consider:
+
+Skill-based differentiation: Foundational courses might restrict GenAI to ensure basic skills are
+
+developed. Advanced courses might incorporate GenAI as a professional tool.
+
+Accessibility and equity: Some students may have better access to premium GenAI tools than
+
+others, creating potential inequities.
+
+While the library website is unaffected, the current Cloudflare outage may interrupt web access to some
+
+software throughout the day. For example, the software used to schedule tutoring and review sessions
+
+for Academic Commons (Penji) as well as other GWU sites and research databases may be intermittently
+
+affected. Thanks for your patience as we wait for this issue to be resolved.
+
+⟵ Center for Teaching Excellence / Resources / Generative Artificial Intelligence (GenAI)
+
+Libraries & Academic Innovation
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+11/19/25, 5:59 AM Deciding on Appropriate Use of GenAI in Academic Classes | Libraries & Academic Innovation
+
+https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes 1/4
+
+https://library.gwu.edu/
+https://library.gwu.edu/
+https://library.gwu.edu/
+https://library.gwu.edu/hours
+https://library.gwu.edu/ask-us
+https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf
+https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf
+https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf
+https://library.gwu.edu/sites/default/files/2025-05/GAI%20in%20WID%20Recommendations%20%281%29.pdf
+https://library.gwu.edu/sites/default/files/2025-05/GAI%20in%20WID%20Recommendations%20%281%29.pdf
+https://library.gwu.edu/outreach
+https://libguides.amherst.edu/c.php?g=1350530&p=9969379
+https://docs.google.com/document/d/1hQwgSR1Caksy7Rb2LRBhLEBugDLTsuMJVLTFLgDXxu8/edit?usp=sharing
+https://www.cloudflarestatus.com/
+https://library.gwu.edu/teaching
+https://library.gwu.edu/resources-teaching
+https://library.gwu.edu/generative-ai
+https://library.gwu.edu/
+
+
+3. Ask ChatGPT, Claude, or another GenAI tool to complete current assignments. What did you want
+
+students to learn from writing this assignment, and how might you ensure that learning if GenAI returns
+
+high quality work? Consider how you will encourage academic integrity if you do not modify the
+
+assignment. 
+
+4. Discuss what you have learned with colleagues who teach similar courses to explore their
+
+perspectives and approaches to the use of GenAI in academic classes.
+
+5. Consider modifying assignments. Integrate GenAI in ways that support learning or make them resistant
+
+to completion by existing GenAI tools.
+
+6. Create policies. This tool can help you create a policy that will support your learning goals for students.
+
+Plan for transparency: If GenAI is permitted, instruct students to document its use or reflect on how the use
+
+impacted their learning.
+
+7. Align policies with program/department goals. Consider how your course policies fit within broader
+
+program or departmental learning objectives. Consider how your course can help students to improve
+
+their GenAI literacy skills to succeed in your class, future classes, or their future profession.
+
+8. Communicate policies. Review this guide to plan how to communicate your expectations with students.
+
+Approved by the Generative AI and Teaching Committee (GAIT) on 3/31/25. Approved by the EPT as resources
+
+for guidance to faculty on 5/2/2025.
+
+Navigation
+
+Center for Teaching Excellence —
+
+About the Center for Teaching Excellence (CTE)
+
+Programs & Special Events
+
+Resources
+
+Course Design
+
+Making Your Course More Accessible
+
+Example Showcase
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+11/19/25, 5:59 AM Deciding on Appropriate Use of GenAI in Academic Classes | Libraries & Academic Innovation
+
+https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes 2/4
+
+https://chatgpt.com/
+https://claude.ai/new
+https://sites.google.com/view/aiassignments
+https://style.mla.org/student-guide-to-ai-literacy/
+https://library.gwu.edu/communicate-your-genai-expectations-your-students
+https://library.gwu.edu/teaching
+https://library.gwu.edu/about-center-teaching-excellence
+https://library.gwu.edu/programs-special-events
+https://library.gwu.edu/resources-teaching
+https://library.gwu.edu/course-design
+https://library.gwu.edu/making-your-course-more-accessible
+https://library.gwu.edu/example-showcase
+
+
+Teaching Tips
+
+Generative Artificial Intelligence (GenAI)
+
+Teaching with Generative AI
+
+Deciding on Appropriate Use of GenAI in Academic Classes
+
+Communicating Your GenAI Expectations to Your Students
+
+Ways GW Faculty are Using GenAI
+
+Services
+
+Get Research Help
+
+Course Reserves +
+
+Open & Affordable Course Materials +
+
+Research Instruction +
+
+Book/Media Requests +
+
+2130 H Street NW
+
+Washington, DC 20052
+
+202.994.6558
+
+gelman@gwu.edu
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+11/19/25, 5:59 AM Deciding on Appropriate Use of GenAI in Academic Classes | Libraries & Academic Innovation
+
+https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes 3/4
+
+https://library.gwu.edu/example-showcase
+https://library.gwu.edu/teaching-tips
+https://library.gwu.edu/generative-ai
+https://library.gwu.edu/teaching-generative-ai
+https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes
+https://library.gwu.edu/communicating-your-genai-expectations-your-students
+https://library.gwu.edu/ways-gw-faculty-are-using-genai-their-classes
+https://library.gwu.edu/services-0
+https://library.gwu.edu/get-research-help
+https://library.gwu.edu/course-reserves
+https://library.gwu.edu/open-affordable-course-materials
+https://library.gwu.edu/request-research-instruction
+https://library.gwu.edu/book-media-request-form
+mailto:gelman@gwu.edu
+
+
+My Account
+
+Contact GW Libraries
+
+Staff Login
+
+Campus Advisories
+
+EO/Nondiscrimination Policy
+
+Website Privacy Notice
+
+Contact GW
+
+Accessibility
+
+Terms of Use
+
+Copyright
+
+Report a Barrier to Accessibility
+
+C
+h
+
+a
+t w
+
+ith
+ a
+
+ lib
+ra
+
+ria
+n
+!
+
+11/19/25, 5:59 AM Deciding on Appropriate Use of GenAI in Academic Classes | Libraries & Academic Innovation
+
+https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes 4/4
+
+https://wrlc-gwu.primo.exlibrisgroup.com/discovery/account?vid=01WRLC_GWA:live&section=overview&lang=en
+https://library.gwu.edu/contact-us
+https://library.gwu.edu/user
+https://www.gwu.edu/?utm_medium=link&utm_campaign=editorial-footer&utm_source=gwu
+https://www.gwu.edu/?utm_medium=link&utm_campaign=editorial-footer&utm_source=gwu
+https://campusadvisories.gwu.edu/?utm_medium=link&utm_campaign=lai-footer&utm_source=campus-advisories
+https://compliance.gwu.edu/equal-opportunity-nondiscrimination-anti-harassment-and-non-retaliation?utm_medium=link&utm_campaign=lai-footer&utm_source=EEO-nondiscrimination-policy
+https://www.gwu.edu/privacy-notice?utm_medium=link&utm_campaign=lai-footer&utm_source=privacy-notice
+https://www.gwu.edu/contact-gw?utm_medium=link&utm_campaign=lai-footer&utm_source=contact-gw
+https://accessibility.gwu.edu/?utm_medium=link&utm_campaign=lai-footer&utm_source=accessibility
+https://www.gwu.edu/terms-use?utm_medium=link&utm_campaign=lai-footer&utm_source=terms-use
+https://www.gwu.edu/copyright?utm_medium=link&utm_campaign=lai-footer&utm_source=copyright
+https://accessibility.gwu.edu/report-barrier-accessibility?utm_medium=link&utm_campaign=lai-footer&utm_source=report-barrier-accessibility
+

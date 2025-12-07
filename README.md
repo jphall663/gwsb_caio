@@ -1,5 +1,8 @@
-© 2025 George Washington University. Some rights reserved.  This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-You are free to share and adapt this material for noncommercial purposes, provided that you give appropriate credit, link to the license, indicate if changes were made, and distribute any contributions under the same license.
+© 2025 George Washington University. Some rights reserved. 
+
+Text and copy are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt this material for noncommercial purposes, provided that you give appropriate credit, link to the license, indicate if changes were made, and distribute any contributions under the same license.
+
+Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, provided that the copyright notice and permission notice in the `SOFTWARE_LICENSE` file are included in all copies or substantial portions of the software.
 
 ## Contents
 * [Policies and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#policies-and-resources)
@@ -89,3 +92,5 @@ You are free to share and adapt this material for noncommercial purposes, provid
 ## Advanced Human-AI Teaming Guidance and Resources
 
 ## Public Working Group
+
+* [Sign-up form](https://forms.gle/Qf67V5SF461fsrHp6)
