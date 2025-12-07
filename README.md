@@ -91,6 +91,6 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
  
 ## Advanced Human-AI Teaming Guidance and Resources
 
-## Public Working Group
+## GWSB AI Forum
 
 * [Sign-up form](https://forms.gle/Qf67V5SF461fsrHp6)
