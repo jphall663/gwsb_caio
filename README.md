@@ -16,10 +16,10 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 * [GWSB Board of Advisors Update 1](gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf) (December 2025)
 
 ## Policies and Resources
-<p>
+</p>
 ![](gwu_caio_boa_1/existing_policy_key_word_cloud_hi_4k.png)
 **Figure 1**: Word cloud of key terms in existing GWU AI policies.
-<p>
+</p>
 ![](gwu_caio_boa_1/doc_clus_legend_annotated_crop.png)
 **Figure 2**: Document clusters and associated keywords for existing GWU AI policies.
 
