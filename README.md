@@ -6,7 +6,7 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 
 ## Contents
 
-* [Presentations]()
+* [Presentations](https://github.com/jphall663/gwsb_caio/blob/main/README.md#presentations)
 * [Policies and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#policies-and-resources)
 * [Basic Human AI Teaming Guidance](https://github.com/jphall663/gwsb_caio/blob/main/README.md#basic-human-ai-teaming-guidance)
 * [Advanced Human-AI Teaming Guidance and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#advanced-human-ai-teaming-guidance-and-resources)
