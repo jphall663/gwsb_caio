@@ -18,7 +18,10 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 ## Policies and Resources
 
 ![](gwu_caio_boa_1/existing_policy_key_word_cloud_hi_4k.png)
-![](gwu_caio_boa_1/)
+**Figure 1**: Word cloud of key terms in existing GWU AI policies.
+
+![](gwu_caio_boa_1/doc_clus_legend_annotated_crop.png)
+**Figure 2**: Document clusters and associated keywords for existing GWU AI policies.
 
 ### University Policies
 [**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) (Faculty and staff click to request access to a Google Notebook LM session grounded on these resources.)
