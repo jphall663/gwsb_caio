@@ -5,10 +5,14 @@ Text and copy are licensed under a [Creative Commons Attribution-NonCommercial-S
 Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, provided that the copyright notice and permission notice in the `SOFTWARE_LICENSE` file are included in all copies or substantial portions of the software.
 
 ## Contents
+
+* [Presentations]()
 * [Policies and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#policies-and-resources)
 * [Basic Human AI Teaming Guidance](https://github.com/jphall663/gwsb_caio/blob/main/README.md#basic-human-ai-teaming-guidance)
 * [Advanced Human-AI Teaming Guidance and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#advanced-human-ai-teaming-guidance-and-resources)
 * [Public Working Group](https://github.com/jphall663/gwsb_caio/blob/main/README.md#public-working-group)
+
+## Presentations
 
 ## Policies and Resources
 
