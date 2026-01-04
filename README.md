@@ -17,13 +17,13 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 
 ## Policies and Resources
 GWU's current AI policies have a strong focus on classroom guidance and data goverance, privacy, and security. They also touch on approved tools, app usage (e.g., Zoom AI), general responsible use, digital identity, and human accountability and review. Figure 1 presents a word cloud of key terms in existing GWU AI policies. Policies are issued by various offices across the University, including GWU IT, the Office of Ethics, Compliance, and Risk, the Office of the Provost, and the Data Privacy Office. GWU IT policies address approved tools, security, and data classification. Office of Ethics, Compliance, and Risk policies address data privacy, digital identity, and overall responsible technology use. The Office of the Provost provides guidelines for faculty, and the Data Privacy Office provides in-depth policies and guidance for privacy. Libraries and Academic Innovation provides additional resources for teaching. Figure 2 displays document clusters and associated keywords for existing GWU AI policies. Links are available for individual policies below.    
-<br><br>
+<br>
 ![](gwu_caio_boa_1/existing_policy_key_word_cloud_hi_4k.png)
 **Figure 1**: Word cloud of key terms in existing GWU AI policies.
-<br><br>
+<br>
 ![](gwu_caio_boa_1/doc_clus_legend_annotated_crop.png)
 **Figure 2**: Document clusters and associated keywords for existing GWU AI policies.
-<br><br>
+<br>
 ### University Policies
 [**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) (Faculty and staff click to request access to a Google Notebook LM session grounded on these resources.)
 
