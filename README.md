@@ -17,6 +17,9 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 
 ## Policies and Resources
 
+![](gwu_caio_boa_1/)
+![](gwu_caio_boa_1/)
+
 ### University Policies
 [**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) (Faculty and staff click to request access to a Google Notebook LM session grounded on these resources.)
 
