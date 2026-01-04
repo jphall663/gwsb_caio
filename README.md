@@ -13,7 +13,7 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 * [Public Working Group](https://github.com/jphall663/gwsb_caio/blob/main/README.md#public-working-group)
 
 ## Presentations
-* [GWSB Board of Advisors Update 1]() (December 2025)
+* [GWSB Board of Advisors Update 1](gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf) (December 2025)
 
 ## Policies and Resources
 
