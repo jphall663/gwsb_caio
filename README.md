@@ -17,7 +17,7 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 
 ## Policies and Resources
 
-![](gwu_caio_boa_1/)
+![](gwu_caio_boa_1/existing_policy_key_word_cloud_hi_4k.png)
 ![](gwu_caio_boa_1/)
 
 ### University Policies
