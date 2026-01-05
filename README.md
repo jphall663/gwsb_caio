@@ -48,7 +48,7 @@ GWU's current AI policies have a strong focus on classroom guidance and data gov
   * [Identity and Access Management Policy](https://compliance.gwu.edu/identity-and-access-management-policy) (October 2023)
 
 * **Office of the Provost**    
-  * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (April 2023)
+  * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (April 2023, includes example syllabus statements)
     * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (April 2023)
     * [Additional Guidance Regarding Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) (August 2023)
 
