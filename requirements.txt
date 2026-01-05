@@ -3,9 +3,11 @@ numpy
 openai
 openpyxl
 pandas
+pdfkit
 scikit-learn
 tika
 tiktoken
+timeout_decorator
 tqdm
 vaderSentiment
 wordcloud
