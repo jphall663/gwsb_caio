@@ -20,7 +20,7 @@ GWU's current AI policies have a strong focus on classroom guidance and data gov
 <br>
 ![](gwu_caio_boa_1/existing_policy_key_word_cloud_hi_4k.png)
 **Figure 1**: Word cloud of key terms in existing GWU AI policies.
-<br><br>
+<br><br><br>
 ![](gwu_caio_boa_1/doc_clus_legend_annotated_crop.png)
 **Figure 2**: Document clusters and associated keywords for existing GWU AI policies.
 <br>
