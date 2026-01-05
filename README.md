@@ -64,6 +64,25 @@ GWU's current AI policies have a strong focus on classroom guidance and data gov
 * **School of Business**
   * [Artificial Intelligence in Action](https://business.gwu.edu/artificial-intelligence-in-action)
 
+### External Policies and Resources
+
+#### AI Principles
+* [University of California](https://ai.universityofcalifornia.edu/governance-transparency/)
+
+#### Generative AI Resources
+* [MIT Teaching and Learning Lab: Generative AI & Your Course](https://tll.mit.edu/teaching-resources/course-design/gen-ai-your-course/)
+
+#### Responsible Use Policies
+* [Columbia](https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy)
+* [Columbia Business](https://students.business.columbia.edu/office-of-student-affairs/academic-advising-and-student-success/academic-integrity/generative-ai-policy)
+* [Notre Dame (for students)](https://honorcode.nd.edu/generative-ai-policy-for-students-august-2023/)
+* [University of California, Berkeley](https://oercs.berkeley.edu/appropriate-use-generative-ai-tools)
+
+#### Syllabus Statements
+* [Georgetown](https://cndls.georgetown.edu/resources/syllabus-policies/ai-and-homework-support/)
+* [Stanford Business](https://tlhub.stanford.edu/docs/course-policies-on-generative-ai-use/)
+* [University of Washington](https://teaching.washington.edu/course-design/ai/sample-ai-syllabus-statements/)
+
 ## Basic Human AI Teaming Guidance
 
 * **Don't let AI decide for you, instead ...**
@@ -84,7 +103,7 @@ GWU's current AI policies have a strong focus on classroom guidance and data gov
   * You write the code and have AI write the tests and documentation.
 
 * **Understand when to use other types of AI ...**
-  * Use statistics and ML for data analysis and direct decision-making.
+  * Use optimization, statistics and ML for data analysis and direct decision-making.
   * Use real-time sensor networks for real-time info (maps, weather, etc.).
   * Use credible search for factual information retrieval (Kagi, Wayback Machine, Google Scholar).
 
