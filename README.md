@@ -1,4 +1,4 @@
-© 2025 George Washington University. Some rights reserved. 
+© 2025-26 Patrick Hall (jphall@gwu.edu). Some rights reserved. 
 
 Text and copy are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt this material for noncommercial purposes, provided that you give appropriate credit, link to the license, indicate if changes were made, and distribute any contributions under the same license.
 
@@ -13,10 +13,17 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 * [Public Working Group](https://github.com/jphall663/gwsb_caio/blob/main/README.md#public-working-group)
 
 ## Presentations
-* [GWSB Board of Advisors Update 1]() (December 2025)
+* [GWSB Board of Advisors Update 1](gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf) (December 2025)
 
 ## Policies and Resources
-
+GWU's current AI policies have a strong focus on classroom guidance and data goverance, privacy, and security. They also touch on approved tools, app usage (e.g., Zoom AI), general responsible use, digital identity, and human accountability and review. Figure 1 presents a word cloud of key terms in existing GWU AI policies. Policies are issued by various offices across the University, including GWU IT, the Office of Ethics, Compliance, and Risk, the Office of the Provost, and the Data Privacy Office. GWU IT policies address approved tools, security, and data classification. Office of Ethics, Compliance, and Risk policies address data privacy, digital identity, and overall responsible technology use. The Office of the Provost provides guidelines for faculty, and the Data Privacy Office provides in-depth policies and guidance for privacy. Libraries and Academic Innovation provides additional resources for teaching. Figure 2 displays document clusters and associated keywords for existing GWU AI policies. Links are available for individual policies below.    
+<br>
+![](gwu_caio_boa_1/existing_policy_key_word_cloud_hi_4k.png)
+**Figure 1**: Word cloud of key terms in existing GWU AI policies.
+<br><br><br>
+![](gwu_caio_boa_1/doc_clus_legend_annotated_crop.png)
+**Figure 2**: Document clusters and associated keywords for existing GWU AI policies.
+<br>
 ### University Policies
 [**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) (Faculty and staff click to request access to a Google Notebook LM session grounded on these resources.)
 
@@ -41,7 +48,7 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
   * [Identity and Access Management Policy](https://compliance.gwu.edu/identity-and-access-management-policy) (October 2023)
 
 * **Office of the Provost**    
-  * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (April 2023)
+  * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (April 2023, includes example syllabus statements)
     * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (April 2023)
     * [Additional Guidance Regarding Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) (August 2023)
 
@@ -56,6 +63,25 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
  
 * **School of Business**
   * [Artificial Intelligence in Action](https://business.gwu.edu/artificial-intelligence-in-action)
+
+### External Policies and Resources
+
+#### AI Principles
+* [University of California](https://ai.universityofcalifornia.edu/governance-transparency/)
+
+#### Generative AI Resources
+* [MIT Teaching and Learning Lab: Generative AI & Your Course](https://tll.mit.edu/teaching-resources/course-design/gen-ai-your-course/)
+
+#### Responsible Use Policies
+* [Columbia](https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy)
+* [Columbia Business](https://students.business.columbia.edu/office-of-student-affairs/academic-advising-and-student-success/academic-integrity/generative-ai-policy)
+* [Notre Dame (for students)](https://honorcode.nd.edu/generative-ai-policy-for-students-august-2023/)
+* [University of California, Berkeley](https://oercs.berkeley.edu/appropriate-use-generative-ai-tools)
+
+#### Syllabus Statements
+* [Georgetown](https://cndls.georgetown.edu/resources/syllabus-policies/ai-and-homework-support/)
+* [Stanford Business](https://tlhub.stanford.edu/docs/course-policies-on-generative-ai-use/)
+* [University of Washington](https://teaching.washington.edu/course-design/ai/sample-ai-syllabus-statements/)
 
 ## Basic Human AI Teaming Guidance
 
@@ -77,7 +103,7 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
   * You write the code and have AI write the tests and documentation.
 
 * **Understand when to use other types of AI ...**
-  * Use statistics and ML for data analysis and direct decision-making.
+  * Use optimization, statistics and ML for data analysis and direct decision-making.
   * Use real-time sensor networks for real-time info (maps, weather, etc.).
   * Use credible search for factual information retrieval (Kagi, Wayback Machine, Google Scholar).
 
