@@ -20,9 +20,9 @@
 # SOFTWARE.
 
 # Python 3.10
-# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/gwu$ 
+# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/gwu/src/pdf2txt.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/pdf2txt.py
 
 ### imports
 

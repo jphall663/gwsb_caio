@@ -20,9 +20,9 @@
 # SOFTWARE.
 
 # Python 3.10
-# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/gwu$ 
+# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/gwu/src/concat_csv.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/concat_csv.py
 
 ### imports
 
@@ -36,7 +36,7 @@ import os
 ### stack input txt files into a dataframe ####################################
 
 in_dir = Path(f'dat{os.sep}chunk')
-out_csv = Path(f'dat{os.sep}chunk{os.sep}existing_policy_combined.csv')
+out_csv = Path(f'dat{os.sep}chunk{os.sep}nongwu_policy_combined.csv')
 
 files = sorted(in_dir.glob('*.csv'))
 if not files:

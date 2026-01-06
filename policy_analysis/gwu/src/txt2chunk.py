@@ -48,7 +48,7 @@ encoding = tiktoken.encoding_for_model(MODEL)
 def is_non_alpha(line_):
 
     total_chars = len(line_)
-    non_alpha_chars = len(re.findall(r'[^a-zA-Z]', line))
+    non_alpha_chars = len(re.findall(r'[^a-zA-Z]', line_))
 
     return non_alpha_chars > (total_chars/2)
 

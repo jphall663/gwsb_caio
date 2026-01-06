@@ -1,0 +1,871 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Copy of SU25-GAI_Policies&Practices
+
+
+ 
+ 
+
+GAI & Course Design: Policies & Practices 
+ 
+
+●​ GAI & Teaching & Learning in Higher Ed 
+●​ Impacts of GAI on Residential Education 
+●​ Reconsidering your Learning Outcomes 
+●​ Redesigning your Assessments & Classroom Practices 
+●​ Articulating your AI-use Policy 
+●​ AI Decision Tree 
+●​ Additional Resources 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+         
+ 
+
+ 
+
+GAI & Teaching & Learning in Higher Ed 
+
+What INSTRUCTORS should know/do What STUDENTS should know/DO 
+
+●​ AI is ubiquitous - students are using it, and are 
+likely to use it in your course. 
+
+●​ Just because you can use GAI for an 
+assignment, or other coursework doesn’t mean 
+you should, 
+
+●​ There is no way to reliably detect its use. ●​ Your use of GAI may raise an instructor’s 
+suspicions. 
+
+●​ Create and communicate a clear, explicit 
+acceptable use policy.  
+
+●​ Provide a rationale for the policy.   
+●​ Stress student learning. 
+●​ Build a community of learners. 
+
+●​ Understand your instructor’s AI use policy.  
+●​ Ask questions about the policy if you are 
+
+unsure.  
+●​ (MIT does not have one, single AI-use policy - 
+
+don’t assume that the policy in all of your 
+subjects will be the same). 
+
+●​ Communicate and discuss your GAI policy 
+with your colleagues. 
+
+●​ Consider creating a baseline, department or 
+program policy. 
+
+ 
+
+●​ Critically examine your learning goals and 
+assessments of student learning.  
+○​ Are your goals for learning still relevant 
+○​ Are your assessments AI-Aware? 
+○​ Might the use of AI allow you to achieve 
+
+higher-order, more advanced goals? 
+
+●​ Take time to read and understand the learning 
+goals for the course.   
+
+ 
+
+https://docs.google.com/document/d/12a5dPvvifWP4itpSkGjVIV1UZgfJDWM7bLGcnLB6gH8/edit?usp=sharing
+
+
+ 
+
+ 
+
+ 
+
+●​ Convey to students why you have chosen the 
+particular learning goals for the course. 
+
+●​ Why is it important that students achieve 
+these goals? 
+
+●​ Using AI to do the work only shortcuts your 
+learning and may prevent you from achieving 
+the course goals. 
+
+●​ Communicate the value and importance of 
+your assignments and assessments.  
+○​ Let students know why you have chosen 
+
+each of the assignments.  
+○​ Be explicit about what students should 
+
+learn by engaging with each assignment 
+(and how it measures their achievement of 
+particular learning outcomes. 
+
+○​ If applicable, tell students why you are 
+asking them not to use GAI (or why you 
+are asking them to use GAI in a particular 
+way.  
+
+○​ Let them know what they will lose if they 
+use AI for their work. 
+
+●​ Just because AI can complete an assignment 
+doesn’t mean you shouldn't do it yourself. 
+
+●​ What are you learning or not learning through 
+your use of GAI? Be honest with yourself. 
+
+ 
+
+ ●​ Critically evaluate all AI output.   
+●​ Be a savvy user - don’t be fooled by AI’s rapid 
+
+responses and built-in certainty.   
+●​ How do you know the output is accurate, 
+
+complete, and acceptable?  
+
+https://joshbrake.substack.com/p/process-over-product
+https://joshbrake.substack.com/p/process-over-product
+
+
+ 
+
+Impacts of GAI on Residential Higher Ed 
+
+ 
+ 
+
+J. Rankin, 2025  | Link to Mural  
+ 
+[1] Mollick & Mollick: Using AI to Implement Effective Teaching Strategies  in Classrooms: Five Strategies, 
+
+[2] Including Prompts (2023);  Eric Hudson - Learning on Purpose 
+
+ 
+
+ 
+
+https://app.mural.co/t/emg2607/m/emg2607/1757328427446/2f83313c2c610ef6e65110a6e7f63c67e806f68c?sender=u5d231d5e8c3fe192f6962031
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4391243
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4391243
+https://erichudson.substack.com/?utm_source=substack&utm_medium=web&utm_campaign=substack_profile
+
+
+ 
+
+Reconsidering your Learning Outcomes 
+ 
+
+GenAI reinforces the importance of an intentional, 
+learner-centered course design approach 
+
+Wiggins & McTighe, Understanding by Design 
+ 
+How does the availability of LLMs/GAI impact your goals for 
+student learning and the assignments you use to measure 
+student achievement of those goals? 
+ 
+For more info on creating Learning Outcomes - see TLL’s page on 
+Backward Design, & refer to the Bloom’s Taxonomy table, on p.6. 
+ 
+ 
+ 
+
+A 
+●​ AI does not impact them at all.  
+●​ AI is not useful in completion of assignments 
+
+B 
+●​ AI can achieve the course goals  
+●​ AI can complete or partially complete 
+
+some assignments 
+ 
+
+ 
+ 
+
+Redesigning your Assessments & Classroom Practices 
+ 
+RE your outcomes for learning (goals): 
+If A - you are all set! 
+If B: You have 3 choices: 
+
+1.​ Change your course goals so that they are in the 
+“A” category and change your assignments to align 
+with your new goals 
+
+2.​ Keep your goals but change your assignments  
+3.​ Keep your goals AND your assignments 
+
+ 
+ 
+
+ 
+
+https://tll.mit.edu/teaching-resources/course-design/where-to-start-backward-design/
+https://tll.mit.edu/teaching-resources/course-design/where-to-start-backward-design/
+
+
+ 
+
+Bloom’s Taxonomy Taxonomy of educational objectives for the Cognitive Domain 
+
+Cognitive Domain  Selection of active verbs  
+for learning outcomes 
+
+Asks Students 
+
+REMEMBER  
+Knowledge – ability to recall previously learned 
+material, know specific facts/ methods/ procedures, 
+know basic concepts/principles. 
+
+define, label, recall, order, list,  
+quote, match, state, recognize,  
+identify, recite 
+
+Who, what, when, where, 
+how? How do you define? 
+
+UNDERSTAND  
+Comprehension – ability to explain and contextualize 
+the meaning of material, interpret charts/graphs, 
+estimate future consequences implied in the data. 
+
+describe, discuss, summarize,  
+paraphrase, report, review, 
+explain 
+
+How would you 
+paraphrase? What are 
+the main ideas?  
+How would you summarize?  
+Provide examples of…… 
+
+APPLY  
+Application – ability to use learned  information in 
+new situations/problem solving/ solutions that have 
+‘best answers’,  demonstrate correct usage of 
+procedures, apply laws/theories to practical situations. 
+
+assess, demonstrate, examine,  
+distinguish, establish, show,  
+report, implement, determine,  
+produce, solve, draw,interpret,  
+provide, use, utilize, write 
+
+How is x an example of y? 
+How  is xx related to yy? 
+Why is xx  significant? 
+
+ANALYZE  
+Analysis – ability to identify component  parts of 
+knowledge, to explain its structure and composition, 
+recognise  logical fallacies in reasoning, make  
+distinctions between facts and inferences. 
+
+analyze, illustrate, discriminate,  
+differentiate, distinguish,   
+examine, question, infer,   
+support, prove, test,   
+experiment, categorize, write 
+
+What are the 
+parts/features of  xx?  
+Classify according to …..?  
+Outline/diagram  
+How does xx compare 
+/contrast with ?  
+What evidence is there for? 
+
+EVALUATE  
+Evaluation – ability to judge the value  of 
+evidence/material for a given purpose. 
+
+appraise, criticize, assess, argue, 
+justify, defend, interpret, support, 
+estimate, evaluate, critique, 
+review, write 
+
+Do you agree that…?  
+What do you think about..? 
+What is the most 
+important…? Prioritize & 
+give rationale for... Provide 
+criteria for assessing... 
+
+CREATE  
+Synthesis - ability to creatively apply knowledge to 
+new areas, integrate new knowledge, write well 
+argued paper/speech, propose research design to a 
+test hypothesis. 
+
+Compile, categorize, generate,  
+negotiate, reconstruct, write,   
+reorganize, revise, validate,  
+organize, plan, propose, set up,  
+substitute, initiate, express, 
+compare, modify,  design, create, 
+build, devise,  integrate 
+
+What would you 
+infer/predict  from ..?  
+What ideas can you add 
+to ? How would you 
+create/design? What 
+might happen if   
+you ?What solutions would 
+you  suggest..? 
+
+Benjamin S. Bloom & David R. Krathwohl. (1956). Taxonomy of educational objectives: The classification of  educational goals, 
+by a committee of college and university examiners. Handbook 1: Cognitive domain. New York,  Longmans. 
+
+ 
+
+
+
+ 
+
+ 
+ 
+
+Dr. Phillippa Hardman 
+https://substack.com/home/post/p-149753103 
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+GAI-aware make-overs [B.2] 
+Writing-specific examples are from Annette Vee’s post, AI Aware Teaching Examples, in AI & How We Teach Writing. 
+
+ 
+
+Assignment Why this Assignment? AI Resistant Modification AI Leveraged Modification 
+
+Writing - Intensive Courses 
+
+Annotated 
+bibliography 
+ 
+[AI can do this] 
+
+Provides practice finding and 
+evaluating sources; 
+ 
+Prepares students for a project 
+that uses sources to make an 
+argument.  
+
+Construct an  I-Search narrative about 
+their research process, describing 
+why they chose a topic, how they 
+began their search, who they talked 
+to, what threads they followed and 
+why, what questions remain for them, 
+etc. 
+ 
+
+Ask students to prepare for research 
+by making a list of what they don’t 
+know about a topic, what they want to 
+know, and what they can’t know about 
+a topic. You could ask students to 
+begin that list in class, minimizing 
+distractions and temptations of AI.  
+
+Pose research question to an LLM - 
+w/specified prompt characteristics & 
+constraints, then ask students to 
+evaluate sources for: quality, veracity, 
+completeness, etc 
+
+Reading 
+response 
+ 
+[AI can do this] 
+
+Holds students accountable for 
+doing their assigned reading;  
+ 
+Allows students to interact /work 
+with each other; 
+ 
+Motivates prep for a discussion in 
+class.  
+ 
+ 
+
+De-emphasize the written product and 
+shift the work to in-class creation and 
+discussion. 
+ 
+
+The Paranoid memorandum (Jason 
+Crider, Texas) 
+Ask students to break into groups to 
+work on a brief writing assignment - 
+with a detailed, specific prompt.​
+​
+
+Each group is given an instruction to 
+either use AI or not use AI in 
+
+Have students interact with a text using 
+AI before assigning it.  
+ 
+
+Let students know they’ll be working 
+with a particular text in class, but tell 
+them not to read it yet.  
+ 
+
+In class, give students ~10 minutes to 
+ask an AI anything they want to know 
+about the text: a summary, which texts 
+or debates it engages with, how it 
+connects to concepts in class, etc. 
+ 
+
+ 
+
+https://open.substack.com/pub/aiandhowweteach/p/ai-aware-teaching-examples?r=32bxb0&utm_medium=iosnette
+https://eric.ed.gov/?id=ED297367
+https://wac.colostate.edu/repository/collections/textgened/professional-writing/the-paranoid-memorandum/
+
+
+ 
+
+completing the assignment.  
+Groups then share their work with the 
+entire class and guess whether each 
+group used AI or not.  
+ 
+
+The trick is that all of the groups are 
+assigned to not use AI (only works 
+once) 
+ 
+
+N.b., Crider’s acceptable use policy is 
+shared at the link above. 
+
+Then, run a discussion about what they 
+learned about the text, and what 
+further questions they have.  
+ 
+
+Finally, assign students to read the text 
+themselves prior to the next class’ 
+discussion of the text.. See, Matt 
+Burton’s Writing Machines Syllabus 
+
+Reflections 
+ 
+[AI can do this] 
+
+Encourages students to make 
+personal connections in their 
+writing; 
+ 
+Fosters metacognition re insights 
+and frustrations in the writing 
+/thinking process.​
+ 
+ 
+
+In class, have students annotate their 
+own work or do pen-and-paper 
+brainstorming: How they feel when 
+writing this assignment; What 
+challenges they encountered; What 
+they learned.  
+ 
+
+Alternatively, have students interview 
+each other about their approach to 
+the assignment.  
+
+Have students do a human vs. machine 
+contest, where they try to make the 
+most human reflection using AI, then 
+test it out on each other. Which part 
+was done by AI? How can they tell? 
+What did they learn from this exercise 
+and what didn’t they learn? 
+
+STEM Courses 
+
+Problem sets 
+[AI can do these] 
+
+Repeated opportunities to solve 
+challenging problems help to 
+build students’ understanding of 
+material and general problem 
+solving skills 
+
+Option 1 - Provide time for students to 
+begin the problem set in class, without 
+access to GAI/web resources.   
+ 
+Have students reflect on difficulties 
+ 
+Address student questions/errors in 
+situ. 
+ 
+Document student progress.​
+
+Remove in-class work on pset 
+Tell students they may use AI, and 
+require them to evaluate 
+responses/use. 
+ 
+Use weekly in-class quizzes to ensure 
+that students are engaging with 
+material. 
+ 
+
+ 
+
+https://docs.google.com/document/d/1T14yDitFXCYALMWlODL-63kZCUuy8cdG/edit
+
+
+ 
+
+​
+Allow them to complete work at home 
+with access to the web.  
+ 
+Ask students to reflect on/report how 
+if/they used AI 
+ 
+Use weekly in-class quizzes to ensure 
+that students are engaging with 
+material. 
+
+Solution/ 
+Example 
+Analysis 
+
+Students need to learn how to 
+critically review examples and 
+solutions (from texts or 
+elsewhere). 
+ 
+ 
+
+Present students with problem 
+solutions that have varying types of 
+errors (logic, numeric, etc.).  It’s 
+preferable if the errors result from 
+common misconceptions.  Ask 
+students to work through these: first 
+on their own, then in groups. The 
+Jigsaw format works well. Debrief to 
+expose common misconceptions. 
+
+For one of the problem set questions 
+(or another question) ask students to 
+use GAI to produce a solution. Then 
+have them critically evaluate the 
+answer.  ​
+​
+Students must explain their 
+assessment of the accuracy of the 
+problem - and include any prompts 
+they used. 
+
+Computer Programming / Coding 
+
+Pseudo-code Helps students learn to clearly 
+articulate what they want their 
+code to accomplish. 
+ 
+May help students to create more 
+efficient code 
+
+Provide a prompt for a small piece of 
+code and ask students to draft 
+pseudo-code in class (w/out GAI). 
+ 
+Have students pair up and 
+read/provide feedback on partners’ 
+code. Is it correct? Can it be 
+optimized? 
+
+In class or as HW, ask students to input 
+their optimized pseudo code into an 
+LLM. 
+ 
+Ask students to evaluate the code 
+generated, and iterate on the prompt 
+(or edit the LLM output).  Require that 
+students submit all interactions with the 
+LLM. 
+
+ 
+
+
+
+ 
+
+AI Assessment Scale (Updated), Leon Furze
+
+ 
+ 
+
+ 
+
+https://leonfurze.com/2024/08/28/updating-the-ai-assessment-scale/
+
+
+ 
+
+           
+
+Articulating your AI-use Policy 
+ 
+Articulate your policy, your rationale and expectations/consequences.  Consider the state of AI 
+detection software. 
+
+Tips for an Effective AI Syllabus Policy 
+
+1.​ If AI is prohibited or required, explain why. 
+2.​ Connect AI use to something familiar (e.g., getting help from a friend or tutor). 
+3.​ Provide examples of acceptable and/or unacceptable use. 
+4.​ Acknowledge ethical issues such as data privacy, bias, inaccuracy, intellectual property 
+
+violations, environmental impact, etc. 
+5.​ Note your AI documentation and citation requirements. This might include screenshots, 
+
+transcripts, documents with “track changes” enabled, and/or relevant citation or 
+disclosure guidelines: 
+
+○​ APA AI citations guidelines  
+○​ MLA AI citation guidelines 
+○​ AI Disclosure Framework 
+
+6.​ Explain how misuse will be addressed. 
+7.​ Encourage students to ask questions if your policy is unclear. 
+
+After, Daniel Stanford:  
+The Best AI Syllabus Policies I’ve Seen So Far 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+https://docs.google.com/document/d/12a5dPvvifWP4itpSkGjVIV1UZgfJDWM7bLGcnLB6gH8/edit?usp=sharing
+https://docs.google.com/document/d/12a5dPvvifWP4itpSkGjVIV1UZgfJDWM7bLGcnLB6gH8/edit?usp=sharing
+https://apastyle.apa.org/blog/how-to-cite-chatgpt
+https://apastyle.apa.org/blog/how-to-cite-chatgpt
+https://apastyle.apa.org/blog/how-to-cite-chatgpt
+https://style.mla.org/citing-generative-ai/
+https://crln.acrl.org/index.php/crlnews/article/view/26548/34482
+https://danielstanford.substack.com/p/the-best-ai-syllabus-policies-ive
+https://danielstanford.substack.com/p/the-best-ai-syllabus-policies-ive
+
+
+ 
+
+GAI Decision Tree 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+
+J. Rankin, 2025 
+ 
+
+ 
+
+
+
+ 
+
+Additional Resources 
+
+For an extreme example of testing AI’s ability to complete assignments, see Andrew Maynard’s 
+(ASU) recent post, where he used OpenAI’s new Deep Research tool to write a PhD Dissertation. 
+
+For resources on AI Detection tools, see this document from TLL 
+
+For resources on redesigning assignments to make them more “AI aware”, see the Additional 
+Resources section of TLL’s Generative AI and Your Course page 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+https://substack.com/home/post/p-156761283
+https://substack.com/home/post/p-156761283
+https://docs.google.com/document/d/12a5dPvvifWP4itpSkGjVIV1UZgfJDWM7bLGcnLB6gH8/edit?usp=sharing
+https://tll.mit.edu/teaching-resources/course-design/gen-ai-your-course/
+
+	 
+	GAI & Course Design: Policies & Practices 
+	 
+	GAI & Teaching & Learning in Higher Ed 
+	 
+	Impacts of GAI on Residential Higher Ed 
+	 
+	 
+	 
+	[1] Mollick & Mollick: Using AI to Implement Effective Teaching Strategies  in Classrooms: Five Strategies, [2] Including Prompts (2023);  Eric Hudson - Learning on Purpose 
+	 
+	Reconsidering your Learning Outcomes 
+	Redesigning your Assessments & Classroom Practices 
+	Bloom’s Taxonomy Taxonomy of educational objectives for the Cognitive Domain 
+	 
+	GAI-aware make-overs [B.2] 
+	Writing-specific examples are from Annette Vee’s post, AI Aware Teaching Examples, in AI & How We Teach Writing. 
+	Annotated bibliography 
+	AI Assessment Scale (Updated), Leon Furze 
+
+	Articulating your AI-use Policy 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	GAI Decision Tree 
+	Additional Resources 
+	For an extreme example of testing AI’s ability to complete assignments, see Andrew Maynard’s (ASU) recent post, where he used OpenAI’s new Deep Research tool to write a PhD Dissertation. 
+	For resources on AI Detection tools, see this document from TLL 
+	For resources on redesigning assignments to make them more “AI aware”, see the Additional Resources section of TLL’s Generative AI and Your Course page 
+	 
+
+	 
+
+

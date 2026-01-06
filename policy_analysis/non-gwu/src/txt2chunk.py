@@ -20,9 +20,9 @@
 # SOFTWARE.
 
 # Python 3.10
-# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/gwu$ 
+# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/gwu/src/txt2chunk.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/txt2chunk.py
 
 ### imports and configs
 import config 
@@ -48,7 +48,7 @@ encoding = tiktoken.encoding_for_model(MODEL)
 def is_non_alpha(line_):
 
     total_chars = len(line_)
-    non_alpha_chars = len(re.findall(r'[^a-zA-Z]', line))
+    non_alpha_chars = len(re.findall(r'[^a-zA-Z]', line_))
 
     return non_alpha_chars > (total_chars/2)
 
