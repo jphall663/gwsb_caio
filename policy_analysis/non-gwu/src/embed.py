@@ -20,9 +20,9 @@
 # SOFTWARE.
 
 # Python 3.10
-# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/gwu$ 
+# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/gwu/src/embed.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/embed.py
 
 ### imports and configs #######################################################
 
@@ -44,7 +44,7 @@ embedding_p = config.EMBEDDING_P
 
 tic = time.time()
 
-data_fname = f'dat{os.sep}existing_policy_keyword.csv'
+data_fname = f'dat{os.sep}nongwu_policy_keyword.csv'
 logger.info(f'Loading data file: {data_fname} ...')
 data = pd.read_csv(data_fname)
 logger.info(data.head())
@@ -61,7 +61,7 @@ embedding_names = ['dim_' + str(i) for i in range(0, embedding_p)]
 for i in tqdm(range(0, N)):
 
     # for saving each iteration in case of API crash
-    output_fname = f'dat{os.sep}existing_policy_keyword_embed.csv'
+    output_fname = f'dat{os.sep}nongwu_policy_keyword_embed.csv'
     if os.path.exists(output_fname):
         data_ = pd.read_csv(output_fname, low_memory=True)
     else:
