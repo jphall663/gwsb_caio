@@ -19,6 +19,11 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+# Python 3.10
+# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
+# /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/cluster_project.py
+
 ### imports and configs #######################################################
 
 from collections import Counter
@@ -54,7 +59,7 @@ logger.info(f'Loading data ...')
 embedding_names = ['dim_' + str(i) for i in range(0, embedding_p)]
 valid_cols = ['Type', 'ID', 'Keywords'] + embedding_names
 
-all_fname = f'dat{os.sep}existing_policy_keyword_embed.csv'
+all_fname = f'dat{os.sep}gwu_nongwu_policy_keyword_embed.csv'
 all_ = pd.read_csv(all_fname)
 logger.info(f'Loaded: {all_fname}.')
 
@@ -107,7 +112,7 @@ all_['UMAP_D1'] = X_2d[:, 0]
 all_['UMAP_D2'] = X_2d[:, 1]
 
 # save umap results
-umap_fname = f'dat{os.sep}existing_policy_keyword_embed_umap.csv'
+umap_fname = f'dat{os.sep}gwu_nongwu_policy_keyword_embed_umap.csv'
 all_.to_csv(umap_fname, index=False)
 logger.info(f'Saved: {umap_fname}.')
 
@@ -118,22 +123,59 @@ logger.info('Plotting ...')
 
 # nice names
 legend_dict = {
-    'Acceptable Use of IT Resources Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'Acceptable Use (OECR)',
-    'additional_guidance_for_generative_ai_-_august_2023': 'Provost 2',
-    'AI Guidance and Best Practices _ GW Information Technology _ The George Washington University': 'AI Guidance and Best Pratice (IT)',
-    'Artificial Intelligence (AI) Evaluation & Status _ GW Information Technology _ The George Washington University': 'Tool Evaluation (IT)',
-    'Communicating Your GenAI Expectations to Your Students _ Libraries & Academic Innovation': 'Communicating Expecations (Libraries)',
-    'Cybersecurity Risk Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'Cybersecurity Risk (OECR)',
-    'Data Classification Guide _ GW Information Technology _ The George Washington University': 'Data Classification (IT)',
-    'Data Protection Guide _ GW Information Technology _ The George Washington University': 'Data Protection (IT)',
-    'Deciding on Appropriate Use of GenAI in Academic Classes _ Libraries & Academic Innovation': 'Deciding on Use (Libraries)',
-    'Explore Tools & Services _ GW Information Technology _ The George Washington University': 'Approved Tools (IT)',
-    'Generative Artificial Intelligence (GenAI) _ Libraries & Academic Innovation': 'Generative AI (Libraries)',
-    'generative-artificial-intelligence-guidelines-april-2023': 'Provost 1', 
-    'Identity and Access Management Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'IAM (OECR)',
-    'Privacy Considerations when using Virtual Meeting and Collaboration Platforms _ GW Privacy Office _ The George Washington University': 'Privacy Guidance: Meetings',
-    'Privacy Guidance for use of Artificial Intelligence _ GW Privacy Office _ The George Washington University': 'Privacy Guidance',
-    'Teaching with Generative AI _ Libraries & Academic Innovation': 'Teaching with Gen AI (Libraries)'
+
+
+#'GWU_AIGuidanceandBestPractices_GWInformationTechnology_TheGeorgeWashingtonUniversity': 'GWU_AIGuidanceandBestPractices_GWInformationTechnology_TheGeorgeWashingtonUniversity',
+#'GWU_AcceptableUseofITResourcesPolicy_OfficeofEthics,Compliance,andRisk_TheGeorgeWashingtonUniversity': 'GWU_AcceptableUseofITResourcesPolicy_OfficeofEthics,Compliance,andRisk_TheGeorgeWashingtonUniversity',
+#'GWU_ArtificialIntelligence(AI)Evaluation&Status_GWInformationTechnology_TheGeorgeWashingtonUniversity': 'GWU_ArtificialIntelligence(AI)Evaluation&Status_GWInformationTechnology_TheGeorgeWashingtonUniversity',
+#'GWU_CommunicatingYourGenAIExpectationstoYourStudents_Libraries&AcademicInnovation': 'GWU_CommunicatingYourGenAIExpectationstoYourStudents_Libraries&AcademicInnovation',
+#'GWU_CybersecurityRiskPolicy_OfficeofEthics,Compliance,andRisk_TheGeorgeWashingtonUniversity': 'GWU_CybersecurityRiskPolicy_OfficeofEthics,Compliance,andRisk_TheGeorgeWashingtonUniversity',
+#'GWU_DataClassificationGuide_GWInformationTechnology_TheGeorgeWashingtonUniversity': 'GWU_DataClassificationGuide_GWInformationTechnology_TheGeorgeWashingtonUniversity',
+#'GWU_DataProtectionGuide_GWInformationTechnology_TheGeorgeWashingtonUniversity': 'GWU_DataProtectionGuide_GWInformationTechnology_TheGeorgeWashingtonUniversity',
+#'GWU_DecidingonAppropriateUseofGenAIinAcademicClasses_Libraries&AcademicInnovation': 'GWU_DecidingonAppropriateUseofGenAIinAcademicClasses_Libraries&AcademicInnovation',
+#'GWU_ExploreTools&Services_GWInformationTechnology_TheGeorgeWashingtonUniversity': 'GWU_ExploreTools&Services_GWInformationTechnology_TheGeorgeWashingtonUniversity',
+#'GWU_GenerativeArtificialIntelligence(GenAI)_Libraries&AcademicInnovation': 'GWU_GenerativeArtificialIntelligence(GenAI)_Libraries&AcademicInnovation',
+#'GWU_IdentityandAccessManagementPolicy_OfficeofEthics,Compliance,andRisk_TheGeorgeWashingtonUniversity': 'GWU_IdentityandAccessManagementPolicy_OfficeofEthics,Compliance,andRisk_TheGeorgeWashingtonUniversity',
+#'GWU_PrivacyConsiderationswhenusingVirtualMeetingandCollaborationPlatforms_GWPrivacyOffice_TheGeorgeWashingtonUniversity': 'GWU_PrivacyConsiderationswhenusingVirtualMeetingandCollaborationPlatforms_GWPrivacyOffice_TheGeorgeWashingtonUniversity',
+#'GWU_PrivacyGuidanceforuseofArtificialIntelligence_GWPrivacyOffice_TheGeorgeWashingtonUniversity': 'GWU_PrivacyGuidanceforuseofArtificialIntelligence_GWPrivacyOffice_TheGeorgeWashingtonUniversity',
+#'GWU_TeachingwithGenerativeAI_Libraries&AcademicInnovation': 'GWU_TeachingwithGenerativeAI_Libraries&AcademicInnovation',
+#'GWU_additional_guidance_for_generative_ai_-_august_2023': 'GWU_additional_guidance_for_generative_ai_-_august_2023',
+#'GWU_generative-artificial-intelligence-guidelines-april-2023': 'GWU_generative-artificial-intelligence-guidelines-april-2023',
+
+#'NONGWU_SU25-GAI_PoliciesPractices': 'NONGWU_SU25-GAI_PoliciesPractices',
+#'NONGWU_ai.nd.edu_policies-and-guidelines': 'NONGWU_ai.nd.edu_policies-and-guidelines',
+#'NONGWU_ai.universityofcalifornia.edu_governance-transparency': 'NONGWU_ai.universityofcalifornia.edu_governance-transparency',
+#'NONGWU_ai.universityofcalifornia.edu_governance-transparency_applicable-law-and-policy.': 'NONGWU_ai.universityofcalifornia.edu_governance-transparency_applicable-law-and-policy.',
+#'NONGWU_ai.yale.edu': 'NONGWU_ai.yale.edu',
+'NONGWU_cndls.georgetown.edu_resources_ai': 'NONGWU_cndls.georgetown.edu_resources_ai',
+'NONGWU_cndls.georgetown.edu_resources_syllabus-policies_ai-and-homework-support': 'NONGWU_cndls.georgetown.edu_resources_syllabus-policies_ai-and-homework-support',
+#'NONGWU_communitystandards.stanford.edu_generative-ai-policy-guidance': 'NONGWU_communitystandards.stanford.edu_generative-ai-policy-guidance',
+#'NONGWU_ctl.columbia.edu_resources-and-technology_resources_ai-tools': 'NONGWU_ctl.columbia.edu_resources-and-technology_resources_ai-tools',
+#'NONGWU_dtei.uci.edu_generative-ai': 'NONGWU_dtei.uci.edu_generative-ai',
+#'NONGWU_genai.ucla.edu': 'NONGWU_genai.ucla.edu',
+#'NONGWU_genai.ucla.edu_guiding-principles-responsible-use': 'NONGWU_genai.ucla.edu_guiding-principles-responsible-use',
+#'NONGWU_guides.library.georgetown.edu_ai': 'NONGWU_guides.library.georgetown.edu_ai',
+#'NONGWU_honorcode.nd.edu_ai-recommendations-for-instructors': 'NONGWU_honorcode.nd.edu_ai-recommendations-for-instructors',
+#'NONGWU_honorcode.nd.edu_generative-ai-policy-for-students-august-2023': 'NONGWU_honorcode.nd.edu_generative-ai-policy-for-students-august-2023',
+#'NONGWU_ist.mit.edu_ai-guidance': 'NONGWU_ist.mit.edu_ai-guidance',
+#'NONGWU_libguides.usc.edu_generative-AI_home': 'NONGWU_libguides.usc.edu_generative-AI_home',
+#'NONGWU_oercs.berkeley.edu_CERC-AIR': 'NONGWU_oercs.berkeley.edu_CERC-AIR',
+#'NONGWU_oercs.berkeley.edu_appropriate-use-generative-ai-tools': 'NONGWU_oercs.berkeley.edu_appropriate-use-generative-ai-tools',
+#'NONGWU_poorvucenter.yale.edu_AIguidance': 'NONGWU_poorvucenter.yale.edu_AIguidance',
+#'NONGWU_provost.harvard.edu_guidelines-using-chatgpt-and-other-generative-ai-tools-harva': 'NONGWU_provost.harvard.edu_guidelines-using-chatgpt-and-other-generative-ai-tools-harva',
+#'NONGWU_provost.yale.edu_news_guidelines-use-generative-ai-tools': 'NONGWU_provost.yale.edu_news_guidelines-use-generative-ai-tools',3
+#'NONGWU_registrar.gse.harvard.edu_AI-policy': 'NONGWU_registrar.gse.harvard.edu_AI-policy',
+'NONGWU_senate.ucla.edu_news_teaching-guidance-chatgpt-and-related-ai-developments': 'NONGWU_senate.ucla.edu_news_teaching-guidance-chatgpt-and-related-ai-developments',
+#'NONGWU_teaching.ucla.edu_resources_teaching-guides_using-generative-ai-reflectively-and': 'NONGWU_teaching.ucla.edu_resources_teaching-guides_using-generative-ai-reflectively-and',
+#'NONGWU_teaching.washington.edu_course-design_ai': 'NONGWU_teaching.washington.edu_course-design_ai',
+#'NONGWU_teaching.washington.edu_course-design_ai_sample-ai-syllabus-statements': 'NONGWU_teaching.washington.edu_course-design_ai_sample-ai-syllabus-statements',
+#'NONGWU_teachingcommons.stanford.edu_teaching-guides_artificial-intelligence-teaching-gu': 'NONGWU_teachingcommons.stanford.edu_teaching-guides_artificial-intelligence-teaching-gu',
+#'NONGWU_technology.berkeley.edu_AI': 'NONGWU_technology.berkeley.edu_AI',
+#'NONGWU_tlhub.stanford.edu_docs_course-policies-on-generative-ai-use': 'NONGWU_tlhub.stanford.edu_docs_course-policies-on-generative-ai-use',
+#'NONGWU_tll.mit.edu_teaching-resources_course-design_gen-ai-your-course': 'NONGWU_tll.mit.edu_teaching-resources_course-design_gen-ai-your-course',
+#'NONGWU_uit.stanford.edu_security_responsibleai': 'NONGWU_uit.stanford.edu_security_responsibleai',
+#'NONGWU_www.hbs.edu_mba_handbook_standards-of-conduct_academic_Pages_chatgpt-and-ai.aspx': 'NONGWU_www.hbs.edu_mba_handbook_standards-of-conduct_academic_Pages_chatgpt-and-ai.aspx',
+#'NONGWU_yaledata.yale.edu_yale-university-ai-guidelines-staff': 'NONGWU_yaledata.yale.edu_yale-university-ai-guidelines-staff'
 }
 all_['Type'] = all_['Type'].map(legend_dict)
 
@@ -141,7 +183,7 @@ all_['Type'] = all_['Type'].map(legend_dict)
 clusters = all_['Type'].unique()
 colors = cm.get_cmap("Set2", len(clusters))  # Set2 palette
 centroids = {}
-fig, ax = plt.subplots(figsize=(20, 16))
+fig, ax = plt.subplots(figsize=(40, 32))
 profile_dict = {}
 
 # plot all clusters
@@ -179,8 +221,8 @@ for _, cl in enumerate(clusters):
     plt.text(
         cx, cy, str(cl),
         ha='center', va='center',
-        fontsize=14,
-        bbox=dict(boxstyle='round,pad=0.25', fc='white', ec='gray', alpha=0.85)
+        fontsize=9,
+        bbox=dict(boxstyle='round,pad=0.25', fc='white', ec='gray', alpha=0.65)
     )
 
 
@@ -191,82 +233,46 @@ for spine in ax.spines.values():
     spine.set_visible(False)
 ax.set_xlabel('')
 ax.set_ylabel('')
-ax.legend(title='', loc='best', fontsize=20)
+#ax.legend(title='', loc='best', fontsize=20)
 
 # title
-ax.set_title('Visual Map of GWU AI Policies', fontsize=25)
+ax.set_title('Visual Map of AI Policies', fontsize=25)
 
 # save
 plt.tight_layout()
-plot_fname = f'out{os.sep}res{os.sep}doc_clus_legend.png'
+plot_fname = f'out{os.sep}res{os.sep}doc_clus.png'
 plt.savefig(plot_fname, dpi=300, bbox_inches='tight')
 logger.info(f'Saved: {plot_fname}.')
 
 
 ### cluster profiling #########################################################
 
+"""
+
 logger.info('----------- -----------')
 logger.info('Profiling and saving results ...')
 
-### understand what is in each large cluster, but not in sn
+### understand what is in each large cluster, but not in gwu
 
-legend_dict = {
-    'Acceptable Use of IT Resources Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'Acceptable Use (OECR)',
-    'additional_guidance_for_generative_ai_-_august_2023': 'Provost 2',
-    'AI Guidance and Best Practices _ GW Information Technology _ The George Washington University': 'AI Guidance and Best Pratice (IT)',
-    'Artificial Intelligence (AI) Evaluation & Status _ GW Information Technology _ The George Washington University': 'Tool Evaluation (IT)',
-    'Communicating Your GenAI Expectations to Your Students _ Libraries & Academic Innovation': 'Communicating Expecations (Libraries)',
-    'Cybersecurity Risk Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'Cybersecurity Risk (OECR)',
-    'Data Classification Guide _ GW Information Technology _ The George Washington University': 'Data Classification (IT)',
-    'Data Protection Guide _ GW Information Technology _ The George Washington University': 'Data Protection (IT)',
-    'Deciding on Appropriate Use of GenAI in Academic Classes _ Libraries & Academic Innovation': 'Deciding on Use (Libraries)',
-    'Explore Tools & Services _ GW Information Technology _ The George Washington University': 'Approved Tools (IT)',
-    'Generative Artificial Intelligence (GenAI) _ Libraries & Academic Innovation': 'Generative AI (Libraries)',
-    'generative-artificial-intelligence-guidelines-april-2023': 'Provost 1', 
-    'Identity and Access Management Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'IAM (OECR)',
-    'Privacy Considerations when using Virtual Meeting and Collaboration Platforms _ GW Privacy Office _ The George Washington University': 'Privacy Guidance: Meetings',
-    'Privacy Guidance for use of Artificial Intelligence _ GW Privacy Office _ The George Washington University': 'Privacy Guidance',
-    'Teaching with Generative AI _ Libraries & Academic Innovation': 'Teaching with Gen AI (Libraries)'
-}
+gwu_list = []
+for key in profile_dict.keys():
+    if key.startswith('GWU'):
+        gwu_list += profile_dict[key]['cl_non_unique_keyword_list']
 
+gwu_set = set(gwu_list)        
 
+non_gwu_list = []
+for key in profile_dict.keys():
+    if key.startswith('NONGWU'):
+        non_gwu_list += profile_dict[key]['cl_non_unique_keyword_list']
 
-
-provost_list = profile_dict['Provost 1']['cl_non_unique_keyword_list'] +\
-               profile_dict['Provost 2']['cl_non_unique_keyword_list'] 
-provost_set = set(provost_list)
-
-libraries_list = profile_dict['Communicating Expecations (Libraries)']['cl_non_unique_keyword_list'] + \
-                 profile_dict['Deciding on Use (Libraries)']['cl_non_unique_keyword_list'] +\
-                 profile_dict['Teaching with Gen AI (Libraries)']['cl_non_unique_keyword_list'] +\
-                 profile_dict['Generative AI (Libraries)']['cl_non_unique_keyword_list']
-libraries_set = set(libraries_list)
-
-eval_approved_list = profile_dict['Tool Evaluation (IT)']['cl_non_unique_keyword_list'] + \
-                     profile_dict['Approved Tools (IT)']['cl_non_unique_keyword_list']
-eval_approved_set = set(eval_approved_list)
-
-guidance_list = profile_dict['AI Guidance and Best Pratice (IT)']['cl_non_unique_keyword_list'] + \
-                profile_dict['Privacy Guidance']['cl_non_unique_keyword_list']
-guidance_set = set(guidance_list)
-
-data_list = profile_dict['Data Classification (IT)']['cl_non_unique_keyword_list'] + \
-            profile_dict['Data Protection (IT)']['cl_non_unique_keyword_list']
-data_set = set(data_list)
-
-oecr_list = profile_dict['Acceptable Use (OECR)']['cl_non_unique_keyword_list'] + \
-            profile_dict['Cybersecurity Risk (OECR)']['cl_non_unique_keyword_list'] +\
-            profile_dict['IAM (OECR)']['cl_non_unique_keyword_list']
-oecr_set = set(oecr_list)
-
-meetings_list = profile_dict['Privacy Guidance: Meetings']['cl_non_unique_keyword_list']
-meetings_set = set(meetings_list)
+non_gwu_set = set(non_gwu_list)   
 
 ### create count list, convert each to csv, and save
 ### create word clouds
 
-prefix_list = ['provost', 'libraries', 'eval_approved', 'guidance', 'data', 'oecr', 'meetings']
-list_list = [provost_list, libraries_list, eval_approved_list, guidance_list, data_list, oecr_list, meetings_list]
+prefix_list = ['gwu', 'non_gwu', 'eval_approved', 'guidance', 'data', 'oecr', 'meetings']
+list_list = [gwu_list, non_gwu_list]
 
 for i, list_ in enumerate(list_list):
 
@@ -297,7 +303,9 @@ for i, list_ in enumerate(list_list):
     wordcloud.to_file(wc_fname)
     logger.info(f'Saved: {wc_fname}.')
 
-
+"""
+    
 # end timer
 toc = time.time() - tic
 logger.info(f'All tasks performed in {toc:.2f} s.')
+
