@@ -234,7 +234,7 @@ This analysis combines qualitative review with topic modeling to surface structu
 
 ##### Appendix D: Summary of Considered External AI Policies — Visual Map of Policies
 
-![Document clusters for external AI policies.]([available](policy_analysis_1/)doc_clus_legend_annotated_crop_nongwu.png)
+![Document clusters for external AI policies.]([available](policy_analysis_1/doc_clus_legend_annotated_crop_nongwu.png)
 
 *Document clusters and their representative topics for external AI policies. Large image [available](policy_analysis_1/doc_clus_legend_annotated_crop_nongwu.png).*
 
