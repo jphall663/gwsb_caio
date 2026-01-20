@@ -14,74 +14,237 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 
 ## Presentations
 * [GWSB Board of Advisors Update 1](gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf) (December 2025)
+* [Initial Policy Analysis](policy_analysis_1/Draft_Policy_Analysis_1.pdf) (January 2026)
 
-## Policies and Resources
-GWU's current AI policies have a strong focus on classroom guidance and data goverance, privacy, and security. They also touch on approved tools, app usage (e.g., Zoom AI), general responsible use, digital identity, and human accountability and review. Figure 1 presents a word cloud of key terms in existing GWU AI policies. Policies are issued by various offices across the University, including GWU IT, the Office of Ethics, Compliance, and Risk, the Office of the Provost, and the Data Privacy Office. GWU IT policies address approved tools, security, and data classification. Office of Ethics, Compliance, and Risk policies address data privacy, digital identity, and overall responsible technology use. The Office of the Provost provides guidelines for faculty, and the Data Privacy Office provides in-depth policies and guidance for privacy. Libraries and Academic Innovation provides additional resources for teaching. Figure 2 displays document clusters and associated keywords for existing GWU AI policies. Links are available for individual policies below.    
-<br>
-![](gwu_caio_boa_1/existing_policy_key_word_cloud_hi_4k.png)
-**Figure 1**: Word cloud of key terms in existing GWU AI policies.
-<br><br><br>
-![](gwu_caio_boa_1/doc_clus_legend_annotated_crop.png)
-**Figure 2**: Document clusters and associated keywords for existing GWU AI policies.
-<br>
-### University Policies
-[**Google Notebook LM**](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) (Faculty and staff click to request access to a Google Notebook LM session grounded on these resources.)
+## GW AI and IT Policy Analysis
 
-* **Information Technology** 
-  * [Data Classification Guidelines](https://it.gwu.edu/data-classification-guide)
-  * [Data Protection Guidelines](https://it.gwu.edu/data-protection-guide)
-  * [Generative Artificial Intelligence](https://it.gwu.edu/gen-ai)
-    * [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices) (in alignment with GWU acceptable use, code of ethical conduct, cyber risk, identity and access management, IT, privacy, and procurement policies)
-    * [AI Tools and Services ("Approved Tools List")](https://it.gwu.edu/explore-tools-services#tools-tab-3-name)
-    * [Artificial Intelligence (AI) Evaluation & Status](https://it.gwu.edu/ai-tools-status)
+### 1. Actionable Takeaways
 
-* **Libraries & Academic Innovation** (broken linking--paste link into browser)
-  * Generative Artificial Intelligence (GenAI): `https://library.gwu.edu/generative-ai` 
-    * Communicating Your GenAI Expectations to Your Students: `https://library.gwu.edu/communicating-your-genai-expectations-your-students` (May 2025)
-    * Deciding on Appropriate Use of GenAI in Academic Classes: `https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes` (May 2025)
-    * Teaching with Generative AI: `https://library.gwu.edu/teaching-generative-ai`
-    * Karen Singer-Freeman: https://library.gwu.edu/users/karen-singer-freeman (GWU Libraries & Academic Innovation, Generative AI in Teaching Lead)
-      
-* **Office of Ethics, Compliance, and Risk**
-  * [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy) (September 2023)
-  * [Cybersecurity Risk Policy](https://compliance.gwu.edu/cybersecurity-risk-policy) (October 2023)
-  * [Identity and Access Management Policy](https://compliance.gwu.edu/identity-and-access-management-policy) (October 2023)
+#### Executive Summary — Actionable Takeaways for GWSB
 
-* **Office of the Provost**    
-  * [Guidelines for Using Generative Artificial Intelligence in Connection with Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0) (April 2023, includes example syllabus statements)
-    * [Guidelines for Using Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) (April 2023)
-    * [Additional Guidance Regarding Generative Artificial Intelligence at the George Washington University](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) (August 2023)
+- GW policies provide a solid base on which GWSB will build.
+- GW guidance on approved tools, data, and classroom use should be socialized, e.g.,
+  - [AI Tools and Services (Approved Tools List)](https://tinyurl.com/3zvh5b47)
+  - [Data Classification Guidelines](https://it.gwu.edu/data-classification-guide)
+  - [Generative Artificial Intelligence (GW Libraries)](https://library.gwu.edu/generative-ai)
+- GW and external resources provide models for forthcoming GWSB
+  [principles](https://ai.universityofcalifornia.edu/governance-transparency/),
+  [policies](https://students.business.columbia.edu/office-of-student-affairs/academic-advising-and-student-success/academic-integrity/generative-ai-policy),
+  [syllabus statements](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf),
+  or [toolkits](https://sites.google.com/view/aiassignments).
+- GWSB-specific policies may need to fill gaps related to approved tools, policy adherence and enforcement (e.g., AI-specific oversight, honor codes), responsible AI and AI safety, and clearer guidance for researchers.
 
-* **Privacy Office**
-  * [Privacy Guidance for use of Artificial Intelligence](https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence)
-  * [Privacy Considerations when using Virtual Meeting and Collaboration Platforms](https://privacy.gwu.edu/privacy-considerations-when-using-virtual-meeting-and-collaboration-platforms)
+### 2. GW AI and IT Policies
 
-### School Policies
+#### Existing Policies
 
-* **Himmelfarb Health Sciences Library**
-  * [Faculty Resources: Generative AI](https://guides.himmelfarb.gwu.edu/faculty/generative-AI) (November 2025)
- 
-* **School of Business**
-  * [Artificial Intelligence in Action](https://business.gwu.edu/artificial-intelligence-in-action)
+- **AI and IT policies**
+  - GW IT policies address best practices, approved tools, security, and data classification.
+  - Libraries and Academic Innovation guidance provides teaching resources, including checklists and tools.
+  - Office of Ethics, Compliance, and Risk policies address data privacy, digital identity, and responsible technology use.
+  - Office of the Provost provides guidelines for academic work.
+  - The Privacy Office provides in-depth privacy policies and guidance.
+  - See Appendix A for links to GW policies.
+- **Policy alignment and coverage**
+  - Overall alignment and coverage is laudable.
+  - Some details are becoming dated (e.g., references to unapproved ChatGPT).
+  - See Section 4 for more detail on gaps and points of interest.
+- See **interactive NotebookLM [tool](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184)** for AI-guided GW policy Q&A  
+  *(GW Faculty and staff: click the hyperlinked “tool” to request access.)*
 
-### External Policies and Resources
+#### Summary of GW AI and IT Policies — Word Cloud
 
-#### AI Principles
-* [University of California](https://ai.universityofcalifornia.edu/governance-transparency/)
+![Top keywords across GW AI and IT policies.](policy_analysis_1/existing_policy_key_word_cloud_hi_4k.png)
 
-#### Generative AI Resources
-* [MIT Teaching and Learning Lab: Generative AI & Your Course](https://tll.mit.edu/teaching-resources/course-design/gen-ai-your-course/)
+*Top keywords across GW AI and IT policies.*
 
-#### Responsible Use Policies
-* [Columbia](https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy)
-* [Columbia Business](https://students.business.columbia.edu/office-of-student-affairs/academic-advising-and-student-success/academic-integrity/generative-ai-policy)
-* [Notre Dame (for students)](https://honorcode.nd.edu/generative-ai-policy-for-students-august-2023/)
-* [University of California, Berkeley](https://oercs.berkeley.edu/appropriate-use-generative-ai-tools)
+### 3. External AI Policies
 
-#### Syllabus Statements
-* [Georgetown](https://cndls.georgetown.edu/resources/syllabus-policies/ai-and-homework-support/)
-* [Stanford Business](https://tlhub.stanford.edu/docs/course-policies-on-generative-ai-use/)
-* [University of Washington](https://teaching.washington.edu/course-design/ai/sample-ai-syllabus-statements/)
+#### Summary of Considered External Policies
+
+- Judgment-based sample of 12 large, prominent private and public universities (e.g., Ivy League and UC schools).
+- Includes business schools (e.g., Columbia, Harvard, Stanford).
+- Includes AI policies, AI resources, legal alerts, research guidance, staff guidance, and teaching guidance.
+- See Appendix B for a complete listing of considered external policies.
+
+#### Summary of Considered External AI Policies — Word Cloud
+
+![Top keywords across external AI policies.](policy_analysis_1/nongwu_policy_key_word_cloud_hi_4k.png)
+
+*Top keywords across external AI policies.*
+
+### 4. Gaps and Points of Interest
+
+#### Summary of Potential Gaps
+
+- Relative to external resources, GW could bolster AI policies related to:
+  - **AI governance processes and procedures**
+    - Specific mechanisms for adherence and enforcement, defined leadership roles, and updates to codes of integrity.
+  - **Approved tools**
+    - GW-approved tools do not yet include AI APIs or agentic tools.
+  - **Responsible AI and AI safety**
+    - Guidance on high-risk use or misuse (e.g., nondiscrimination testing of hiring tools; malicious generation of NCII).
+  - **AI use in research and knowledge generation**
+    - See USC’s [Using Generative AI in Research](https://libguides.usc.edu/generative-AI/home) or Columbia’s
+      [Generative AI Policy](https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy).
+- Many GW policies reference unapproved tools (e.g., ChatGPT, Claude); example syllabus statements may need updating.
+
+#### Summary of Points of Interest
+
+- **AI principles:** [UC System](https://ai.universityofcalifornia.edu/governance-transparency/)
+- **AI policies:**  
+  [Columbia](https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy),
+  [Columbia Business](https://students.business.columbia.edu/office-of-student-affairs/academic-advising-and-student-success/academic-integrity/generative-ai-policy),
+  [Notre Dame](https://honorcode.nd.edu/generative-ai-policy-for-students-august-2023/),
+  [UC Berkeley](https://oercs.berkeley.edu/appropriate-use-generative-ai-tools)
+- **Syllabus statements:**  
+  [Georgetown](https://cndls.georgetown.edu/resources/syllabus-policies/ai-and-homework-support/),
+  [GW](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf),
+  [Stanford Business](https://tlhub.stanford.edu/docs/course-policies-on-generative-ai-use/),
+  [University of Washington](https://teaching.washington.edu/course-design/ai/sample-ai-syllabus-statements/)
+- **Toolkits:**  
+  [Classroom Expectations Worksheet (GW Libraries)](https://docs.google.com/document/d/1hQwgSR1Caksy7Rb2LRBhLEBugDLTsuMJVLTFLgDXxu8/edit),
+  [Can I Use AI?](https://sites.google.com/view/aiassignments),
+  [Georgetown CNDLS](https://cndls.georgetown.edu/resources/ai/),
+  [MIT Teaching + Learning Lab](https://tll.mit.edu/teaching-resources/course-design/gen-ai-your-course/),
+  [Student Checklist (GW Libraries)](https://docs.google.com/document/d/1Nutviqrix6NMb1XLM2N5nLe2Q1_7JHu5aTXlnSxKCh0/edit)
+- **Topic model outliers**
+  - [UC Berkeley AI Risk Subcommittee](https://oercs.berkeley.edu/CERC-AIR): enterprise risk and governance focus.
+  - [Georgetown CNDLS](https://cndls.georgetown.edu/resources/ai/): holistic AI teaching toolkit.
+- Track GW AI tool [evaluation status](https://it.gwu.edu/ai-tools-status).
+
+### Appendices
+
+#### A. GW Policy References
+
+**Information Technology**
+- [Data Classification Guidelines](https://it.gwu.edu/data-classification-guide)
+- [Data Protection Guidelines](https://it.gwu.edu/data-protection-guide)
+- [Generative Artificial Intelligence](https://it.gwu.edu/gen-ai)
+  - [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices)
+  - [AI Tools and Services (Approved Tools List)](https://tinyurl.com/3zvh5b47)
+  - [AI Evaluation and Status](https://it.gwu.edu/ai-tools-status)
+
+**Libraries and Academic Innovation**
+- [Generative Artificial Intelligence (GenAI)](https://library.gwu.edu/generative-ai)
+- [Communicating GenAI Expectations to Students](https://library.gwu.edu/communicating-your-genai-expectations-your-students)
+- [Deciding on Appropriate Use of GenAI in Classes](https://library.gwu.edu/deciding-appropriate-use-genai-academic-classes)
+- [Teaching with Generative AI](https://library.gwu.edu/teaching-generative-ai)
+
+**Office of Ethics, Compliance, and Risk**
+- [Acceptable Use of IT Resources Policy](https://compliance.gwu.edu/acceptable-use-it-resources-policy)
+- [Cybersecurity Risk Policy](https://compliance.gwu.edu/cybersecurity-risk-policy)
+- [Identity and Access Management Policy](https://compliance.gwu.edu/identity-and-access-management-policy)
+
+**Office of the Provost**
+- [Guidelines for Using GenAI in Academic Work](https://provost.gwu.edu/guidelines-using-generative-artificial-intelligence-connection-academic-work-0)
+  - [GenAI Guidelines (PDF)](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf)
+  - [Additional GenAI Guidance (PDF)](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf)
+
+**Privacy Office**
+- [Privacy Guidance for Use of AI](https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence)
+- [Privacy Considerations for Virtual Platforms](https://privacy.gwu.edu/privacy-considerations-when-using-virtual-meeting-and-collaboration-platforms)
+
+#### B. External Policy References
+
+**Columbia University**
+- [Columbia Business School: Generative AI Policy](https://students.business.columbia.edu/office-of-student-affairs/academic-advising-and-student-success/academic-integrity/generative-ai-policy)
+- [AI Tools in the Classroom](https://ctl.columbia.edu/resources-and-technology/resources/ai-tools/)
+- [Generative AI Policy](https://provost.columbia.edu/content/office-senior-vice-provost/ai-policy)
+
+**Georgetown University**
+- [AI and Homework Support Policies](https://cndls.georgetown.edu/resources/syllabus-policies/ai-and-homework-support/)
+- [AI Resources](https://guides.library.georgetown.edu/ai)
+- [AI Toolkit (CNDLS)](https://cndls.georgetown.edu/resources/ai/)
+
+**Harvard University**
+- [Harvard Business School (HBS): Using ChatGPT and AI Tools](https://www.hbs.edu/mba/handbook/standards-of-conduct/academic/Pages/chatgpt-and-ai.aspx)
+- [Harvard Graduate School of Education (HGSE) AI Policy](https://registrar.gse.harvard.edu/AI-policy)
+- [Guidelines for Using ChatGPT and Other Generative AI Tools](https://provost.harvard.edu/guidelines-using-chatgpt-and-other-generative-ai-tools-harvard)
+
+**MIT**
+- [Guidance for Use of Generative AI Tools](https://ist.mit.edu/ai-guidance)
+- [Generative AI and Your Course](https://tll.mit.edu/teaching-resources/course-design/gen-ai-your-course/)
+
+**Stanford University**
+- [Stanford GSB: Course Policies on Generative AI Use](https://tlhub.stanford.edu/docs/course-policies-on-generative-ai-use/)
+- [Artificial Intelligence Teaching Guide](https://teachingcommons.stanford.edu/teaching-guides/artificial-intelligence-teaching-guide)
+- [Creating Your Course Policy on AI](https://teachingcommons.stanford.edu/teaching-guides/artificial-intelligence-teaching-guide/creating-your-course-policy-ai)
+- [Generative AI Policy Guidance](https://communitystandards.stanford.edu/generative-ai-policy-guidance)
+- [Responsible AI at Stanford](https://uit.stanford.edu/security/responsibleai)
+
+**University of California (System)**
+- [AI Governance and Transparency](https://ai.universityofcalifornia.edu/governance-transparency/)
+- [Applicable Law and UC Policy](https://ai.universityofcalifornia.edu/governance-transparency/applicable-law-and-policy.html)
+- [Legal Alert: Artificial Intelligence Tools](https://www.ucop.edu/ethics-compliance-audit-services/_files/compliance/ai/ai-alert.pdf)
+
+**UC Berkeley**
+- [AI at UC Berkeley](https://technology.berkeley.edu/AI)
+
+**UC Irvine**
+- [Generative AI for Teaching and Learning](https://dtei.uci.edu/generative-ai/)
+
+**UCLA**
+- [Artificial Intelligence (AI)](https://dts.ucla.edu/initiatives/ai)
+- [Teaching Guidance for ChatGPT and Related AI Developments](https://senate.ucla.edu/news/teaching-guidance-chatgpt-and-related-ai-developments)
+
+**University of Notre Dame**
+- [AI Recommendations for Instructors](https://honorcode.nd.edu/ai-recommendations-for-instructors/)
+- [AI@ND Policies and Guidelines](https://ai.nd.edu/policies-and-guidelines/)
+- [Generative AI Policy for Students](https://honorcode.nd.edu/generative-ai-policy-for-students-august-2023/)
+
+**USC**
+- [Using Generative AI in Research](https://libguides.usc.edu/generative-AI/home)
+
+**University of Washington**
+- [AI+Teaching](https://teaching.washington.edu/course-design/ai/)
+- [Sample AI Syllabus Statements](https://teaching.washington.edu/course-design/ai/sample-ai-syllabus-statements/)
+
+**Yale University**
+- [AI at Yale](https://ai.yale.edu/)
+- [AI Guidelines](https://poorvucenter.yale.edu/AIguidance)
+- [AI Guidelines for Staff](https://yaledata.yale.edu/yale-university-ai-guidelines-staff)
+- [Guidelines for the Use of Generative AI Tools](https://provost.yale.edu/news/guidelines-use-generative-ai-tools)
+
+#### C. Methodological References
+
+This analysis combines qualitative review with topic modeling to surface structural similarities and gaps. Methodological references include:
+
+- Lee, Daniel D., and H. Sebastian Seung. (1999). **Learning the Parts of Objects by Non-negative Matrix Factorization**. *Nature*, 401(6755), 788–791. https://www.nature.com/articles/44565.
+
+- Lewis, Patrick, Ethan Perez, Aleksandra Piktus, *et al.* (2020). **Retrieval-augmented Generation for Knowledge-intensive NLP Tasks**. *Advances in Neural Information Processing Systems*, 33, 9459–9474. https://proceedings.neurips.cc/paper_files/paper/2020/file/6b493230205f780e1bc26945df7481e5-Paper.pdf.
+
+- OpenAI. (2022). **New and Improved Embedding Model**. *OpenAI Blog*. https://openai.com/blog/new-and-improved-embedding-model.
+
+#### D. Topic Model Clusters
+
+##### Appendix D: Summary of GW AI and IT Policies — Visual Map of GW Policies
+
+![Document clusters for GW AI and IT policies.](policy_analysis_1/doc_clus_legend_annotated_crop.png)
+
+*Document clusters and their representative topics for GW AI and IT policies. Large image [available](policy_analysis_1/doc_clus_legend_annotated_crop.png).*
+
+##### Appendix D: Summary of GW AI and IT Policies — Visual Map Takeaways
+
+- **Teaching and Student Use (Provost + Libraries):** On the left, Provost and Libraries guidance form a large cluster focused on assignments, tools, integrity, expectations, and instructor–student communication. (Labels: `Provost 1` and `Provost 2`; `Teaching with Gen AI (Libraries)`, `Communicating Expectations (Libraries)`, `Generative AI (Libraries)`, and `Deciding on Use (Libraries)`.)
+- **Library AI Toolkit:** Within that region, the Libraries’ AI pages cluster tightly together, providing toolkits that link AI to classes, assignments, faculty support, and concrete teaching strategies. (Labels: `Teaching with Gen AI (Libraries)`, `Communicating Expectations (Libraries)`, `Generative AI (Libraries)`, and `Deciding on Use (Libraries)`.)
+- **IT AI Guidance, Privacy, and Meetings:** In the upper–central area, AI Guidance and Best Practice and the general Privacy Guidance documents connect AI use to data handling and personal-information protection, while a nearby Meetings cluster concentrates on virtual-meeting platforms. (Labels: `AI Guidance and Best Practice (IT)`, `Privacy Guidance: Meetings`, and `Privacy Guidance`.)
+- **Tool Evaluation and Approved Tools:** Lower down, Tool Evaluation and Approved Tools form an operational cluster about evaluating, approving, and supporting specific tools (e.g., Zoom, chatbots) for academic use. (Labels: `Tool Evaluation (IT)` and `Approved Tools (IT)`.)
+- **Baseline IT Risk and Data Governance:** On nearer right, Data Classification and Data Protection policies transition into Acceptable Use, Cybersecurity Risk, and IAM policies on the far right (Office of Ethics, Compliance, and Risk (OECR)), representing GW’s underlying data-governance and risk/compliance policies that AI-specific guidance builds upon. (Labels: `Data Classification (IT)` and `Data Protection (IT)`; `Acceptable Use (OECR)`, `Cybersecurity Risk (OECR)`, and `IAM (OECR)`.)
+
+##### Appendix D: Summary of Considered External AI Policies — Visual Map of Policies
+
+![Document clusters for external AI policies.]([available](policy_analysis_1/)doc_clus_legend_annotated_crop_nongwu.png)
+
+*Document clusters and their representative topics for external AI policies. Large image [available](policy_analysis_1/doc_clus_legend_annotated_crop_nongwu.png).*
+
+##### Appendix D: Summary of Considered External AI Policies — Visual Map Takeaways
+
+- **Governance Mechanisms:** On the upper and right sides of the map, Berkeley’s AI Risk Subcommittee and related compliance, cybersecurity, and data-protection documents (including some comparable GW risk/compliance policies) form a governance cluster that represents the most formal and centralized oversight of AI use. (Labels: `MISC: Governance, Risk, & Compliance`, `GWU Data Protection`, `GWU Office of Ethics, Compliance, & Risk`.)
+- **AI Tools and Guidance:** AI guidance that focuses on tooling (including GW IT guidance) abuts the data protection and governance clusters in a central blob of documents. (Label: `MISC: AI Tools & Guidance`.)
+- **Honor/Integrity Codes:** An honor code/conduct cluster captures many schools’ student-facing AI rules, while GW’s provost and library guidance sits nearby but separate, emphasizing teaching, evaluation, and support rather than misconduct and sanctions. (Labels: `NON-GWU-MISC: Honor Code and Conduct`, `GWU: Provost Guidance`.)
+- **Teaching Guidance:** A left-side blob mixes less-actionable teaching and classroom guidance. (Label: `NON-GWU-MISC: Teaching AI`.)
+- **Actionable Teaching Tools and Support:** At the teaching-oriented lower side, MIT, Georgetown CNDLS, and GW Libraries cluster around concrete assignments, assessment, and tools, with some overlap with GW Provost documents and CNDLS standing out as the most holistic toolkit. (Labels: `GWU Libraries: Teaching AI`, `GWU: Provost Guidance`, `MIT: Teaching Guidance`.)
 
 ## Basic Human AI Teaming Guidance
 
