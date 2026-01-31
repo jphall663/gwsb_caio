@@ -124,7 +124,7 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
   - [AI Guidance and Best Practices](https://it.gwu.edu/ai-guidance-and-best-practices)
   - [AI Tools and Services (Approved Tools List)](https://tinyurl.com/3zvh5b47)
   - [AI Evaluation and Status](https://it.gwu.edu/ai-tools-status)
-  - [GW IT AI consultation form](https://gwu-myit.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEV[…]SLEHUYTCMZQGITGG33OORSXQ5CUPFYGKPKDIFKECTCPI5PUQT2NIU======) 
+  - [GW IT AI consultation form](https://gwu-myit.onbmc.com/dwp/rest/share/OJSXG33VOJRWKVDZOBST2U2CL5IVKRKTKREU6TSOIFEVERJGORSW4YLOOREWIPKBI5DUSQZTIZMECRKSIY3ECUSIGZGTSMCSJA3E2OJQGBIUURRGOJSXG33VOJRWKSLEHUYTCMZQGITGG33OORSXQ5CUPFYGKPKDIFKECTCPI5PUQT2NIU======) 
 
 **Libraries and Academic Innovation**
 - [Generative Artificial Intelligence (GenAI)](https://library.gwu.edu/generative-ai)
