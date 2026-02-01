@@ -293,7 +293,6 @@ This analysis combines qualitative review with topic modeling to surface structu
   * uses different sensory inputs (digital data, text, images, sound vs. smell, touch) 
   * can use massive memory.
   * can perform repetitive or boring cognitive tasks without attention problems.
-  * often fails due to design, data, and statistical problems (vs. impulsiveness, lack of attention, cognitive biases, etc. in people).  
  
 ## Advanced Human-AI Teaming Guidance and Resources
 
