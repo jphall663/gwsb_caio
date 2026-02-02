@@ -288,7 +288,7 @@ This analysis combines qualitative review with topic modeling to surface structu
  
 * **Understand how AI differs from human thinking, it ...**
   * lacks a model of the physical world.
-  * lacks a model of its own thinking.
+  * lacks a model of its own information processing.
   * lacks emotion.
   * uses different sensory inputs (digital data, text, images, sound vs. smell, touch) 
   * can use massive memory.
