@@ -252,7 +252,7 @@ This analysis combines qualitative review with topic modeling to surface structu
 ### Basic AI Usage Guidance
 
 * **Don't let AI decide for you, instead ask AI for ...**
-  * options and you pick the best option combined with real-world knowledge.
+  * advice on options and you pick the best option combined with real-world knowledge.
   * feedback and improvements to your own ideas or decisions.
   * assistance with decision-making processes.
 
@@ -266,12 +266,13 @@ This analysis combines qualitative review with topic modeling to surface structu
   * You add citations, figures, and tables, etc.
 
 * **Don't trust AI to code for you, instead ...**
-  * Have AI write the code and you write the tests and documentation OR ...
+  * Have AI write the code and you write the tests and documentation.
   * You write the code and have AI write the tests and documentation.
+  * Have AI write code the same approach in two ways and verify matching results.
 
 * **Understand when to use other types of AI, use ...**
   * optimization, statistics and ML for data analysis and direct decision-making.
-    * (people are good at reasoning, but bad at statistics and calculation.) 
+    * (generally, people are better at reasoning, and worse at statistics and calculation, relative to computer systems.) 
   * real-time sensor networks for real-time info (maps, weather, etc.).
   * credible search for factual information retrieval (Kagi, Wayback Machine, Google Scholar).
 
@@ -284,7 +285,7 @@ This analysis combines qualitative review with topic modeling to surface structu
 
 * **Understand how you fail with AI by ...**
   * allowing AI results to confirm your pre-existing biases.
-  * anthropomorphizing (ideas like "think," "understand," "reason," "feel" don't apply to AI ... AI systems memorize, calculate, and generate).
+  * anthropomorphizing AI (ideas like "think," "understand," "reason," "feel" don't apply to AI ... AI systems memorize, calculate, and generate).
   * anchoring to AI results because they are the first information you see.
   * its sycophancy (allowing it to suck up to).
  
@@ -301,47 +302,43 @@ This analysis combines qualitative review with topic modeling to surface structu
 * **Notebooks** (e.g., Jupyter / Colab)
   * *Use for:* quick experiments, data exploration, and early prototypes.
   * *Don’t use for:* producing finalized products.
-
-(While you can prototype a chatbot in a notebook for this class (even spin up a quick Gradio/Streamlit UI), you don’t usually deliver a chatbot as a notebook in the real world.)
+  * While you can prototype a chatbot in a notebook (and even spin up a quick Gradio/Streamlit UI), you don’t usually deliver a final product as a notebook in the real world.
 
 * **IDEs** (e.g., VS Code / PyCharm)
-  * *Use for:* building final products and real applications (with folders, files, tests, Git, packaging, deployment, and users).
+  * *Use for:* building final products and real applications (with folders, files, tests, Git, packaging, deployment, UIs, and users). This is the ideal kind of tool in which to build a chatbot or other finalized AI product.
   * *Optional:* Add a coding agent (e.g., Codex) in your IDE; it can read/modify code. IDEs and coding agents are professional-grade helper tools, not a final product themselves. 
 
-(This is the ideal kind of tool in which to build a chatbot or other finalized AI product.)
-
 * **Commercial apps/websites** (E.g., ChatGPT / Co-pilot / Gemini / NotebookLM)
-  * *Use for:* learning, brainstorming, coding help.
-  * *Don’t use for:* final products. For final products, *do* build your own UI for calling APIs and other tools using an IDE.
-
-(The ChatGPT website is its own UI. Don’t try to “wrap” that UI for a product--that's silly.)
+  * *Use for:* exploring, drafting, brainstorming, coding help.
+  * *Don’t use for:* final products. For final products, *do* use an IDE to build your own UI and backend code for calling APIs and other AI tools.
+  * The ChatGPT website is its own UI. Don’t try to “wrap” that UI for a product--that's silly.
 
 * **Coding agents** (e.g., Codex)
   * *Use for:* generating code, fixing bugs, writing tests, etc.
-  * *Don’t use for:* hosting or delivering a user-facing final product. 
-
-(These help produce code for your app/product; they are not the app you deliver to end users. Don’t try to wrap coding agent UIs for your products--that's silly.)
+  * *Don’t use for:* hosting or delivering a user-facing final product.
+  * These help produce code for your app/product; they are not the app you deliver to end users. Don’t try to wrap coding agent UIs for your products--that's silly.
 
 * **Language model APIs** (e.g., OpenAI API)
-  * *Use for:* your app’s backend intelligence—chat, retrieval, text-to-code, etc. You build your final product using APIs.
-
-(Language model APIs are a general low-level tool for interacting with AI models within your own custom-built applications or products.)
+  * *Use for:* your app’s backend data processing—chat generation, retrieval, text-to-code, etc. You build your final product using APIs.
+  * Language model APIs also mean the difficult computation occurs on **someone else's machine.**
+  * Language model APIs are a general low-level tool for interacting with AI models within your own custom-built applications or products.
 
 * **Websites, open-source models + tooling** (e.g., Hugging Face & `transformers` or `langchain` packages) 
-  * *Use for:* loading and running open source models; your app’s backend intelligence—chat, retrieval, code-to-text, etc. You can build a final product around/with Hugging Face models in addition to commerical language model APIs.
+  * *Use for:* loading and running open source models; your app’s backend data processing—chat generation, retrieval, text-to-code.
+  * Open source models tend to run **on your own machine** (you will need better equipment, more memory, GPUs, etc.)
+  * You can build a final product around/with Hugging Face models with or without commerical language model APIs.
   * *Don’t use for:* “wrapping” the Hugging Face website as your own product--that's silly.
 
 * **Agentic tools** (e.g., Zapier, n8n)
   * *Use for:* building automated workflows for your own or small group use.
-  * *Don't use for:* building a final product to sell to external users--like ChatGPT and/or Codex, these are already finalized commerical products with their own UIs.
-  
-(Mostly focused on software engineering automation, but can also perform some office tasks.)  
+  * *Don't use for:* building a final product to sell to external users. Like ChatGPT and/or Codex, these are already finalized commerical products with their own UIs.
+  * Mostly focused on software engineering automation, but can also perform some office tasks.  
 
 **Usage Rules of Thumb**:
   * *To learn and research for yourself*: Use chatbots (e.g., ChatGPT, NotebookLM). 
-  * *To build a product for others to use:* Prototype/test/understand coding logic, API calls, and model usage in notebooks → Build a finalized chatbot or other AI app in an IDE → Let coding agents help write code and build project infrastructure.
+  * *To build a product for others to use:* Prototype/test/understand coding logic, API calls, and model usage in notebooks → Build a finalized chatbot or other AI app in an IDE, while letting coding agents help write code and build project infrastructure.
   * *To build an automated workflow for yourself:*
-    * *Simple*: Use Zapier, n8n, etc.
+    * *Simple*: Use Zapier, n8n, etc., or ask a chatbot--you may get lucky. 
     * *Advanced*: Use a coding agent to write the software to complete the workflow.  
 
 *Disclosure:* I worked with AI to build these pointers.
