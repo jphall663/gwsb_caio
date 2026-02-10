@@ -282,12 +282,14 @@ This analysis combines qualitative review with topic modeling to surface structu
   * combining true information incorrectly.
   * having poor knowledge in niche subjects.
   * failing at complex reasoning tasks.
+  * misusing or exposing sensitive information.
 
 * **Understand how you fail with AI by ...**
   * allowing AI results to confirm your pre-existing biases.
   * anthropomorphizing AI (ideas like "think," "understand," "reason," "feel" don't apply to AI ... AI systems memorize, calculate, and generate).
   * anchoring to AI results because they are the first information you see.
   * its sycophancy (allowing it to suck up to).
+  * inputting sensitive information.
  
 * **Understand how AI differs from human thinking, it ...**
   * lacks a model of the physical world.
@@ -339,7 +341,8 @@ This analysis combines qualitative review with topic modeling to surface structu
   * *To build a product for others to use:* Prototype/test/understand coding logic, API calls, and model usage in notebooks → Build a finalized chatbot or other AI app in an IDE, while letting coding agents help write code and build project infrastructure.
   * *To build an automated workflow for yourself:*
     * *Simple*: Use Zapier, n8n, etc., or ask a chatbot--you may get lucky. 
-    * *Advanced*: Use a coding agent to write the software to complete the workflow.  
+    * *Advanced*: Use a coding agent to write the software to complete the workflow.
+  * Never input sensitive data.
 
 *Disclosure:* I worked with AI to build these pointers.
  
