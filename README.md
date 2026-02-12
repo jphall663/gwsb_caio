@@ -315,7 +315,7 @@ This analysis combines qualitative review with topic modeling to surface structu
 * **Commercial apps/websites** (E.g., ChatGPT / Co-pilot / Gemini / NotebookLM)
   * *Use for:* exploring, drafting, brainstorming, coding help.
   * *Don’t use for:* final products. For final products, *do* use an IDE to build your own UI and backend code for calling APIs and other AI tools.
-  * The ChatGPT website is its own UI. Don’t try to “wrap” that UI for a product--that's silly.
+  * The ChatGPT website is its own UI. Don’t try to “wrap” that UI for a product--that's silly.  
 
 * **Coding agents** (e.g., Codex)
   * *Use for:* generating code, fixing bugs, writing tests, etc.
@@ -337,6 +337,10 @@ This analysis combines qualitative review with topic modeling to surface structu
   * *Use for:* building automated workflows for your own or small group use.
   * *Don't use for:* building a final product to sell to external users. Like ChatGPT and/or Codex, these are already finalized commerical products with their own UIs.
   * Mostly focused on software engineering automation, but can also perform some office tasks.  
+
+* Connectors (e.g., MCP, ChatGPT Apps)
+  * Use the model context protocol (MCP) to connect a language model API to various tools (databases, APIs, files, search, internal systems) in a programmatic way; MCP is typically used on the backend of apps or products. 
+  * Use specific connecters (e.g., ChatGPT Apps) to let ChatGPT or other commerical apps connect to files, repos, messages, etc.; This enhances ChatGPT's abilities, and is not for building apps or products you surface to others. 
 
 **Usage Rules of Thumb**:
   * *To learn and research for yourself*: Use chatbots (e.g., ChatGPT, NotebookLM). 
