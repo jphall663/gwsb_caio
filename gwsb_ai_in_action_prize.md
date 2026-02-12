@@ -1,5 +1,4 @@
-# Request for Proposals  
-## GW School of Business AI in Action Award
+# Request for Proposals: GW School of Business *AI in Action Award*
 
 The GW School of Business (GWSB) invites faculty and staff to submit proposals for the **GWSB AI in Action Award**, which recognizes uses of artificial intelligence (AI) that advance teaching, research, and operations at the School. Along with GWSB’s commitment to applied and responsible AI, this prize is intended to catalyze practical experimentation and knowledge sharing across the GWSB community.
 
@@ -14,8 +13,6 @@ Submissions may include completed or planned projects, such as tools, workflows,
 
 Awards will include monetary prizes and School-wide recognition, with the goal of amplifying AI work happening across the School and encouraging broader engagement with AI.
 
----
-
 ## Submission Instructions
 
 Applicants should submit a short document (approximately 2–3 pages) that briefly addresses each of the evaluation criteria—**Novelty & Distinctiveness, Impact & Reach, Reusability & Transferability, Education & Knowledge Sharing, Ethical & Responsible Use, and Effectiveness & Execution**—at a level appropriate to the project’s stage of development. Submissions may describe completed work from the past 18 months or well-defined planned projects and should focus on clarity, intent, and potential value to the GWSB community.
@@ -27,8 +24,6 @@ Awards will be announced beginning April 10, 2026.
 
 Submit proposals by email to **jphall@gwu.edu** with the subject line: `AI Award Proposal`
 
----
-
 ## Examples of Submissions
 
 - An AI-assisted assignment or assessment approach that furthers student learning while reinforcing academic integrity.  
@@ -37,17 +32,16 @@ Submit proposals by email to **jphall@gwu.edu** with the subject line: `AI Award
 - A prototype tool or dashboard that uses AI to support decision-making in a course, program, or operational unit.  
 - A planned pilot project that proposes AI for teaching, research, or operations, with a clear implementation and sharing plan.  
 
----
 
-# AI Prize Evaluation Rubric
+## AI Prize Evaluation Rubric
 
 Proposals should adhere to GW data and AI policies and will be scored using a structured rubric. Proposals will be evaluated and scored using GW-approved AI tools.
 
-## Eligibility Threshold (Unscored)
+### Eligibility Threshold (Unscored)
 
 All submissions must meet institutional policies related to AI use, data privacy, and data security to be considered for an award. The most relevant policies to review prior to submitting a proposal include AI best practices, data protection guidance, and AI privacy guidance.
 
-## Scoring Rubric
+### Scoring Rubric
 
 Submissions will be scored from **1–3 points** across each competition dimension using the following rubric.  
 The maximum possible score is **18 points**.
