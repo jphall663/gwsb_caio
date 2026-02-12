@@ -40,8 +40,7 @@ All submissions must meet institutional policies related to AI use, data privacy
 
 ### Scoring Rubric
 
-Submissions will be scored from **1–3 points** across each competition dimension using the following rubric.  
-The maximum possible score is **18 points**.
+Submissions will be scored from **1–3 points** across each competition dimension using the following rubric. The maximum possible score is **18 points**.
 
 | Dimension | Description | 1 Point | 2 Points | 3 Points |
 |------------|------------|----------|----------|----------|
