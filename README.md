@@ -358,4 +358,4 @@ This analysis combines qualitative review with topic modeling to surface structu
 
 ### GW School of Business *AI in Action Award*
 
-* [Read about the GWSB *AI in Action Award*]()
+* [Read about the GWSB *AI in Action Award*](https://github.com/jphall663/gwsb_caio/blob/main/gwsb_ai_in_action_prize.md)
