@@ -10,7 +10,9 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 * [Policies and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#policies-and-resources)
 * [Basic Human AI Teaming Guidance](https://github.com/jphall663/gwsb_caio/blob/main/README.md#basic-human-ai-teaming-guidance)
 * [Advanced Human-AI Teaming Guidance and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#advanced-human-ai-teaming-guidance-and-resources)
-* [Public Working Group](https://github.com/jphall663/gwsb_caio/blob/main/README.md#public-working-group)
+* [Links]()
+  * [Public Working Group](https://github.com/jphall663/gwsb_caio/blob/main/README.md#public-working-group)
+  * [GW School of Business *AI in Action Award*]()
 
 ## Presentations
 * [GWSB Board of Advisors Update 1](gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf) (December 2025)
@@ -348,6 +350,12 @@ This analysis combines qualitative review with topic modeling to surface structu
  
 ## Advanced Human-AI Teaming Guidance and Resources
 
-## GWSB AI Forum
+## Links 
 
-* [Sign-up form](https://forms.gle/Qf67V5SF461fsrHp6)
+### GW School of Business AI Forum
+
+* [Sign-up for the GWSB AI Forum](https://forms.gle/Qf67V5SF461fsrHp6)
+
+### GW School of Business *AI in Action Award*
+
+* [Read about the GWSB *AI in Action Award*]()
