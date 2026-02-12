@@ -36,7 +36,7 @@ Proposals should adhere to GW data and AI policies and will be scored using a st
 
 ### Eligibility Threshold (Unscored)
 
-All submissions must meet institutional policies related to AI use, data privacy, and data security to be considered for an award. The most relevant policies to review prior to submitting a proposal include AI best practices, data protection guidance, and AI privacy guidance.
+All submissions must meet institutional policies related to AI use, data privacy, and data security to be considered for an award. The most relevant policies to review prior to submitting a proposal include [AI best practices](https://it.gwu.edu/ai-guidance-and-best-practices), [data protection guidance](https://it.gwu.edu/data-protection-guide), and [AI privacy guidance](https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence).
 
 ### Scoring Rubric
 
