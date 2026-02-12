@@ -19,7 +19,7 @@ Applicants should submit a short document (approximately 2–3 pages) that brief
 
 Applicants are welcome to include supplementary materials as appendices or links, such as implementation plans, prototypes, code, datasets, papers, reports, sample assignments, or other relevant artifacts. Submissions with clear plans for education or dissemination (e.g., short seminar(s)) will score more favorably.
 
-**Submissions are due by March 15, 2026.** Awards will be announced beginning April 10, 2026. Submit proposals by email to **jphall@gwu.edu** with the subject line: `AI Award Proposal`
+**Submissions are due by March 15, 2026.** Awards will be announced beginning April 10, 2026. Submit proposals by email to **jphall@gwu.edu** with the subject line: `AI Award Proposal`.
 
 ## Examples of Submissions
 
