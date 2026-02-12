@@ -10,7 +10,7 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 * [Policies and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#policies-and-resources)
 * [Basic Human AI Teaming Guidance](https://github.com/jphall663/gwsb_caio/blob/main/README.md#basic-human-ai-teaming-guidance)
 * [Advanced Human-AI Teaming Guidance and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#advanced-human-ai-teaming-guidance-and-resources)
-* [Links]()
+* [Links](https://github.com/jphall663/gwsb_caio/blob/main/README.md#links)
   * [Public Working Group](https://github.com/jphall663/gwsb_caio/blob/main/README.md#public-working-group)
   * [GW School of Business *AI in Action Award*](https://github.com/jphall663/gwsb_caio/blob/main/README.md#gw-school-of-business-ai-in-action-award)
 
