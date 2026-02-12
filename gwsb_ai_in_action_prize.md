@@ -25,9 +25,7 @@ Applicants are welcome to include supplementary materials as appendices or links
 **Submissions are due by March 15, 2026.**  
 Awards will be announced beginning April 10, 2026.  
 
-Submit proposals by email to **jphall@gwu.edu** with the subject line:
-
-> AI Award Proposal
+Submit proposals by email to **jphall@gwu.edu** with the subject line: `AI Award Proposal`
 
 ---
 
