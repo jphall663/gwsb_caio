@@ -6,13 +6,13 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 
 ## Contents
 
-* [Presentations](https://github.com/jphall663/gwsb_caio/blob/main/README.md#presentations)
-* [Policies and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#policies-and-resources)
-* [Basic Human AI Teaming Guidance](https://github.com/jphall663/gwsb_caio/blob/main/README.md#basic-human-ai-teaming-guidance)
-* [Advanced Human-AI Teaming Guidance and Resources](https://github.com/jphall663/gwsb_caio/blob/main/README.md#advanced-human-ai-teaming-guidance-and-resources)
-* [Links](https://github.com/jphall663/gwsb_caio/blob/main/README.md#links)
-  * [GW School of Business AI Forum](https://github.com/jphall663/gwsb_caio/blob/main/README.md#gw-school-of-business-ai-forum)
-  * [GW School of Business *AI in Action Award*](https://github.com/jphall663/gwsb_caio/blob/main/README.md#gw-school-of-business-ai-in-action-award)
+* [Presentations](#presentations)
+* [Policies and Resources](#policies-and-resources)
+* [Basic Human AI Teaming Guidance](#basic-human-ai-teaming-guidance)
+* [Advanced Human-AI Teaming Guidance and Resources](#advanced-human-ai-teaming-guidance-and-resources)
+* [Links](#links)
+  * [GW School of Business AI Forum](#gw-school-of-business-ai-forum)
+  * [GW School of Business *AI in Action Award*](#gw-school-of-business-ai-in-action-award)
 
 ## Presentations
 * [GWSB Board of Advisors Update 1](gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf) (December 2025)
@@ -358,4 +358,4 @@ This analysis combines qualitative review with topic modeling to surface structu
 
 ### GW School of Business *AI in Action Award*
 
-* [Read about the GWSB *AI in Action Award*](https://github.com/jphall663/gwsb_caio/blob/main/gwsb_ai_in_action_prize.md)
+* [Read about the GWSB *AI in Action Award*](gwsb_ai_in_action_prize.md)
