@@ -21,7 +21,7 @@ Applicants are welcome to include supplementary materials as appendices or links
 
 **Submissions are due by March 15, 2026.** Awards will be announced beginning April 10, 2026. Submit proposals by email to **jphall@gwu.edu** with the subject line: `AI Award Proposal`.
 
-## Examples of Submissions
+### Examples of Submissions
 
 - An AI-assisted assignment or assessment approach that furthers student learning while reinforcing academic integrity.  
 - A workflow using AI to streamline advising, admissions, career services, or other administrative processes.  
