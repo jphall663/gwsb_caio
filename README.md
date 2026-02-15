@@ -290,6 +290,7 @@ This analysis combines qualitative review with topic modeling to surface structu
 * **Understand how you fail with AI by ...**
   * allowing AI results to confirm your pre-existing biases.
   * anthropomorphizing AI (ideas like "think," "understand," "reason," "feel" don't apply to AI ... AI systems memorize, calculate, and generate).
+    * and worse, emotional entanglement. 
   * anchoring to AI results because they are the first information you see.
   * its sycophancy (allowing it to suck up to).
   * inputting sensitive information.
