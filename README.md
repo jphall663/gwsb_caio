@@ -257,6 +257,7 @@ This analysis combines qualitative review with topic modeling to surface structu
   * advice on options and you pick the best option combined with real-world knowledge.
   * feedback and improvements to your own ideas or decisions.
   * assistance with decision-making processes.
+  * use statistical, machine learning, or optimization approaches as decision-support mechanisms.
 
 * **Don't let AI answer a factual request for you, instead ...**
   * Search/research for the result yourself using a credible search engine (Kagi, Wayback Machine, Google Scholar) or libraries, books, indices, databases, or human experts.
