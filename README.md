@@ -391,7 +391,7 @@ Transforming rigid triplets into readable study notes.
 **Prompt:**
 > Thanks. Now reprint the cluster labels and the triplets, but please convert the triplets into plain English bullets or short sentences. Preserve the total number of bullets and the number in each cluster from the thematic clustering. Print the original sequence number of the triplet at the end of each bullet.
 
-*Check: Ensure bullets link back to their original sequence number, verify cluster subtotals, and confirm a total of 50 triplets.*
+*Check: Ensure bullets link back to their original sequence number, verify cluster subtotals, and confirm a total of 50 bullets.*
 
 ---
 
@@ -406,7 +406,7 @@ Using the structured data to generate presentation and web assets.
 **Prompt:**
 > Thanks. Now, please generate a basic HTML page from the cluster labels and the bullets. The cluster labels should become section headers. Please preserve the numbering of the bullets, and ensure each cluster is represented in the page and that the page contains the correct total number of bullets.
 
-*Check: Ensure bullets link back to their original sequence number, verify cluster subtotals, and confirm a total of 50 triplets.*
+*Check: Ensure bullets link back to their original sequence number, verify cluster subtotals, and confirm a total of 50 bullets.*
 
 ---
 
@@ -421,7 +421,7 @@ Creating tools for testing knowledge and visualizing relationships.
 **Prompt:**
 > Thanks, now please print each question with its corresponding answer bullet using the previously created summary bullets to create question/answer pairs. Preserve the total number of questions and answers and the number of pairs in each cluster from the thematic clustering. Print the original sequence number of the triplet at the end of each answer.
 
-*Check: Ensure Q&A pairs link back to their original sequence number, verify cluster subtotals, and confirm a total of 50 triplets.*
+*Check: Ensure Q&A pairs link back to their original sequence number, verify cluster subtotals, and confirm a total of 50 Q&A pairs.*
 
 ---
 
