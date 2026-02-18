@@ -351,6 +351,7 @@ This analysis combines qualitative review with topic modeling to surface structu
     * *Simple*: Use Zapier, n8n, etc., or ask a chatbot--you may get lucky. 
     * *Advanced*: Use a coding agent to write the software to complete the workflow.
   * Never input sensitive data.
+  * Don’t draft, don’t code, prompt!
 
 *Disclosure:* I worked with AI to build these pointers.
 
