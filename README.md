@@ -466,7 +466,7 @@ Generating technical summary visuals.
 * Strategies you might employ: 
   * Ask the student to explain the work. 
   * Compare the assignment in question to the student's past work or other students' work. 
-  * Ask a GW-approved chatbot to do the assignment and compare the output to the student's output.
+  * Ask a [GW-approved](https://it.gwu.edu/explore-tools-services#tools-tab-3-name) chatbot to do the assignment and compare the output to the student's output.
   * Review with SafeAssign. 
 
 ## Links 
