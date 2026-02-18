@@ -353,7 +353,7 @@ This analysis combines qualitative review with topic modeling to surface structu
 
 *Disclosure:* I worked with AI to build these pointers.
 
-### Tutorial: Chain-of-Thought Document Analysis Exercise with Spot-checking 
+### Tutorial: Chain-of-Thought Document Analysis Exercise with Spot-Checking 
 
 This tutorial outlines a systematic workflow for extracting, verifying, and transforming document data into various educational and technical formats using an AI collaborator.
 
