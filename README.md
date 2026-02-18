@@ -9,6 +9,7 @@ Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You a
 * [Presentations](#presentations)
 * [Policies and Resources](#policies-and-resources)
 * [Basic Human AI Teaming Guidance](#basic-human-ai-teaming-guidance)
+* [Basics on Handling Cheating and Plagiarism](#basics-on-handling-cheating-and-plagiarism) 
 * [Links](#links)
   * [GW School of Business AI Forum](#gw-school-of-business-ai-forum)
   * [GW School of Business *AI in Action Award*](#gw-school-of-business-ai-in-action-award)
@@ -446,7 +447,7 @@ Generating technical summary visuals.
 
 *Check: Confirm Mermaid triplets match the original first cluster triplets.*
 
-## Basics on Handling Cheating and Plagarism
+## Basics on Handling Cheating and Plagiarism
 
 ### Have an AI policy in the class syllabus.
 * Here are links to example syllabus policies from [Georgetown](https://cndls.georgetown.edu/resources/syllabus-policies/ai-and-homework-support/),
