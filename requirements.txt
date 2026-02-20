@@ -5,7 +5,11 @@ openai
 openpyxl
 pandas
 pdfkit
+pdfminer.six
+PyPDF2
+python-docx
 scikit-learn
+textract
 tika
 tiktoken
 timeout_decorator

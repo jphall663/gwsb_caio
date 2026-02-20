@@ -43,7 +43,9 @@ CONTACT_LABEL_TAGS = ("h1", "h2", "h3", "h4", "h5", "h6", "strong", "div", "span
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
-CV_DIR = Path(__file__).parent / "cv"
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "dat"
+CV_DIR = BASE_DIR / "cv"
 
 configure_logging()
 logger = get_logger(__name__)
@@ -318,7 +320,7 @@ def extract_faculty_name(soup):
 
 ### main entrypoint ###########################################################
 
-DEFAULT_OUTPUT_CSV = Path(__file__).parent / "gwsb_faculty_ai_mentions.csv"
+DEFAULT_OUTPUT_CSV = DATA_DIR / "gwsb_faculty_ai_mentions.csv"
 
 def run_scan(output_csv=DEFAULT_OUTPUT_CSV, max_profiles=None, delay_s=0.5, headers=None):
     if headers is None:
@@ -373,6 +375,7 @@ def run_scan(output_csv=DEFAULT_OUTPUT_CSV, max_profiles=None, delay_s=0.5, head
 
             time.sleep(delay_s)
 
+        Path(output_csv).parent.mkdir(parents=True, exist_ok=True)
         with open(output_csv, "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=["profile_url", "name", "num_hits", "matches", "snippets", "personal_urls", "cv_filename"])
             writer.writeheader()

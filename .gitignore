@@ -210,3 +210,5 @@ __marimo__/
 policy_analysis/gwu/nmf
 policy_analysis/non-gwu/nmf
 .idea
+inventory/cv/*
+!inventory/cv/.gitkeep
