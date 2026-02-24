@@ -20,11 +20,6 @@ AI_PATTERNS = [
     r"natural language processing|\bNLP\b",
     r"large language model|\bLLM\b",
     r"generative AI|genAI",
-    r"ChatGPT",
-    r"automation",
-    r"algorithmic|algorithms?",
-    r"data science",
-    r"predictive modeling|prediction",
     r"computer vision",
     r"reinforcement learning",
 ]
