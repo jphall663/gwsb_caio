@@ -1,0 +1,3 @@
+* Script for manual entries
+* Script for verification
+* Driver script that wraps all others and performs some manual activities, e.g., clearing CVs.
