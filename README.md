@@ -4,12 +4,6 @@ Text and copy are licensed under a [Creative Commons Attribution-NonCommercial-S
 
 Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, provided that the copyright notice and permission notice in the `SOFTWARE_LICENSE` file are included in all copies or substantial portions of the software.
 
-## Contents
-
-* [Presentations](#presentations)
-* [Links](#links)
-* [Code](#code)
-
 ## Presentations
 
 * [GWSB Board of Advisors Update 1](gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf) (December 2025)
