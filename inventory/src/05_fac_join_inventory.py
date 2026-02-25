@@ -12,6 +12,7 @@ DATA_DIR = BASE_DIR / "dat"
 DEFAULT_PROFILE_CSV = DATA_DIR / "gwsb_faculty_ai_mentions.csv"
 DEFAULT_PER_SITE_CSV = DATA_DIR / "per_site_ai_mentions.csv"
 DEFAULT_CV_CSV = DATA_DIR / "cv_ai_mentions.csv"
+DEFAULT_MANUAL_CSV = DATA_DIR / "manual_ai_mentions.csv"
 DEFAULT_OUTPUT_CSV = DATA_DIR / "fac_ai_mentions_joined.csv"
 
 configure_logging()
@@ -37,7 +38,7 @@ def add_unique(accum, value):
         if part not in accum:
             accum.append(part)
 
-def add_snippets(accum, value, cap=5):
+def add_snippets(accum, value, cap=1000):
     value = (value or "").strip()
     if not value:
         return
@@ -45,6 +46,12 @@ def add_snippets(accum, value, cap=5):
     for part in parts:
         if part not in accum and len(accum) < cap:
             accum.append(part)
+
+def add_manual_snippets(accum, value):
+    value = (value or "").strip()
+    if not value:
+        return
+    accum.append(value)
 
 def ensure_record(store, name):
     key = normalize_name(name)
@@ -65,6 +72,10 @@ def ensure_record(store, name):
             "cv_num_hits": 0,
             "cv_matches": [],
             "cv_snippets": [],
+            "manual_filename": [],
+            "manual_num_hits": 0,
+            "manual_matches": [],
+            "manual_snippets": [],
         }
     return store[key]
 
@@ -74,6 +85,7 @@ def run_join(
     profile_csv=DEFAULT_PROFILE_CSV,
     per_site_csv=DEFAULT_PER_SITE_CSV,
     cv_csv=DEFAULT_CV_CSV,
+    manual_csv=DEFAULT_MANUAL_CSV,
     output_csv=DEFAULT_OUTPUT_CSV,
 ):
     records = {}
@@ -129,10 +141,32 @@ def run_join(
     else:
         logger.warning("Missing input CSV: %s", cv_csv)
 
+    if manual_csv.exists():
+        with manual_csv.open(newline="", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                num_hits = parse_hits(row.get("num_hits", ""))
+                if num_hits <= 0:
+                    continue
+                rec = ensure_record(records, row.get("name", ""))
+                if not rec:
+                    continue
+                add_unique(rec["manual_filename"], row.get("filename", ""))
+                rec["manual_num_hits"] += num_hits
+                add_unique(rec["manual_matches"], row.get("matches", ""))
+                add_manual_snippets(rec["manual_snippets"], row.get("snippets", ""))
+    else:
+        logger.warning("Missing input CSV: %s", manual_csv)
+
     rows = []
     for key in sorted(records):
         rec = records[key]
-        total_hits = rec["fac_profile_num_hits"] + rec["per_site_num_hits"] + rec["cv_num_hits"]
+        total_hits = (
+            rec["fac_profile_num_hits"]
+            + rec["per_site_num_hits"]
+            + rec["cv_num_hits"]
+            + rec["manual_num_hits"]
+        )
         rows.append({
             "name": rec["name"],
             "fac_profile_url": rec["fac_profile_url"],
@@ -147,6 +181,10 @@ def run_join(
             "cv_num_hits": rec["cv_num_hits"],
             "cv_matches": "; ".join(rec["cv_matches"]),
             "cv_snippets": " || ".join(rec["cv_snippets"]),
+            "manual_filename": "; ".join(rec["manual_filename"]),
+            "manual_num_hits": rec["manual_num_hits"],
+            "manual_matches": "; ".join(sorted(set(rec["manual_matches"]))),
+            "manual_snippets": " ".join(rec["manual_snippets"]),
             "total_hits": total_hits,
         })
 
@@ -168,6 +206,10 @@ def run_join(
                 "cv_num_hits",
                 "cv_matches",
                 "cv_snippets",
+                "manual_filename",
+                "manual_num_hits",
+                "manual_matches",
+                "manual_snippets",
                 "total_hits",
             ],
         )

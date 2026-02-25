@@ -1,6 +1,7 @@
 ###############################################################################
 #                                                                             #
 # Clear cv before running !!!                                                 #
+# Clear output datasets !!!                                                   #
 #                                                                             #
 ###############################################################################
 
@@ -13,6 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 from logging_utils import logging, configure_logging, get_logger
+from ai_terms import get_ai_regex
 
 import requests
 from bs4 import BeautifulSoup
@@ -22,21 +24,6 @@ from bs4 import BeautifulSoup
 BASE = "https://business.gwu.edu"
 DIRECTORY_URL = "https://business.gwu.edu/faculty-directory"
 
-# Expand/adjust this list as you like.
-AI_PATTERNS = [
-    r"\bAI\b",
-    r"artificial intelligence",
-    r"machine learning",
-    r"deep learning",
-    r"neural network",
-    r"natural language processing|\bNLP\b",
-    r"large language model|\bLLM\b",
-    r"generative AI|genAI",
-    r"computer vision",
-    r"reinforcement learning",
-]
-
-AI_REGEX = re.compile("|".join(f"(?:{p})" for p in AI_PATTERNS), re.IGNORECASE)
 PROFILE_PATTERN = re.compile(r"^/[a-z0-9\-]+/?$")
 HEADING_TAGS = ("h1", "h2", "h3", "h4", "h5", "h6", "strong")
 CONTACT_LABEL_TAGS = ("h1", "h2", "h3", "h4", "h5", "h6", "strong", "div", "span", "p")
@@ -120,7 +107,8 @@ def get_visible_text_chunks(soup):
 
 def find_hits(text, window=120):
     hits = []
-    for m in AI_REGEX.finditer(text):
+    ai_regex = get_ai_regex()
+    for m in ai_regex.finditer(text):
         start = max(m.start() - window, 0)
         end = min(m.end() + window, len(text))
         snippet = text[start:end].replace("\n", " ")

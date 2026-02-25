@@ -1,30 +1,15 @@
 ### imports and configs #######################################################
 
 import csv
-import re
 from pathlib import Path
 from typing import Dict, Iterable, Optional
 
 from logging_utils import logging, configure_logging, get_logger
+from ai_terms import get_ai_regex
 
 from bs4 import BeautifulSoup
 
 ### constants #################################################################
-
-AI_PATTERNS = [
-    r"\bAI\b",
-    r"artificial intelligence",
-    r"machine learning",
-    r"deep learning",
-    r"neural network",
-    r"natural language processing|\bNLP\b",
-    r"large language model|\bLLM\b",
-    r"generative AI|genAI",
-    r"computer vision",
-    r"reinforcement learning",
-]
-
-AI_REGEX = re.compile("|".join(f"(?:{p})" for p in AI_PATTERNS), re.IGNORECASE)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "dat"
@@ -99,7 +84,8 @@ def extract_text(path: Path) -> str:
 
 def find_hits(text: str, window: int = 120):
     hits = []
-    for m in AI_REGEX.finditer(text):
+    ai_regex = get_ai_regex()
+    for m in ai_regex.finditer(text):
         start = max(m.start() - window, 0)
         end = min(m.end() + window, len(text))
         snippet = text[start:end].replace("\n", " ")
@@ -152,7 +138,7 @@ def run_scan(input_csvs=DEFAULT_INPUT_CSVS, output_csv=DEFAULT_OUTPUT_CSV):
                 "name": name,
                 "num_hits": len(hits),
                 "matches": "; ".join(sorted(set(h[0] for h in hits))) if hits else "",
-                "snippets": " || ".join(h[1] for h in hits[:5]),
+                "snippets": " || ".join(h[1] for h in hits),
             })
             logger.info("%s -> %d hits", filename, len(hits))
         except Exception as e:

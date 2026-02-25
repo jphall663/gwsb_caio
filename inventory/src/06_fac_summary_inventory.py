@@ -84,6 +84,11 @@ def run_scan(input_csv=DEFAULT_INPUT_CSV, output_csv=DEFAULT_OUTPUT_CSV, delay_s
                 sources.append("cv")
                 blocks.append(build_source_block("cv", row.get("cv_matches"), row.get("cv_snippets")))
 
+            manual_hits = parse_hits(row.get("manual_num_hits", ""))
+            if manual_hits > 0:
+                sources.append("manual")
+                blocks.append(build_source_block("manual", row.get("manual_matches"), row.get("manual_snippets")))
+
             if not sources:
                 row["summary"] = ""
                 rows.append(row)

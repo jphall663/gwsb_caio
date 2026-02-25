@@ -7,7 +7,6 @@
 ### imports and configs #######################################################
 
 import csv
-import re
 import time
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -16,6 +15,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from logging_utils import logging, configure_logging, get_logger
+from ai_terms import get_ai_regex
 
 ### constants #################################################################
 
@@ -23,20 +23,6 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-AI_PATTERNS = [
-    r"\bAI\b",
-    r"artificial intelligence",
-    r"machine learning",
-    r"deep learning",
-    r"neural network",
-    r"natural language processing|\bNLP\b",
-    r"large language model|\bLLM\b",
-    r"generative AI|genAI",
-    r"computer vision",
-    r"reinforcement learning",
-]
-
-AI_REGEX = re.compile("|".join(f"(?:{p})" for p in AI_PATTERNS), re.IGNORECASE)
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "dat"
 CV_DIR = BASE_DIR / "cv"
@@ -44,7 +30,7 @@ CV_DIR = BASE_DIR / "cv"
 DEFAULT_INPUT_CSV = DATA_DIR / "gwsb_faculty_ai_mentions.csv"
 DEFAULT_OUTPUT_CSV = DATA_DIR / "per_site_ai_mentions.csv"
 
-configure_logging()
+configure_logging(level=logging.DEBUG)
 logger = get_logger(__name__)
 
 ### utilities #################################################################
@@ -62,7 +48,8 @@ def get_visible_text_chunks(soup):
 
 def find_hits(text, window=120):
     hits = []
-    for m in AI_REGEX.finditer(text):
+    ai_regex = get_ai_regex()
+    for m in ai_regex.finditer(text):
         start = max(m.start() - window, 0)
         end = min(m.end() + window, len(text))
         snippet = text[start:end].replace("\n", " ")
@@ -134,7 +121,9 @@ def run_scan(input_csv=DEFAULT_INPUT_CSV, output_csv=DEFAULT_OUTPUT_CSV, delay_s
                         soup = BeautifulSoup(html, "html.parser")
                         text = get_visible_text_chunks(soup)
                         hits = find_hits(text)
-                        snippets = " || ".join(h[1] for h in hits[:5])
+                        #logger.debug(hits)
+                        snippets = " || ".join(h[1] for h in hits)
+                        #logger.debug(snippets)
                         cv_filename = ""
                         if not existing_cv:
                             cv_filename = download_cv_if_present(soup, session, headers, personal_url)
