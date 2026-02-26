@@ -86,8 +86,11 @@
 \end{frame}
 
 %-------------------------
-\begin{frame}{Agenda}
+\begin{frame}{Agenda}\small
   \tableofcontents
+  \vspace{10pt}
+  \textbf{Optional Prerequisites:} access to Copilot or Gemini \href{https://tinyurl.com/3zvh5b47}{chatbots} through GW, free \href{https://www.overleaf.com/}{Overleaf} account or your favorite LaTeX Editor, and Google Colab and \href{https://drive.google.com}{Drive} through GW.   
+  
 \end{frame}
 
 \section{GW AI Tools and Policies}
@@ -106,12 +109,12 @@
     
 \end{frame}
 
-\section{Decision Making and Over Reliance}
+\section{Decision Making and Overreliance}
 
 %------------------------------------------------
-\begin{frame}[t]{Chatbots — Avoid Over Reliance for Decision Making\\
+\begin{frame}[t]{Chatbots — Avoid Overreliance for Decision Making\\
 \small{\parencite{TowardsaStandardforI537, ArtificialIntelligen058}}}
-\textbf{Principle:} Fundementally, chatbots guess the next word \parencite{hicks2024chatgpt}. Don’t let chatbots replace your reasoning and judgment. But you can use them to augment your own thinking.
+\textbf{Principle:} Fundamentally, chatbots guess the next word \parencite{hicks2024chatgpt}. Don’t let chatbots replace your reasoning and judgment. But you can use them to augment your own thinking.
 
 \vspace{1em}
 
@@ -130,18 +133,18 @@
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}[t]{Chatbots — Decision Making Mini-exercise}
+\begin{frame}[t]{Chatbots — Decision-Making Mini-exercise}
 
 \footnotesize
-Start with a polite salutation and orient the chatbot to the subject at hand: ``\texttt{Hi, are you familiar with the subject X.}'' \parencite{please_be_polite_chatgpt_2024}\\
+Start with a polite salutation and orient the chatbot to the subject at hand: ``\texttt{Hi, are you familiar with the subject X?}'' \parencite{please_be_polite_chatgpt_2024}\\
 \vspace{1em}
-If possible, provide background information in bullets or short clear statements:``\texttt{Here is my current thinking on X ...}''\\ 
+If possible, provide background information in bullets or short clear statements: ``\texttt{Here is my current thinking on X...}''\\ 
 \vspace{1em}
-Consider asking for options:``\texttt{Given my current thinking, can you provide me some reasonable options for proceeding with X?}''\\ 
+Consider asking for options: ``\texttt{Given my current thinking, can you provide me some reasonable options for proceeding with X?}''\\ 
 \vspace{1em}
-Consider asking for feedback:``\texttt{Given my current thinking, can you provide feedback on what I may be missing or getting wrong about X?}''\\
+Consider asking for feedback: ``\texttt{Given my current thinking, can you provide feedback on what I may be missing or getting wrong about X?}''\\
 \vspace{1em}
-Consider asking about how decisions are made about X: ``\texttt{Are there any well-known or accepted process for for deciding about X?}''\\ 
+Consider asking about how decisions are made about X: ``\texttt{Are there any well-known or accepted processes for deciding about X?}''\\ 
 \vspace{1em}
 \textbf{Reminder: No sensitive or personal information!} 
 
@@ -188,7 +191,7 @@ Consider asking about how decisions are made about X: ``\texttt{Are there any we
     \begin{itemize}
         \item You add citations, figures, tables, and validation.
     \end{itemize}
-    \item Chatbots drafts the outline into coherent text.
+    \item Chatbots draft the outline into coherent text.
     \item You proofread and edit.\\
 \end{itemize}
 \vspace{5pt}
@@ -226,9 +229,13 @@ Ask a chatbot to edit or provide feedback on something you have drafted. Ask for
 
 \textbf{More thoughtful approaches:}
 \begin{itemize}
-    \item AI writes code; you write tests and documentation.
+    \item AI writes code; you write tests and documentation. To retain traceability: 
+    \begin{itemize}
+        \item Have AI write code for you incrementally---function-by-function, module-by-module.
+        \item Keep each block of functionality runnable or testable on its own.
+    \end{itemize}
     \item You write code; AI writes tests and documentation.
-    \item Have AI implement the same logic two different ways and verify matching outputs.\\
+    \item AI ``pair programming:'' Have AI implement the same logic two different ways and verify matching outputs.\\
 \end{itemize} 
 \vspace{1em}
 \textbf{``Hello World'' mini-exercise.} 
@@ -244,18 +251,18 @@ Ask a chatbot to edit or provide feedback on something you have drafted. Ask for
     \column{0.55\textwidth}
     \vspace{1em}
     \begin{itemize}
-        \item Optimization, statistics, and ML for data analysis and decision-making.
+        \item Optimization, statistics, and ML for data analysis and decision making.
         \item Real-time sensor systems for live information (traffic, weather, etc.).
         \item Credible search systems for factual retrieval.
     \end{itemize}
 
     \vspace{1em}
-    People can over-rely on reasoning when basic data analysis could lead to better decisions, e.g., the representativeness heuristic.
+    People can overrely on reasoning when basic data analysis could lead to better decisions, e.g., the representativeness heuristic.
 
     \column{0.45\textwidth}
     \centering
     \includegraphics[width=0.8\linewidth]{img/bad_map.png}\\
-    \scriptsize Illogical mapping decisions from language models on GMU campus. \parencite{chen2024can}
+    \scriptsize Illogical mapping decisions from language models on GMU campus \parencite{chen2024can}.
 \end{columns}
 \end{frame}
 
@@ -289,12 +296,12 @@ Ask a chatbot to edit or provide feedback on something you have drafted. Ask for
 \end{frame}
 
 %------------------------------------------------
-\begin{frame}[t]{Chatbots — How AI Differs from Human Thinking \parencite{bennett2023brief}}
-\begin{itemize}
+\begin{frame}{Chatbots — How AI Differs from Human Thinking \parencite{bennett2023brief}}
+\begin{itemize}\Large
     \item Lacks a model of the physical world.
     \item Lacks a model of its own information processing.
-    \begin{itemize}
-        \item But do approximate via ``Chain-of-Thought'' (CoT) workflows \parencite{wei2022chain}.
+    \begin{itemize}\large
+        \item But does approximate via ``Chain-of-Thought'' (CoT) workflows \parencite{wei2022chain}.
     \end{itemize}
     \item Lacks emotion.
     \item Uses different sensory inputs (digital data vs. human senses).
