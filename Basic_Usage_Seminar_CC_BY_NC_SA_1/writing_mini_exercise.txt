@@ -1,0 +1,55 @@
+Model documentation notes: 
+
+* Physical manifestation of accountability / really about adulting at work. 
+  * Cite / reference: SR 11-7; OCC 2011-12
+  * Cite / reference: Regulation (EU) 2024/1689 of the European Parliament and of the Council (Artificial Intelligence Act)
+  * Cite / reference: Model Cards for Model Reporting
+* Increased transparency goal / benefit of model documentation
+  * Benefit greatly from interpretable models and post-hoc explanation
+* Writing, putting name on work, encourages deliberate design and implementation 
+  * Could lead to consequences for poor decisions or work
+* Maintenance and incident response
+* Good example: https://modelcards.withgoogle.com/model-reports - Example Model Cards
+* Bad example: https://github.com/openai/gpt-2/blob/master/model_card.md - GPT-2 Bad Example Model Card, GPT-2
+  * Most dangerous model ever only requires two pages of documentation?
+
+Examples: 
+
+* https://deepmind.google/models/model-cards/ - Example Model Cards
+* https://github.com/openai/gpt-2/blob/master/model_card.md - GPT-2 Bad Example Model Card, GPT-2
+
+References: 
+
+@inproceedings{ModelCardsforModelRe353,
+  author = {Mitchell, Margaret and Wu, Simone and Zaldivar, Andrew and Barnes, Parker and Vasserman, Lucy and Hutchinson, Ben and Spitzer, Elena and Raji, Inioluwa Deborah and Gebru, Timnit},
+  booktitle = {Proceedings of the Conference on Fairness, Accountability, and Transparency},
+  pages = {220--229},
+  title = {{Model Cards for Model Reporting}},
+  url = {https://dl.acm.org/doi/pdf/10.1145/3287560.3287596},
+  year = {2019}
+}
+
+Mitchell, Margaret, Simone Wu, Andrew Zaldivar, Parker Barnes, Lucy Vasserman, Ben Hutchinson, Elena Spitzer, Inioluwa Deborah Raji, and Timnit Gebru. "Model cards for model reporting." In Proceedings of the conference on fairness, accountability, and transparency, pp. 220-229. 2019.
+
+@legislation{eu2024aiact_annex4,
+  author       = {{European Union}},
+  title        = {Regulation (EU) 2024/1689 of the European Parliament and of the Council (Artificial Intelligence Act)},
+  subtitle     = {Annex IV: Technical Documentation Referred to in Article 11(1)},
+  journaltitle = {Official Journal of the European Union},
+  number       = {L 1689},
+  date         = {2024-07-12},
+  url          = {https://ai-act-law.eu/annex/4/}
+}
+
+European Union. Regulation (EU) 2024/1689 of the European Parliament and of the Council (Artificial Intelligence Act), Annex IV: Technical documentation referred to in Article 11(1). Official Journal of the European Union L 1689 (12 July 2024). Accessed February 15, 2026. https://ai-act-law.eu/annex/4/.
+
+@misc{SupervisoryGuidanceo481,
+  author = {FRB/OCC},
+  institution = {Board of Governors of the Federal Reserve System and Office of the Comptroller of the Currency},
+  number = {SR 11-7; OCC 2011-12},
+  title = {{Supervisory Guidance on Model Risk Management}},
+  url = {https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf},
+  year = {2011}
+}
+
+Board of Governors of the Federal Reserve System and Office of the Comptroller of the Currency. 2011. Supervisory Guidance on Model Risk Management. SR 11-7; OCC 2011-12. https://www.federalreserve.gov/supervisionreg/srletters/sr1107a1.pdf.
