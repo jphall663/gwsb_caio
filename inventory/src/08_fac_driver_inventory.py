@@ -1,3 +1,24 @@
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
+# SPDX-License-Identifier: MIT
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
 ###############################################################################
 #                                                                             #
 # Driver for end-to-end faculty AI inventory pipeline !!!                     #
@@ -13,7 +34,20 @@ import shutil
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
-from logging_utils import configure_logging, get_logger
+import sys
+
+def _ensure_repo_root() -> None:
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        if (parent / "shared").is_dir():
+            root = str(parent)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return
+
+_ensure_repo_root()
+
+from shared.logging_utils import configure_logging, get_logger
 from ai_terms import set_ai_patterns
 
 ### constants #################################################################

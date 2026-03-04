@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -47,7 +47,7 @@ from __future__ import annotations
 
 from typing import Any, Dict, List
 
-from hr_rag import config
+from shared import config
 
 FALLBACK_MODEL = config.FALLBACK_MODEL
 CLIENT_NAME = config.CLIENT_NAME

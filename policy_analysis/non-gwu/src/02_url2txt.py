@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,16 +22,29 @@
 # Python 3.10
 # (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/url2txt.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/02_url2txt.py
 
 ### imports and config ########################################################
 
-from logging_utils import get_logger
+from pathlib import Path
+import sys
+
+def _ensure_repo_root() -> None:
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        if (parent / "shared").is_dir():
+            root = str(parent)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return
+
+_ensure_repo_root()
+
+from shared.logging_utils import get_logger
 logger = get_logger(__name__)
 
 import os
 import re
-import sys
 import requests
 from urllib.parse import urlparse
 from html import unescape
@@ -45,7 +58,8 @@ HEADERS = {
 
 ### establish i/o locations ###################################################
 
-out_dir = f'dat{os.sep}txt'
+BASE_DIR = Path(__file__).resolve().parent.parent
+out_dir = BASE_DIR / 'dat' / 'txt'
 
 ### utility functions #########################################################
 
@@ -155,7 +169,7 @@ for url in url_list:
         continue
 
     fname = url_to_filename_prefix(url) + '.txt'
-    out_path = os.path.join(out_dir, fname)
+    out_path = out_dir / fname
 
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write(text)
@@ -163,4 +177,3 @@ for url in url_list:
     preview = text[:120].replace('\n', ' ')
     logger.info(f'Wrote: {out_path}')
     logger.info(f'Preview: {preview} ...')
-

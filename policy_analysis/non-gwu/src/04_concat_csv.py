@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,37 +22,43 @@
 # Python 3.10
 # (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/pdf2txt.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/04_concat_csv.py
 
 ### imports
 
-from logging_utils import get_logger
+from pathlib import Path
+import sys
+
+def _ensure_repo_root() -> None:
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        if (parent / "shared").is_dir():
+            root = str(parent)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return
+
+_ensure_repo_root()
+
+from shared.logging_utils import get_logger
 logger = get_logger(__name__)
 
+import pandas as pd
 import os
-import tika
-from tika import parser
-tika.TikaClientOnly = True
 
-### establish i/o locations ###################################################
+### stack input txt files into a dataframe ####################################
 
-dat_dir = f'dat{os.sep}pdf'
-out_dir = f'dat{os.sep}txt'
+BASE_DIR = Path(__file__).resolve().parent.parent
+in_dir = BASE_DIR / 'dat' / 'chunk'
+out_csv = BASE_DIR / 'dat' / 'chunk' / 'nongwu_policy_combined.csv'
 
-### cycle through pdfs to create text files ###################################
+files = sorted(in_dir.glob('*.csv'))
+if not files:
+    raise FileNotFoundError(f'No CSV files found in {in_dir}')
 
-for file in os.listdir(dat_dir):
+dfs = [pd.read_csv(f) for f in files]
+combined = pd.concat(dfs, ignore_index=True)
+combined.to_csv(out_csv, index=False)
 
-    logger.info('----------- -----------')
-    logger.info(f'Parsing {file} ...')
-    [stem, ext] = os.path.splitext(file)
-    in_file = dat_dir + os.sep + file
-    pdf_contents = parser.from_file(in_file, requestOptions={'timeout': 120})
-    preview = pdf_contents['content'][:100].replace('\n', ' ').strip()
-    logger.info(f'Preview: {preview} ...')
-
-    out_file = out_dir + os.sep + stem + '.txt'
-
-    with open(out_file, 'w') as txt_file:
-        txt_file.write(pdf_contents['content'])
-        logger.info(f'Wrote: {out_file}.')
+logger.info(f'Combined {len(files)} files -> {out_csv}')
+logger.info(f'Total rows: {len(combined):,}')

@@ -1,4 +1,5 @@
 ## Basic AI Tool Guidance
+© 2025-2026 Patrick Hall (jphall@gwu.edu). Some rights reserved. 
 
 * **Notebooks** (e.g., Jupyter / Colab)
   * *Use for:* quick experiments, data exploration, and early prototypes.
@@ -49,3 +50,8 @@
   * Don’t draft, don’t code, prompt!
 
 *Disclosure:* I worked with AI to build these pointers.
+
+## Licensing 
+
+Text and copy are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). You are free to share and adapt this material for noncommercial purposes, provided that you give appropriate credit, link to the license, indicate if changes were made, and distribute any contributions under the same license.
+ 

@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -22,11 +22,25 @@
 # Python 3.10
 # (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/gwu/src/pdf2txt.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/gwu/src/01_pdf2txt.py
 
 ### imports
 
-from logging_utils import get_logger
+from pathlib import Path
+import sys
+
+def _ensure_repo_root() -> None:
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        if (parent / "shared").is_dir():
+            root = str(parent)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return
+
+_ensure_repo_root()
+
+from shared.logging_utils import get_logger
 logger = get_logger(__name__)
 
 import os
@@ -36,8 +50,9 @@ tika.TikaClientOnly = True
 
 ### establish i/o locations ###################################################
 
-dat_dir = f'dat{os.sep}pdf'
-out_dir = f'dat{os.sep}txt'
+BASE_DIR = Path(__file__).resolve().parent.parent
+dat_dir = BASE_DIR / 'dat' / 'pdf'
+out_dir = BASE_DIR / 'dat' / 'txt'
 
 ### cycle through pdfs to create text files ###################################
 
@@ -46,12 +61,12 @@ for file in os.listdir(dat_dir):
     logger.info('----------- -----------')
     logger.info(f'Parsing {file} ...')
     [stem, ext] = os.path.splitext(file)
-    in_file = dat_dir + os.sep + file
+    in_file = dat_dir / file
     pdf_contents = parser.from_file(in_file, requestOptions={'timeout': 120})
     preview = pdf_contents['content'][:100].replace('\n', ' ').strip()
     logger.info(f'Preview: {preview} ...')
 
-    out_file = out_dir + os.sep + stem + '.txt'
+    out_file = out_dir / f'{stem}.txt'
 
     with open(out_file, 'w') as txt_file:
         txt_file.write(pdf_contents['content'])

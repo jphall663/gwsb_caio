@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -43,7 +43,9 @@ FALLBACK_MODEL: str     = 'h2oai/h2o-danube3.1-4b-chat'
 CLIENT_NAME             = 'The George Washington School of Business'
 
 ### Open AI API
-API_KEY: str            = os.environ['OPENAI_API_KEY']
+API_KEY: str            = ''
 OPENAI_API_TIMEOUT: int = 600
 OPENAI_API_RETRIES: int = 0
+
+
 

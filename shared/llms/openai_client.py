@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -70,7 +70,7 @@ shared OpenAI client and default completion parameters.
 from copy import deepcopy
 from functools import wraps
 
-import config
+from shared import config
 
 
 API_KEY = config.API_KEY
@@ -84,7 +84,7 @@ import openai
 import random
 import time
 
-from logging_utils import get_logger
+from shared.logging_utils import get_logger
 logger = get_logger(__name__)
 
 """ 

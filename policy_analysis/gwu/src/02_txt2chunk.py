@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,14 +20,28 @@
 # SOFTWARE.
 
 # Python 3.10
-# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
+# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/txt2chunk.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/gwu/src/02_txt2chunk.py
 
 ### imports and configs
-import config 
+from pathlib import Path
+import sys
 
-from logging_utils import get_logger
+def _ensure_repo_root() -> None:
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        if (parent / "shared").is_dir():
+            root = str(parent)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return
+
+_ensure_repo_root()
+
+from shared import config 
+
+from shared.logging_utils import get_logger
 logger = get_logger(__name__)
 
 import os
@@ -61,8 +75,9 @@ def estimate_word_count(file_):
 
 ### establish i/o locations ###################################################
 
-dat_dir = f'dat{os.sep}txt'
-out_dir = f'dat{os.sep}chunk'
+BASE_DIR = Path(__file__).resolve().parent.parent
+dat_dir = BASE_DIR / 'dat' / 'txt'
+out_dir = BASE_DIR / 'dat' / 'chunk'
 
 ### loop through text files and chunk them ####################################
 
@@ -73,7 +88,7 @@ for file in os.listdir(dat_dir):
     logger.info('----------- -----------')
     logger.info(f'Parsing {file} ...')
     [stem, ext] = os.path.splitext(file)
-    in_file = dat_dir + os.sep + file
+    in_file = dat_dir / file
 
     chunks = pd.DataFrame(columns=cols)
     cache = []  # init cache for storing tokens
@@ -127,7 +142,7 @@ for file in os.listdir(dat_dir):
         logger.info(f'Approximate token count = {str(cache_count * (LENGTH - OVERLAP))}.')
         logger.info(f'Approximate word count = {word_count}.')
 
-        out_fname = out_dir + os.sep + stem + '.csv'
+        out_fname = out_dir / f'{stem}.csv'
         chunks.to_csv(out_fname, index=False)
 
         logger.info(f'Saved: {out_fname}.')

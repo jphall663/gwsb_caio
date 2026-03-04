@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,184 +20,202 @@
 # SOFTWARE.
 
 # Python 3.10
-# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/gwu$ 
+# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
 # /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
-# /home/patrickh/Workspace/gwsb_caio/policy_analysis/gwu/src/apply_keywords.py
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/05_apply_keywords.py
+
+# Requires keywords and outputs from https://github.com/jphall663/nmf
 
 ### imports and configs #######################################################
 
-from logging_utils import get_logger
+from pathlib import Path
+import sys
+
+def _ensure_repo_root() -> None:
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        if (parent / "shared").is_dir():
+            root = str(parent)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return
+
+_ensure_repo_root()
+
+from shared.logging_utils import get_logger
 logger = get_logger(__name__)
 
 import os
 import pandas as pd
-import sys
 from wordcloud import WordCloud
 
 pd.set_option('display.max_rows', None)
+
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 ### set keywords ##############################################################
 
 keyword_list = [
     'academic',
-    'acceptable',
     'accessibility',
-    'activity',
+    'accountability',
+    'accuracy',
+    'act',
     'adapt',
-    'administrative',
-    'adobe',
-    'aggregate',
+    'advice',
+    'agreement',
+    'air',
+    'analyze',
+    'appendix',
     'applicable',
-    'approval',
+    'arrow',
     'artificialintelligence',
+    'assessment',
     'assignment',
-    'assistance',
-    'attendees',
-    'authorize',
-    'barrier',
-    'capability',
-    'chat',
+    'bias',
+    'billing',
+    'blend',
+    'business',
+    'campus',
+    'career',
+    'case',
+    'cerc',
+    'charter',
     'chatbots',
     'chatgpt',
     'class',
-    'classification',
     'classroom',
-    'cloud',
-    'collaboration',
-    'communicate',
-    'companion',
+    'committee',
+    'community',
     'compliance',
     'computer',
+    'concept',
+    'conflict',
     'consultation',
-    'context',
-    'control',
+    'contract',
+    'coursework',
     'create',
-    'custody',
-    'cybersecurity',
     'data',
-    'device',
+    'design',
+    'development',
     'digital',
+    'disclosure',
+    'discrimination',
+    'disruption',
     'draft',
-    'electronic',
-    'employee',
-    'encryption',
+    'education',
+    'educational',
+    'engage',
+    'engineer',
+    'enrollment',
+    'enterprise',
     'ethic',
-    'evaluate',
-    'evaluation',
+    'ethical',
     'event',
-    'excellence',
     'expectation',
-    'explore',
-    'facility',
+    'experience',
+    'external',
     'faculty',
-    'final',
+    'fail',
+    'faqs',
+    'framework',
     'gai',
-    'gelmangwu',
     'genai',
     'generative',
+    'goal',
+    'governance',
+    'graduate',
     'guidance',
     'guide',
     'guideline',
-    'gwid',
-    'gws',
-    'host',
+    'health',
+    'hgse',
+    'hipaa',
+    'honor',
     'human',
-    'ias',
+    'hybrid',
     'idea',
-    'identity',
-    'install',
+    'impact',
+    'important',
+    'inclusive',
+    'initiative',
+    'innovation',
+    'insight',
+    'instructional',
     'instructors',
     'integrity',
-    'intellectual',
-    'invite',
-    'it',
-    'ithelpgwu',
-    'knowledge',
-    'language',
-    'languagemodels',
+    'keyboard',
+    'kit',
     'law',
     'learn',
-    'legitimate',
     'level',
+    'leverage',
     'library',
-    'loss',
-    'measure',
-    'mobile',
-    'model',
-    'objective',
+    'messaging',
+    'news',
     'office',
-    'output',
-    'owned',
-    'permitted',
+    'open',
+    'openai',
+    'opportunity',
+    'overview',
+    'pattern',
     'personal',
-    'phone',
-    'physical',
-    'pii',
-    'platform',
     'policy',
     'practice',
-    'prints',
     'privacy',
-    'product',
+    'problem',
+    'professor',
     'program',
+    'project',
     'prompt',
-    'protect',
+    'proposal',
     'protection',
-    'provost',
-    'public',
-    'quality',
-    'quiz',
+    'quizzes',
     'record',
-    'regulate',
-    'requirement',
     'research',
-    'researcher',
     'resource',
-    'restrict',
+    'retention',
     'review',
     'risk',
-    'room',
-    'scan',
+    'sanction',
     'school',
-    'secure',
+    'science',
     'security',
-    'sensitivity',
-    'session',
-    'skill',
-    'software',
-    'step',
-    'strongly',
+    'seed',
+    'senate',
+    'solution',
+    'solve',
+    'space',
+    'statement',
+    'strategy',
     'student',
-    'style',
-    'success',
+    'syllabus',
+    'symposium',
     'system',
     'teach',
+    'team',
     'technology',
-    'telehealth',
-    'tls',
     'tool',
-    'transmit',
-    'unacceptable',
-    'unauthorized',
+    'topic',
+    'training',
+    'transparency',
+    'uit',
     'university',
-    'usiness',
-    'verify',
-    'violation',
-    'virtual',
+    'usage',
     'workshop',
+    'world',
     'write',
-    'zoom'
-
+    'writers'
 ]
 
 ### load data #################################################################
 
-lemmatized_data_fname = f'out{os.sep}_raw_lower_rgx_entity_stemmed_stopped_long_freq0.txt'
+lemmatized_data_fname = BASE_DIR / 'out' / '_raw_lower_rgx_entity_stemmed_stopped_long_freq0.txt'
 lemmatized_data = pd.read_csv(lemmatized_data_fname, header=None, skip_blank_lines=False)
 logger.info(f'Loaded: {lemmatized_data_fname}.')
 logger.info(lemmatized_data.head())
 
-chunks_fname = f'dat{os.sep}chunk{os.sep}existing_policy_combined.csv'
+chunks_fname = BASE_DIR / 'dat' / 'chunk' / 'nongwu_policy_combined.csv'
 chunk_data = pd.read_csv(chunks_fname)
 logger.info(f'Loaded: {chunks_fname}.')
 logger.info(chunk_data.head())
@@ -237,7 +255,7 @@ for i in range(0, chunk_data.shape[0]):
 
 ### save output data ##########################################################
 
-chunk_data_fname = f'dat{os.sep}existing_policy_keyword.csv'
+chunk_data_fname = BASE_DIR / 'dat' / 'nongwu_policy_keyword.csv'
 chunk_data.to_csv(chunk_data_fname, index=False)
 logger.info(f'Saved: {chunk_data_fname}.')
 
@@ -258,6 +276,6 @@ wordcloud = WordCloud(
 ).generate(wc_text)
 
 # save to file
-wc_fname = f'out{os.sep}res{os.sep}existing_policy_key_word_cloud_hi_4k.png'
+wc_fname = f'out{os.sep}res{os.sep}nongwu_policy_key_word_cloud_hi_4k.png'
 wordcloud.to_file(wc_fname)
 logger.info(f'Saved: {wc_fname}.')

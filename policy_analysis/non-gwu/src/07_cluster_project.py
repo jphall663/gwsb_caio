@@ -1,4 +1,4 @@
-# Copyright (c) 2025 ph@hallresearch.ai
+# Copyright (c) 2025-2026 Patrick Hall, jphall@gwu.edu
 # SPDX-License-Identifier: MIT
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -19,11 +19,30 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+# Python 3.10
+# (.venv) patrickh@patrickh-lambda-workstation:~/Workspace/gwsb_caio/policy_analysis/non-gwu$ 
+# /home/patrickh/Workspace/gwsb_caio/.venv/bin/python 
+# /home/patrickh/Workspace/gwsb_caio/policy_analysis/non-gwu/src/07_cluster_project.py
+
 ### imports and configs #######################################################
 
 from collections import Counter
 
-from logging_utils import get_logger
+from pathlib import Path
+import sys
+
+def _ensure_repo_root() -> None:
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        if (parent / "shared").is_dir():
+            root = str(parent)
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return
+
+_ensure_repo_root()
+
+from shared.logging_utils import get_logger
 logger = get_logger(__name__)
 
 import matplotlib.cm as cm
@@ -43,6 +62,7 @@ warnings.simplefilter(action="ignore", category=MatplotlibDeprecationWarning)
 from wordcloud import WordCloud
 
 embedding_p = 1536
+BASE_DIR = Path(__file__).resolve().parent.parent
 
 tic = time.time()
 
@@ -54,7 +74,7 @@ logger.info(f'Loading data ...')
 embedding_names = ['dim_' + str(i) for i in range(0, embedding_p)]
 valid_cols = ['Type', 'ID', 'Keywords'] + embedding_names
 
-all_fname = f'dat{os.sep}existing_policy_keyword_embed.csv'
+all_fname = BASE_DIR / 'dat' / 'gwu_nongwu_policy_keyword_embed_simple_label.csv'
 all_ = pd.read_csv(all_fname)
 logger.info(f'Loaded: {all_fname}.')
 
@@ -107,7 +127,7 @@ all_['UMAP_D1'] = X_2d[:, 0]
 all_['UMAP_D2'] = X_2d[:, 1]
 
 # save umap results
-umap_fname = f'dat{os.sep}existing_policy_keyword_embed_umap.csv'
+umap_fname = BASE_DIR / 'dat' / 'gwu_nongwu_policy_keyword_embed_umap.csv'
 all_.to_csv(umap_fname, index=False)
 logger.info(f'Saved: {umap_fname}.')
 
@@ -118,28 +138,23 @@ logger.info('Plotting ...')
 
 # nice names
 legend_dict = {
-    'Acceptable Use of IT Resources Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'Acceptable Use (OECR)',
-    'additional_guidance_for_generative_ai_-_august_2023': 'Provost 2',
-    'AI Guidance and Best Practices _ GW Information Technology _ The George Washington University': 'AI Guidance and Best Pratice (IT)',
-    'Artificial Intelligence (AI) Evaluation & Status _ GW Information Technology _ The George Washington University': 'Tool Evaluation (IT)',
-    'Communicating Your GenAI Expectations to Your Students _ Libraries & Academic Innovation': 'Communicating Expecations (Libraries)',
-    'Cybersecurity Risk Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'Cybersecurity Risk (OECR)',
-    'Data Classification Guide _ GW Information Technology _ The George Washington University': 'Data Classification (IT)',
-    'Data Protection Guide _ GW Information Technology _ The George Washington University': 'Data Protection (IT)',
-    'Deciding on Appropriate Use of GenAI in Academic Classes _ Libraries & Academic Innovation': 'Deciding on Use (Libraries)',
-    'Explore Tools & Services _ GW Information Technology _ The George Washington University': 'Approved Tools (IT)',
-    'Generative Artificial Intelligence (GenAI) _ Libraries & Academic Innovation': 'Generative AI (Libraries)',
-    'generative-artificial-intelligence-guidelines-april-2023': 'Provost 1', 
-    'Identity and Access Management Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'IAM (OECR)',
-    'Privacy Considerations when using Virtual Meeting and Collaboration Platforms _ GW Privacy Office _ The George Washington University': 'Privacy Guidance: Meetings',
-    'Privacy Guidance for use of Artificial Intelligence _ GW Privacy Office _ The George Washington University': 'Privacy Guidance',
-    'Teaching with Generative AI _ Libraries & Academic Innovation': 'Teaching with Gen AI (Libraries)'
+
+    'GRC': 'MISC: Governance, Risk & Compliance',
+    'GWU_DP': 'GWU: Data Protection',
+    'TG': 'MISC: AI Tools & Guidelines',
+    'GWU_OCR': 'GWU: Office of Ethics, Compliance & Risk', 
+    'GWU_LAI': 'GWU Libraries: Teaching AI',
+    'GWU_Provost': 'GWU: Provost Guidance',
+    'NONGWU_HC': 'NON-GWU-MISC: Honor Code and Conduct',
+    'NONGWU_T': 'NON-GWU-MISC: Teaching AI',
+    'MIT_T': 'MIT: Teaching Guidance'
+
 }
 all_['Type'] = all_['Type'].map(legend_dict)
 
 # init plotting
 clusters = all_['Type'].unique()
-colors = cm.get_cmap("Set2", len(clusters))  # Set2 palette
+colors = cm.get_cmap("tab10", len(clusters))  # Set2 palette
 centroids = {}
 fig, ax = plt.subplots(figsize=(20, 16))
 profile_dict = {}
@@ -183,7 +198,6 @@ for _, cl in enumerate(clusters):
         bbox=dict(boxstyle='round,pad=0.25', fc='white', ec='gray', alpha=0.85)
     )
 
-
 # remove ticks, values, and surrounding box
 ax.set_xticks([]); ax.set_yticks([])
 ax.set_xticklabels([]); ax.set_yticklabels([])
@@ -194,7 +208,7 @@ ax.set_ylabel('')
 ax.legend(title='', loc='best', fontsize=20)
 
 # title
-ax.set_title('Visual Map of GWU AI Policies', fontsize=25)
+ax.set_title('Visual Map of AI Policies', fontsize=25)
 
 # save
 plt.tight_layout()
@@ -208,66 +222,57 @@ logger.info(f'Saved: {plot_fname}.')
 logger.info('----------- -----------')
 logger.info('Profiling and saving results ...')
 
-### understand what is in each large cluster, but not in sn
+### understand what is in each large cluster, but not in gwu
 
-legend_dict = {
-    'Acceptable Use of IT Resources Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'Acceptable Use (OECR)',
-    'additional_guidance_for_generative_ai_-_august_2023': 'Provost 2',
-    'AI Guidance and Best Practices _ GW Information Technology _ The George Washington University': 'AI Guidance and Best Pratice (IT)',
-    'Artificial Intelligence (AI) Evaluation & Status _ GW Information Technology _ The George Washington University': 'Tool Evaluation (IT)',
-    'Communicating Your GenAI Expectations to Your Students _ Libraries & Academic Innovation': 'Communicating Expecations (Libraries)',
-    'Cybersecurity Risk Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'Cybersecurity Risk (OECR)',
-    'Data Classification Guide _ GW Information Technology _ The George Washington University': 'Data Classification (IT)',
-    'Data Protection Guide _ GW Information Technology _ The George Washington University': 'Data Protection (IT)',
-    'Deciding on Appropriate Use of GenAI in Academic Classes _ Libraries & Academic Innovation': 'Deciding on Use (Libraries)',
-    'Explore Tools & Services _ GW Information Technology _ The George Washington University': 'Approved Tools (IT)',
-    'Generative Artificial Intelligence (GenAI) _ Libraries & Academic Innovation': 'Generative AI (Libraries)',
-    'generative-artificial-intelligence-guidelines-april-2023': 'Provost 1', 
-    'Identity and Access Management Policy _ Office of Ethics, Compliance, and Risk _ The George Washington University': 'IAM (OECR)',
-    'Privacy Considerations when using Virtual Meeting and Collaboration Platforms _ GW Privacy Office _ The George Washington University': 'Privacy Guidance: Meetings',
-    'Privacy Guidance for use of Artificial Intelligence _ GW Privacy Office _ The George Washington University': 'Privacy Guidance',
-    'Teaching with Generative AI _ Libraries & Academic Innovation': 'Teaching with Gen AI (Libraries)'
-}
+#oercs_list = []
+grc_list = []
+gwu_dp_list = []
+tg_list = []
+gwu_ocr_list = []
+gwu_lai_list = []
+gwu_provost_list = []
+nongwu_hc_list = []
+nongwu_t_list = []
+mit_t_list = []
 
-
-
-
-provost_list = profile_dict['Provost 1']['cl_non_unique_keyword_list'] +\
-               profile_dict['Provost 2']['cl_non_unique_keyword_list'] 
-provost_set = set(provost_list)
-
-libraries_list = profile_dict['Communicating Expecations (Libraries)']['cl_non_unique_keyword_list'] + \
-                 profile_dict['Deciding on Use (Libraries)']['cl_non_unique_keyword_list'] +\
-                 profile_dict['Teaching with Gen AI (Libraries)']['cl_non_unique_keyword_list'] +\
-                 profile_dict['Generative AI (Libraries)']['cl_non_unique_keyword_list']
-libraries_set = set(libraries_list)
-
-eval_approved_list = profile_dict['Tool Evaluation (IT)']['cl_non_unique_keyword_list'] + \
-                     profile_dict['Approved Tools (IT)']['cl_non_unique_keyword_list']
-eval_approved_set = set(eval_approved_list)
-
-guidance_list = profile_dict['AI Guidance and Best Pratice (IT)']['cl_non_unique_keyword_list'] + \
-                profile_dict['Privacy Guidance']['cl_non_unique_keyword_list']
-guidance_set = set(guidance_list)
-
-data_list = profile_dict['Data Classification (IT)']['cl_non_unique_keyword_list'] + \
-            profile_dict['Data Protection (IT)']['cl_non_unique_keyword_list']
-data_set = set(data_list)
-
-oecr_list = profile_dict['Acceptable Use (OECR)']['cl_non_unique_keyword_list'] + \
-            profile_dict['Cybersecurity Risk (OECR)']['cl_non_unique_keyword_list'] +\
-            profile_dict['IAM (OECR)']['cl_non_unique_keyword_list']
-oecr_set = set(oecr_list)
-
-meetings_list = profile_dict['Privacy Guidance: Meetings']['cl_non_unique_keyword_list']
-meetings_set = set(meetings_list)
+for key in profile_dict.keys():
+    #if key == 'Berkeley: AI Risk Subcommittee':
+    #    oercs_list += profile_dict[key]['cl_non_unique_keyword_list']
+    if key == 'MISC: Governance, Risk & Compliance':
+        grc_list += profile_dict[key]['cl_non_unique_keyword_list']
+    elif key == 'GWU: Data Protection':
+        gwu_dp_list += profile_dict[key]['cl_non_unique_keyword_list']
+    elif key == 'MISC: AI Tools & Guidelines':
+        tg_list += profile_dict[key]['cl_non_unique_keyword_list']
+    elif key == 'GWU: Office of Ethics, Compliance & Risk':
+        gwu_ocr_list += profile_dict[key]['cl_non_unique_keyword_list']
+    elif key == 'GWU Libraries: Teaching AI':
+        gwu_lai_list += profile_dict[key]['cl_non_unique_keyword_list']
+    elif key == 'GWU: Provost Guidance':
+        gwu_provost_list += profile_dict[key]['cl_non_unique_keyword_list']
+    elif key == 'NON-GWU-MISC: Honor Code and Conduct':
+        nongwu_hc_list += profile_dict[key]['cl_non_unique_keyword_list']
+    elif key == 'NON-GWU-MISC: Teaching AI': 
+        nongwu_t_list += profile_dict[key]['cl_non_unique_keyword_list']
+    elif key == 'MIT: Teaching Guidance':
+        mit_t_list += profile_dict[key]['cl_non_unique_keyword_list']
+        
+#oercs_set = set(oercs_list)
+grc_set = set(grc_list)
+gwu_dp_set = set(gwu_dp_list)
+tg_set = set(tg_list)
+gwu_ocr_set = set(gwu_ocr_list)
+gwu_lai_set = set(gwu_lai_list)
+gwu_provost_set = set(gwu_provost_list)
+nongwu_hc_set = set(nongwu_hc_list)
+nongwu_t_set = set(nongwu_t_list)
+mit_t_set = set(mit_t_list)
 
 ### create count list, convert each to csv, and save
 ### create word clouds
 
-prefix_list = ['provost', 'libraries', 'eval_approved', 'guidance', 'data', 'oecr', 'meetings']
-list_list = [provost_list, libraries_list, eval_approved_list, guidance_list, data_list, oecr_list, meetings_list]
-
+prefix_list = ['grc', 'gwu_dp', 'tg', 'gwu_ocr', 'gwu_lai', 'gwu_provost', 'nongwu_hc', 'nongwu_t', 'mit_t']
+list_list = [grc_list, gwu_dp_list, tg_list, gwu_ocr_list, gwu_lai_list, gwu_provost_list, nongwu_hc_list, nongwu_t_list, mit_t_list]
 for i, list_ in enumerate(list_list):
 
     logger.info(f'Generating {prefix_list[i]} count list ...')
@@ -296,7 +301,6 @@ for i, list_ in enumerate(list_list):
     wc_fname = f'out{os.sep}res{os.sep}{prefix_list[i]}_unique_key_word_cloud_hi_4k.png'
     wordcloud.to_file(wc_fname)
     logger.info(f'Saved: {wc_fname}.')
-
 
 # end timer
 toc = time.time() - tic

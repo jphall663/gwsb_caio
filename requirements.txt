@@ -9,6 +9,7 @@ pdfminer.six
 PyPDF2
 python-docx
 scikit-learn
+six
 textract
 tika
 tiktoken
