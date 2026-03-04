@@ -1,0 +1,255 @@
+% TODO: office docs in co-pilot
+
+%========================================
+% Beamer "Singapore" Theme Template
+%========================================
+\documentclass[aspectratio=169]{beamer}
+
+% THEME
+\usetheme{Singapore}
+
+% COLORS & FONTS
+\definecolor{brand}{RGB}{45,110,191}
+\definecolor{accent}{RGB}{5,155,192}
+\definecolor{hrgray}{RGB}{100,100,100}
+\setbeamercolor{structure}{fg=brand}
+\setbeamercolor{title}{fg=hrgray}
+\setbeamercolor{subtitle}{fg=brand}
+\setbeamercolor{author}{fg=hrgray}
+\setbeamercolor{date}{fg=hrgray}
+\setbeamercolor{frametitle}{fg=hrgray}
+\setbeamercolor{block title}{fg=white,bg=brand}
+\setbeamercolor{block body}{bg=black!2}
+\usepackage{lmodern}
+\usefonttheme{professionalfonts}
+
+\usepackage{comment}
+\usepackage{etoolbox}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{xcolor}
+
+\setbeamertemplate{navigation symbols}{}
+
+\setbeamertemplate{footline}{
+  \leavevmode
+  \hbox{
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=3ex,dp=1ex,left]{author in head/foot}
+      \hspace{0.8ex}{\includegraphics[height=0.5cm]{img/logo.png}}
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=3ex,dp=1ex,right]{date in head/foot}
+      \insertframenumber{} / \inserttotalframenumber\hspace{2ex}
+    \end{beamercolorbox}%
+  }
+  \vskip0pt
+}
+
+% METADATA
+\title[Short Title]{\bfseries{Human-AI Teaming Seminar 2}}
+\subtitle{Chain-of-Thought Document Analysis Exercise with Spot-Checking}
+\author[Patrick Hall]{\textbf{Patrick Hall}}
+\institute{George Washington School of Business}
+\date{\today}
+
+% handle URLs/links
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}
+\urlstyle{same}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=[rgb]{0.0196, 0.6078, 0.7529},
+    linkcolor=[rgb]{0.17647, 0.388, 0.749},
+    citecolor=[rgb]{0.0196, 0.6078, 0.7529}
+}
+
+% Chicago citations and bibliography
+\setbeamertemplate{bibliography item}[text]
+\usepackage[authordate]{biblatex-chicago}
+\setbeamertemplate{frametitle continuation}{}
+\addbibresource{references.bib}
+\setlength{\bibitemsep}{0.5\baselineskip}
+\AtBeginBibliography{\scriptsize}
+\renewcommand\UrlFont{\sffamily}
+
+\begin{document}
+
+%-------------------------
+\begin{frame}
+
+  \titlepage
+  \begin{tikzpicture}[remember picture,overlay]
+    \node[opacity=0.1] at (current page.center)
+      {\includegraphics[width=0.55\paperwidth]{img/logo.png}};
+  \end{tikzpicture}
+  \centering\footnotesize{\color{hrgray}{\textcopyright~2025-26 Patrick Hall (jphall@gwu.edu). Some rights reserved.\\Text and copy are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).}}
+
+\end{frame}
+
+%-------------------------
+\begin{frame}{Agenda}\small
+
+  This tutorial outlines a systematic workflow for extracting, verifying, and transforming document data into various educational and technical formats using an AI collaborator.\\
+  \vspace{10pt}
+  \tableofcontents
+  \vspace{10pt}
+  \textbf{Prerequisites:} A \textit{public} paper or document you have been meaning to read, access to Copilot or Gemini \href{https://tinyurl.com/3zvh5b47}{chatbots} through GW, free \href{https://www.overleaf.com/}{Overleaf} account or your favorite LaTeX Editor, Google Colab and \href{https://drive.google.com}{Drive} through GW, and free access to \href{https://mermaid.ai/}{Mermaid} charts.   
+  
+\end{frame}
+
+% =========================
+% #### Extraction & Verification (SECTION)
+% =========================
+\section{Extraction \& Verification}
+
+\begin{frame}{1. Raw Triplet Extraction}
+\begin{itemize}
+  \item \textbf{Goal:} Quickly preprocess raw text data and ensure the AI remains grounded in the actual text.
+  \item \textbf{Prompt:} \texttt{Hi, please read the attached document. Then extract 50 entity-attribute-relationship triplets from the attached document, each representing a key sentence or phrase. Please present the triplets in the order the sentences or phrases occur in the text. Present the triplets with a sequence number but without headings or classifications.}
+  \item \textbf{Note:} Do not mention the name or specific topic of the document to help ensure the extraction is based on your document, not scraped training data.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{2. Spot-Check Accuracy}
+\begin{itemize}
+  \item \textbf{Goal:} Verify that the triplets are not hallucinations by linking them back to source sentences.
+  \item \textbf{Prompts:}
+    \begin{itemize}
+      \item \texttt{Thanks. Now I would like to check that these triplets accurately reflect the document. Please state the sentence or phrase from the document that the first triplet represents.}
+      \item \texttt{Thanks. Please state the sentence or phrase from the document that the 25th triplet represents.}
+      \item \texttt{Thanks. Please state the sentence or phrase from the document that the last triplet represents.}
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% =========================
+% #### Thematic Organization (SECTION)
+% =========================
+\section{Thematic Organization}
+
+\begin{frame}{3. Thematic Clustering}
+\begin{itemize}
+  \item \textbf{Goal:} Move from a sequential list to a structured overview.
+  \item \textbf{Prompt:} \texttt{Thanks. Now please perform a thematic clustering of the triplets. Present the cluster labels and the triplets that represent each cluster. Print each triplet with its original sequence number. Print the total number of triplets in each cluster.}
+  \item \textbf{Check:}
+    \begin{itemize}
+      \item Ensure triplets link back to their original sequence number.
+      \item Verify cluster subtotals, and confirm a total of 50 triplets.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{4. Natural Language Conversion}
+\begin{itemize}
+  \item \textbf{Goal:} Transform abbreviated triplets into readable summary notes.
+  \item \textbf{Prompt:} \texttt{Thanks. Now reprint the cluster labels and the triplets, but please convert the triplets into plain English bullets or short sentences. Preserve the total number of bullets and the number in each cluster from the thematic clustering. Print the original sequence number of the triplet at the end of each bullet.}
+  \item \textbf{Check:}
+    \begin{itemize}
+      \item Ensure bullets link back to their original sequence number.
+      \item Verify cluster subtotals, and confirm a total of 50 bullets.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% =========================
+% #### Exporting to Technical Formats (SECTION)
+% =========================
+\section{Exporting to Technical Formats}
+
+\begin{frame}{5. LaTeX Beamer Slide Deck}
+\begin{itemize}
+  \item \textbf{Goal:} Use the structured data to generate a presentation asset.
+  \item \textbf{Prompt:} \texttt{Thanks. Now, please generate a short LaTeX Beamer slide deck from the cluster labels and the bullets. The cluster labels should become section headers and slide titles. Please preserve the numbering of the bullets, and ensure each cluster is represented in the slide deck and that the deck contains the correct total number of bullets.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{6. HTML Web Page}
+\begin{itemize}
+  \item \textbf{Goal:} Use the structured data to generate a basic web asset.
+  \item \textbf{Prompt:} \texttt{Thanks. Now, please generate a basic HTML page from the cluster labels and the bullets. The cluster labels should become section headers. Please preserve the numbering of the bullets, and ensure each cluster is represented in the page and that the page contains the correct total number of bullets.}
+  \item \textbf{Check:}
+    \begin{itemize}
+      \item Ensure bullets link back to their original sequence number.
+      \item Verify cluster subtotals, and confirm a total of 50 bullets.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+% =========================
+% #### Assessment (SECTION)
+% =========================
+\section{Assessment}
+
+\begin{frame}{7. Question Generation}
+\begin{itemize}
+  \item \textbf{Goal:} Create 50 short-answer questions from the entity and relationship aspects of the triplets.
+  \item \textbf{Prompt:} \texttt{Thanks, now please use the entity and relationship aspects of the triplets to create 50 short answer questions. Please print the questions with their cluster labels. Preserve the total number of bullets and the number in each cluster from the thematic clustering. Print the original sequence number of the triplet at the end of each question.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{8. Creating the Answer Key}
+\begin{itemize}
+  \item \textbf{Goal:} Print each question with its corresponding answer bullet using the previously created summary bullets to create question/answer pairs.
+  \item \textbf{Prompt:} \texttt{Thanks, now please print each question with its corresponding answer bullet using the previously created summary bullets to create question/answer pairs. Preserve the total number of questions and answers and the number of pairs in each cluster from the thematic clustering. Print the original sequence number of the triplet at the end of each answer.}
+  \item \textbf{Check:}
+    \begin{itemize}
+      \item Ensure Q\&A pairs match one another and link back to their original sequence number.
+      \item Verify cluster subtotals, and confirm a total of 50 Q\&A pairs.
+    \end{itemize}
+  \item \textbf{Hint}: You now also have a benchmark dataset for assessing the capability of an LLM to answer questions about your document.
+\end{itemize}
+\end{frame}
+
+% =========================
+% #### Interactive Visualization (SECTION)
+% =========================
+\section{Interactive Visualization}
+
+\begin{frame}{9. Python Word Cloud (Colab)}
+\begin{itemize}
+  \item \textbf{Goal:} Generate straightforward Colab code to print a word cloud of the original 50 triplets.
+  \item \textbf{Prompt:} \texttt{Thanks, now please show me the most straightforward Python code I can use in a Colab notebook to print a word cloud of the original 50 triplets. Please include all 50 triplets as a Python list of lists in the generated example code. Include the original sequence number as a comment after each individual list. Please include any necessary !pip install statements at the beginning of the code example.}
+  \item \textbf{Check:}
+    \begin{itemize}
+      \item Confirm triplets in Python match original triplets.
+      \item Test the Python code.
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{10. Mermaid Knowledge Graph}
+\begin{itemize}
+  \item \textbf{Goal:} Use the first cluster of triplets to create a knowledge graph in Mermaid. 
+  \item \textbf{Prompt:} \texttt{Thanks, now please use the first cluster of triplets to create a knowledge graph in Mermaid. Please print the text that defines the Mermaid graph, and then separately provide instructions for how to view and download it. Retain the cluster label as the graph title and sequence number of the triplets as comments in Mermaid.}
+  \item \textbf{Check:} Confirm Mermaid triplets match the original first cluster triplets.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{11. Visual Integration (Image Handling)}
+\begin{itemize}
+  \item \textbf{Goal:} Use generated code snippets to integrate images into LaTeX and HTML documents. 
+  \item \textbf{Prompts:}
+    \begin{itemize}
+      \item \texttt{What is the easiest way to display a static image from the Colab notebook or Mermaid into the LaTeX generated earlier?}
+      \item \texttt{What is the easiest way to display a static image from the Colab notebook or Mermaid into the HTML generated earlier?}    
+    \end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Discussion}
+
+\begin{frame}{Discussion}
+\begin{itemize}
+  \item \textbf{Application:} Where in your teaching, research, or service work could this workflow help you extract, verify, and repurpose information from documents?
+  \item \textbf{Grounding \& Trust:} Which steps would you keep exactly as-is to reduce hallucinations? Which would you modify (and why)?
+  \item \textbf{Efficiency:} What parts of your current document workflow are slow, repetitive, or error-prone—and could be improved by triplet extraction, clustering, or format export?
+  \item \textbf{Assessment Design:} How might you adapt the question-generation and answer-key steps for your course (e.g., reading quizzes, discussion prompts, study guides)?
+  \item \textbf{Equity \& Integrity:} What guardrails would you add for student use (citation expectations, allowed tools, disclosure, verification)?
+  \item \textbf{New Ideas:} Does this workflow suggest other AI-assisted activities you could try (e.g., rubric generation, peer review checklists, literature mapping, concept inventories)?
+\end{itemize}
+\end{frame}
+
+
+
+\end{document}
