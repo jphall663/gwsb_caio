@@ -16,7 +16,6 @@ Scripts and data for building an AI-related faculty/staff inventory for the GW S
 5. `src/05_fac_join_inventory.py`
 6. `src/06_fac_summary_inventory.py`
 7. `src/07_fac_verify_inventory.py`
-8. `src/08_fac_driver_inventory.py`
 
 ## Notes
 - Some scripts expect `shared/` utilities at the repo root.
