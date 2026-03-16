@@ -93,7 +93,7 @@
     \node[opacity=0.1] at (current page.center)
       {\includegraphics[width=0.55\paperwidth]{img/logo.png}};
   \end{tikzpicture}
-  \centering\footnotesize{\color{hrgray}{\textcopyright~2025-2026 Patrick Hall (jphall@gwu.edu). Some rights reserved.\\Text and copy are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).}}
+  \centering\footnotesize{\color{hrgray}{\textcopyright~2025-26 Patrick Hall (jphall@gwu.edu). Some rights reserved.\\Text and copy are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).}}
 
 \end{frame}
 
@@ -104,7 +104,7 @@
   \vspace{10pt}
   \tableofcontents
   \vspace{10pt}
-  \textbf{Prerequisites:} A \textit{public} paper or document you have been meaning to read, access to Copilot or Gemini \href{https://tinyurl.com/3zvh5b47}{chatbots} through GW, free \href{https://www.overleaf.com/}{Overleaf} account or your favorite LaTeX Editor, Google Colab and \href{https://drive.google.com}{Drive} through GW, and free access to \href{https://mermaid.ai/}{Mermaid} charts.   
+  \textbf{Prerequisites:} A \textit{public} paper or document you have been meaning to read, access to Copilot or Gemini \href{https://tinyurl.com/3zvh5b47}{chatbots} through GW, free \href{https://www.overleaf.com/}{Overleaf} account or your favorite LaTeX Editor, Google Colab and NotebookLM through GW \href{https://drive.google.com}{Drive}, and free access to \href{https://mermaid.ai/}{Mermaid} charts.   
   
 \end{frame}
 
@@ -150,9 +150,9 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}{4. Natural Language Conversion}
+\begin{frame}{4. Natural Language Conversion}\label{slide:summary}
 \begin{itemize}
-  \item \textbf{Goal:} Transform abbreviated triplets into readable summary notes.
+  \item \textbf{Goal:} Transform abbreviated triplets into readable summary notes.\footnote{See Slide \ref{slide:rag} for additional information about drafting with citation.}
   \item \textbf{Prompt:} \texttt{Thanks. Now reprint the cluster labels and the triplets, but please convert the triplets into plain English bullets or short sentences. Preserve the total number of bullets and the number in each cluster from the thematic clustering. Print the original sequence number of the triplet at the end of each bullet.}
   \item \textbf{Check:}
     \begin{itemize}
@@ -213,9 +213,9 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}{9. Creating the Answer Key}
+\begin{frame}{9. Creating the Answer Key}\label{slide:q_a}
 \begin{itemize}
-  \item \textbf{Goal:} Print each question with its corresponding answer bullet using the previously created summary bullets to create question/answer pairs.
+  \item \textbf{Goal:} Print each question with its corresponding answer bullet using the previously created summary bullets to create question/answer pairs.\footnote{See Slide \ref{slide:rag} for additional information about generating questions from documents.}
   \item \textbf{Prompt:} \texttt{Thanks. Now please print each question with its corresponding answer bullet using the previously created summary bullets to create question/answer pairs. Preserve the total number of questions and answers and the number of pairs in each cluster from the thematic clustering. Print the original sequence number of the triplet at the end of each answer.}
   \item \textbf{Check:}
     \begin{itemize}
@@ -243,9 +243,9 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}{11. Mermaid Knowledge Graph}
+\begin{frame}{11. Mermaid Knowledge Graph}\label{slide:map}
 \begin{itemize}
-  \item \textbf{Goal:} Use the first cluster of triplets to create a knowledge graph in Mermaid. 
+  \item \textbf{Goal:} Use the first cluster of triplets to create a knowledge graph in Mermaid.\footnote{See Slide \ref{slide:rag} for additional information about creating knowledge maps from documents.} 
   \item \textbf{Prompt:} \texttt{Thanks. Now please use the first cluster of triplets to create a knowledge graph in Mermaid. Please print the text that defines the Mermaid graph, and then separately provide instructions for how to view and download it. Retain the cluster label as the graph title and sequence number of the triplets as comments in Mermaid.}
   \item \textbf{Check:} Confirm Mermaid triplets match the original first cluster triplets.
 \end{itemize}
@@ -262,6 +262,41 @@
   \item \textbf{Hint:} Copy and paste the visuals into Office documents.
 \end{itemize}
 \end{frame}
+
+%================================================
+\section{RAG \& NotebookLM}
+
+\begin{frame}[t]{Retrieval-augmented Generation (RAG) with \href{https://notebooklm.google.com/}{Google NotebookLM}}\label{slide:rag}
+
+\begin{columns}[t]
+    \column{0.4\textwidth}\small
+    \noindent \textbf{About NotebookLM:}
+    \begin{itemize}
+        \item Popular prepackaged RAG system.
+        \item Enables chat and search with \textit{citation of documents you select.} 
+        \item Useful for:
+        \begin{itemize}
+            \item Document search and querying. 
+            \item Drafting text with citation.
+            \item Researching specialized topics. 
+        \end{itemize}    
+    \end{itemize}
+
+    \column{0.6\textwidth}\small
+    \noindent \textbf{NotebookLM activities:} 
+    \begin{itemize}
+    \item Access a NotebookLM \href{https://notebooklm.google.com/}{session}.
+    \item Load the document you used above.
+    \item Use built-in functions to create a quiz and mind map, similar to Slides \ref{slide:q_a} and \ref{slide:map} above.
+    \item Use built-in functionality to summarize the document with citation, similar to Slide \ref{slide:summary}.
+    \item \textbf{Search:} Search the document for specific information and confirm its location in the document.
+    \item \textbf{Map:} Add another document you know well and ask for a mapping between the two sources.
+    \end{itemize}
+
+\end{columns}
+
+\end{frame}
+
 
 \section{Discussion}
 
