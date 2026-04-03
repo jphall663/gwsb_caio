@@ -16,7 +16,7 @@
 ### Internal Links
 GWSB faculty and staff may request access via GW Google drive.
 * [GW AI Policy NotebookLM](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) 
-* [(Draft) GWSB AI Inventory](https://docs.google.com/spreadsheets/d/1OF3-8wbYNE3Pcvbuyq9M5To_lmXY2sQwRlvZhkqn7lU/edit?usp=sharing) (Version 0.4, updated March 10, 2026)
+* [(Draft) GWSB AI Inventory](https://docs.google.com/spreadsheets/d/1OF3-8wbYNE3Pcvbuyq9M5To_lmXY2sQwRlvZhkqn7lU/edit?usp=sharing) (Version 0.5, updated April 3, 2026)
 
 ## Code
 * [Policy Analysis](https://github.com/jphall663/gwsb_caio/tree/main/policy_analysis/README.md)
