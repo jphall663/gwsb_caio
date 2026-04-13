@@ -1,0 +1,19 @@
+Hi Gemini. Are you familiar with the topic of AI-assisted teamwork in student groups?
+
+Here's my current thinking. 
+
+I need students to use AI: 
+- To be ready for the workforce.
+- To produce stunning outputs for their portfolios in a difficult job market.
+
+However, I worry:
+- Students overrely on AI systems.
+- Don't really understand the products they create with AI. 
+- That AI leads to greater isolation and teamwork stress. 
+
+I currently focus on: 
+- The use of chatbots and coding agents to create product prototypes and pitch decks. 
+- I am considering using AI to more closely monitoring group interactions, such as using it to summarize chat channels and video calls. 
+
+
+
