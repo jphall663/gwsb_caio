@@ -51,6 +51,7 @@
   \hbox{
     % LEFT: logo
     \begin{beamercolorbox}[wd=.5\paperwidth,ht=3ex,dp=1ex,left]{author in head/foot}
+      %\hspace{0.8ex}\raisebox{-0.2ex}{\includegraphics[height=0.8cm]{logo.png}} % hr branding
       \hspace{0.8ex}{\includegraphics[height=0.5cm]{gw_logo.png}} % gwu branding
     \end{beamercolorbox}%
     % RIGHT: page number
@@ -67,6 +68,7 @@
 \subtitle{Comparative Analysis and Actionable Takeaways\\(Draft for Comment)}
 %\subtitle{AI Measurement in the Real World}
 \author[Your Name]{\textbf{Patrick Hall}}
+%\institute{\href{https://www.hallresearch.ai}{HallResearch.ai}}
 \institute{jphall@gwu.edu}
 \date{\today}
 
@@ -96,6 +98,7 @@
   % Title slide with centered, semi-transparent PDF watermark
   \begin{tikzpicture}[remember picture,overlay]
     \node[opacity=0.1] at (current page.center)
+      %{\includegraphics[width=0.65\paperwidth]{hrwater.png}}; % hr branding
       {\includegraphics[width=0.55\paperwidth]{gw_logo.png}}; %gwu brnading 
       % try width=0.9\paperwidth or height=0.6\paperheight to taste
   \end{tikzpicture}
@@ -117,7 +120,7 @@
         \begin{itemize}
             \item \href{https://tinyurl.com/3zvh5b47}{AI Tools and Services (Approved Tools List)}.
             \item \href{https://it.gwu.edu/data-classification-guide}{Data Classification Guidelines}.
-            \item \href{https://library.gwu.edu/generative-ai}{Generative Artificial Intelligence (GW Libraries)}
+            \item \href{https://library.gwu.edu/generative-ai}{Generative Artificial Intelligence (GW Libraries)}.
         \end{itemize}
         \item GW and external resources provide models for forthcoming GWSB \href{https://ai.universityofcalifornia.edu/governance-transparency/}{principles}, \href{https://students.business.columbia.edu/office-of-student-affairs/academic-advising-and-student-success/academic-integrity/generative-ai-policy}{policies}, \href{https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf}{syllabus statements}, or \href{https://sites.google.com/view/aiassignments}{toolkits}.
         \item GWSB-specific policies may need to fill in gaps related to approved tools, policy adherence and enforcement (e.g., AI-specific oversight, honor codes), responsible AI and AI safety, and clarify guidance for researchers. 
@@ -305,6 +308,11 @@ Privacy Office
 \begin{itemize}
     \item \href{https://privacy.gwu.edu/privacy-guidance-use-artificial-intelligence}{Privacy Guidance for Use of AI}
     \item \href{https://privacy.gwu.edu/privacy-considerations-when-using-virtual-meeting-and-collaboration-platforms}{Privacy Considerations for Virtual Platforms}
+\end{itemize}
+
+School of Medical and Health Sciences
+\begin{itemize}
+    \item \href{https://smhs.gwu.edu/academics/md-program/current-students/policies/ai-use-guidelines}{Guidelines for the Use of Artificial Intelligence (AI) for the MD Program}
 \end{itemize}
 
 \end{columns}
