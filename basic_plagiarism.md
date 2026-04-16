@@ -16,7 +16,7 @@
 * GW Libraries [Teaching with Generative AI](https://library.gwu.edu/teaching-generative-ai) guidance suggests avoidance of AI detection tools. [Additional GenAI Guidance (PDF)](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) from the Provost suggests we use our "human skills" to protect against plagiarism and cheating. 
 * Strategies you might employ: 
   * Ask the student to explain the work.
-  * Look for hallucinated citations.
+  * Look for hallucinated citations or chatbot artifacts in submitted work, e.g., `Sure I can help with that, ...`
   * Compare the assignment in question to the student's past work or other students' work. 
   * Ask a [GW-approved](https://it.gwu.edu/explore-tools-services#tools-tab-3-name) chatbot to do the assignment and compare the output to the student's output.
   * Review with SafeAssign. 
