@@ -10,13 +10,17 @@
 ## Links
 * [Basic Guidance on Plagiarism](basic_plagiarism.md)
 * [Basic Tool Guidance](basic_tool.md)
-* [Draft Responsible AI Use Policy Form](https://business.gwu.edu/artificial-intelligence-in-action/ai-use-policies-feedback)
-  * [Draft Responsible AI Use Policy](Responsible_AI_Use_Policy_(Draft)_v1.1.pdf)
 * [GWSB AI Forum Sign Up](https://forms.gle/Qf67V5SF461fsrHp6)
 * [GWSB *AI in Action Award*](gwsb_ai_in_action_prize.md)
+  
+### Responsible Use Policy
+* [Draft Responsible AI Use Policy Form](https://business.gwu.edu/artificial-intelligence-in-action/ai-use-policies-feedback)
+  * [Draft Responsible AI Use Policy](Responsible_AI_Use_Policy_(Draft)_v1.1.pdf)
 
 ### Internal Links
 GWSB faculty and staff may request access via GW Google drive.
+* [Basic AI Usage Seminar Video](https://drive.google.com/file/d/1GO8j0vYhAtSYf8jikvKm9pyK93n_B5tA/view?usp=sharing)
+* [Basic Document Analysis Seminar](https://drive.google.com/file/d/1EyWq-TBI0Xm3H6EKCfxyWqo9LNlxeuDD/view?usp=sharing)
 * [GW AI Policy NotebookLM](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) 
 * [(Draft) GWSB AI Inventory](https://docs.google.com/spreadsheets/d/1OF3-8wbYNE3Pcvbuyq9M5To_lmXY2sQwRlvZhkqn7lU/edit?usp=sharing) (Version 0.5, updated April 3, 2026)
 
