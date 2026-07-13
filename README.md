@@ -19,9 +19,19 @@
 
 ### Internal Links
 GWSB faculty and staff may request access via GW Google drive.
+
+#### Trainings
 * [Basic AI Usage Seminar Video](https://drive.google.com/file/d/1GO8j0vYhAtSYf8jikvKm9pyK93n_B5tA/view?usp=sharing)
 * [Basic Document Analysis Seminar](https://drive.google.com/file/d/1EyWq-TBI0Xm3H6EKCfxyWqo9LNlxeuDD/view?usp=sharing)
+
+#### Policy Development
+* [(Draft) Guidelines on the Responsible Use of Artificial Intelligence](https://docs.google.com/document/d/1DYW1FMzNG8LPQtrASKDi89FZR-MB-KX3rnegeluafZA/) (v1.1, draft for public comment)
+  * [Parsed Public Comments on v1.1](https://docs.google.com/spreadsheets/d/1xX74EGWobFr2S4C0BMStnjdn0yRFOnXU/)
+* [(Draft) Guidelines on the Responsible Use of Artificial Intelligence](https://docs.google.com/document/d/19fN9YL4RZ0Kxskwvk2Hm1YvDnKFsM5Vc13D-LTJOxd0) (v2.0, incorporation of public comments)
+* [(Draft) Guidelines on the Responsible Use of Artificial Intelligence](https://docs.google.com/document/d/1ueULuhmvoCt8A3k0GpafHkDjuglLRHe10GrT3o5d4q4) (v2.1, guidance released for AY 26-27)
 * [GW AI Policy NotebookLM](https://notebooklm.google.com/notebook/d6709e69-032a-427c-bc07-8f23bf19c184) 
+
+#### GWSB AI Inventory
 * [(Draft) GWSB AI Inventory](https://docs.google.com/spreadsheets/d/1OF3-8wbYNE3Pcvbuyq9M5To_lmXY2sQwRlvZhkqn7lU/edit?usp=sharing) (Version 0.5, updated April 3, 2026)
 
 ## Code
