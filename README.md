@@ -12,10 +12,10 @@
 * [Basic Tool Guidance](basic_tool.md)
 * [GWSB AI Forum Sign Up](https://forms.gle/Qf67V5SF461fsrHp6)
 * [GWSB *AI in Action Award*](gwsb_ai_in_action_prize.md)
+* [GWSB AI Seminar Series](seminar_series.md)
   
-### Responsible Use Policy
-* [Draft Responsible AI Use Policy Form](https://business.gwu.edu/artificial-intelligence-in-action/ai-use-policies-feedback)
-  * [Draft Responsible AI Use Policy](Responsible_AI_Use_Policy_(Draft)_v1.1.pdf)
+### Responsible AI Use
+* [Responsible AI Use Policy Development](responsible_ai_use.md) — current drafts, development history, and policy-process update
 
 ### Internal Links
 GWSB faculty and staff may request access via GW Google drive.

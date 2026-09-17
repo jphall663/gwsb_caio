@@ -216,3 +216,6 @@ inventory/dat/*
 !inventory/dat/.gitkeep
 inventory/out/*
 !inventory/out/.gitkeep
+staging
+prompt
+*.DS_Store
