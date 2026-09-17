@@ -10,7 +10,7 @@
 ### Understand default AI rules for GW. 
 * A student submitting AI work as their own with no citation or disclosure is generally prohibited.
 * *See* the [GenAI Guidelines (PDF)](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-04/generative-artificial-intelligence-guidelines-april-2023.pdf) from the Office of the Provost, *Default Rules*.
-* *See* most of GW's relevant [AI policies](https://github.com/jphall663/gwsb_caio?tab=readme-ov-file#a-gw-policy-references).
+* *See* most of GW's relevant [AI policies](https://github.com/jphall663/gwsb_caio/blob/main/policy_analysis_1/Draft_Policy_Analysis_1.pdf).
 
 ### There is no definitive way to understand whether someone used AI on a piece of work.
 * GW Libraries [Teaching with Generative AI](https://library.gwu.edu/teaching-generative-ai) guidance suggests avoidance of AI detection tools. [Additional GenAI Guidance (PDF)](https://provost.gwu.edu/sites/g/files/zaxdzs5926/files/2023-08/additional_guidance_for_generative_ai_-_august_2023.pdf) from the Provost suggests we use our "human skills" to protect against plagiarism and cheating. 
