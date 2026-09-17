@@ -219,3 +219,13 @@ inventory/out/*
 staging
 prompt
 *.DS_Store
+
+# Overleaf presentation sources; keep compiled PDFs publishable
+/gwu_caio_boa_1/*
+!/gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf
+/policy_analysis_1/*
+!/policy_analysis_1/Draft_Policy_Analysis_1.pdf
+/basic_usage_seminar_cc_by_nc_sa_1/*
+!/basic_usage_seminar_cc_by_nc_sa_1/Human_AI_Teaming_Seminar_1.pdf
+/basic_document_analysis_seminar_cc_by_nc_sa_2/*
+!/basic_document_analysis_seminar_cc_by_nc_sa_2/Human_AI_Teaming_Seminar_2.pdf

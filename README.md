@@ -4,9 +4,9 @@
 ## Presentations
 * [GWSB Board of Advisors Update 1](gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf) (December 2025)
 * [Initial Policy Analysis](policy_analysis_1/Draft_Policy_Analysis_1.pdf) (January 2026)
-* [Basic AI Usage Seminar](Basic_Usage_Seminar_CC_BY_NC_SA_1/Human_AI_Teaming_Seminar_1.pdf) (April 2026)
-* [Basic Document Analysis Seminar](Basic_Document_Analysis_Seminar_CC_BY_NC_SA_2/Human_AI_Teaming_Seminar_2.pdf) (April 2026)
-* [Responsible AI Use Policy: Process and Update](GWU_CAIO_Policy_Update.pdf) (July 2026)
+* [Basic AI Usage Seminar](basic_usage_seminar_cc_by_nc_sa_1/Human_AI_Teaming_Seminar_1.pdf) (April 2026)
+* [Basic Document Analysis Seminar](basic_document_analysis_seminar_cc_by_nc_sa_2/Human_AI_Teaming_Seminar_2.pdf) (April 2026)
+* [Responsible AI Use Policy: Process and Update](responsible_ai_use_policy/GWU_CAIO_Policy_Update.pdf) (July 2026)
 
 ## Educational Resources
 * [Transformer-based Language Models and Applications](https://docs.google.com/presentation/d/1RGdm9Iax30KklAMEb14tbsd0qlHMtjMzbGEZHSjOr7o/edit?usp=sharing) lecture slides (internal GW Google Drive)
