@@ -1,4 +1,4 @@
-## Basic AI Tool Guidance
+# Basic AI Tool Guidance
 © 2025-2026 Patrick Hall (jphall@gwu.edu). Some rights reserved. 
 
 * **Notebooks** (e.g., Jupyter / Colab)
@@ -10,7 +10,7 @@
   * *Use for:* building final products and real applications (with folders, files, tests, Git, packaging, deployment, UIs, and users). This is the ideal kind of tool in which to build a chatbot or other finalized AI product.
   * *Optional:* Add a coding agent (e.g., Codex) in your IDE; it can read/modify code. IDEs and coding agents are professional-grade helper tools, not a final product themselves. 
 
-* **Commercial apps/websites** (E.g., ChatGPT / Co-pilot / Gemini / NotebookLM)
+* **Commercial apps/websites** (e.g., ChatGPT / Copilot / Gemini / NotebookLM)
   * *Use for:* exploring, drafting, brainstorming, coding help.
   * *Don’t use for:* final products. For final products, *do* use an IDE to build your own UI and backend code for calling APIs and other AI tools.
   * The ChatGPT website is its own UI. Don’t try to “wrap” that UI for a product--that's silly.  
@@ -28,17 +28,17 @@
 * **Websites, open-source models + tooling** (e.g., Hugging Face & `transformers` or `langchain` packages) 
   * *Use for:* loading and running open source models; your app’s backend data processing—chat generation, retrieval, text-to-code.
   * Open source models tend to run **on your own machine** (you will need better equipment, more memory, GPUs, etc.)
-  * You can build a final product around/with Hugging Face models with or without commerical language model APIs.
+  * You can build a final product around/with Hugging Face models with or without commercial language model APIs.
   * *Don’t use for:* “wrapping” the Hugging Face website as your own product--that's silly.
 
 * **Agentic tools** (e.g., Zapier, n8n)
   * *Use for:* building automated workflows for your own or small group use.
-  * *Don't use for:* building a final product to sell to external users. Like ChatGPT and/or Codex, these are already finalized commerical products with their own UIs.
+  * *Don't use for:* building a final product to sell to external users. Like ChatGPT and/or Codex, these are already finalized commercial products with their own UIs.
   * Mostly focused on software engineering automation, but can also perform some office tasks.  
 
 * **Connectors** (e.g., MCP, ChatGPT Apps)
-  * Use the model context protocol (MCP) to connect a language model API to various tools (databases, APIs, files, search, internal systems) in a programmatic way; MCP is typically used on the backend of apps or products. 
-  * Use specific connecters (e.g., ChatGPT Apps) to let ChatGPT or other commerical apps connect to files, repos, messages, etc.; This enhances ChatGPT's abilities, and is not for building apps or products you surface to others. 
+  * Use the Model Context Protocol (MCP) to connect a language model API to various tools (databases, APIs, files, search, internal systems) in a programmatic way; MCP is typically used on the backend of apps or products.
+  * Use specific connectors (e.g., ChatGPT Apps) to let ChatGPT or other commercial apps connect to files, repos, messages, etc. These connectors enhance ChatGPT's abilities and are not for building apps or products you surface to others.
 
 **Usage Rules of Thumb**:
   * *To learn and research for yourself*: Use chatbots (e.g., ChatGPT, NotebookLM). 

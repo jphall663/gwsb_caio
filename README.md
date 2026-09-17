@@ -17,14 +17,14 @@
 * [Responsible AI Use Policy Development](responsible_ai_use.md)
 
 ### Internal Links
-GWSB faculty and staff may request access via GW Google drive.
+GWSB faculty and staff may request access via GW Google Drive.
 
 #### Fall 2026 AI Office Hours
 * [Book an Intake Session](https://calendar.google.com/calendar/appointments/schedules/AcZssZ2-HZ-Kr-d4_tFob0NRxfBRZj5uXuOu9w_rUWYiZw3vXvOKBEcap1Yjb2gegwSTgkQzDJQzhQYa) (3-5 PM Fridays, in-person or virtual)
 
 #### Trainings
 * [Basic AI Usage Seminar Video](https://drive.google.com/file/d/1GO8j0vYhAtSYf8jikvKm9pyK93n_B5tA/view?usp=sharing)
-* [Basic Document Analysis Seminar](https://drive.google.com/file/d/1EyWq-TBI0Xm3H6EKCfxyWqo9LNlxeuDD/view?usp=sharing)
+* [Basic Document Analysis Seminar Video](https://drive.google.com/file/d/1EyWq-TBI0Xm3H6EKCfxyWqo9LNlxeuDD/view?usp=sharing)
 
 #### GWSB AI Inventory
 * [(Draft) GWSB AI Inventory](https://docs.google.com/spreadsheets/d/1OF3-8wbYNE3Pcvbuyq9M5To_lmXY2sQwRlvZhkqn7lU/edit?usp=sharing) (Version 0.5, updated April 3, 2026)
@@ -37,4 +37,4 @@ GWSB faculty and staff may request access via GW Google drive.
 
 Some text and copy are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/), and display these markings. You are free to share and adapt this material for noncommercial purposes, provided that you give appropriate credit, link to the license, indicate if changes were made, and distribute any contributions under the same license.
 
-Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE).You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, provided that the copyright notice and permission notice in the `SOFTWARE_LICENSE` file are included in all copies or substantial portions of the software.
+Software and scripts are licensed under an [MIT License](SOFTWARE_LICENSE). You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this software, provided that the copyright notice and permission notice in the `SOFTWARE_LICENSE` file are included in all copies or substantial portions of the software.

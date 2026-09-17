@@ -1,4 +1,4 @@
-## Responsible AI Use Policy Development
+# Responsible AI Use Policy Development
 
 * Initial draft released for public comment: [Responsible AI Use Policy (Draft), v1.1](Responsible_AI_Use_Policy_(Draft)_v1.1.pdf) (April 2026)
 * Revised draft incorporating public comments: [Responsible AI Use Policy (Draft), v2.0](Responsible_AI_Use_Policy_(Draft)_v2.0.pdf) (June 2026)

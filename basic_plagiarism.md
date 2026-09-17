@@ -1,4 +1,4 @@
-## Basics on Handling Cheating and Plagiarism
+# Basics on Handling Cheating and Plagiarism
 
 ### Have an AI policy in the class syllabus.
 * Here are links to example syllabus policies from [Georgetown](https://cndls.georgetown.edu/resources/syllabus-policies/ai-and-homework-support/),
