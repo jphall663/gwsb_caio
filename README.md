@@ -8,6 +8,10 @@
 * [Basic Document Analysis Seminar](Basic_Document_Analysis_Seminar_CC_BY_NC_SA_2/Human_AI_Teaming_Seminar_2.pdf) (April 2026)
 * [Responsible AI Use Policy: Process and Update](GWU_CAIO_Policy_Update.pdf) (July 2026)
 
+## Educational Resources
+* [Transformer-based Language Models and Applications](https://docs.google.com/presentation/d/1RGdm9Iax30KklAMEb14tbsd0qlHMtjMzbGEZHSjOr7o/edit?usp=sharing) lecture slides (internal GW Google Drive)
+* [Educational LLM Examples](https://github.com/jphall663/GWU_LLM_examples)
+
 ## Links
 * [Basic Guidance on Plagiarism](basic_plagiarism.md)
 * [Basic Tool Guidance](basic_tool.md)
