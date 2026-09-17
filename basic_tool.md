@@ -13,12 +13,12 @@
 * **Commercial apps/websites** (e.g., ChatGPT / Copilot / Gemini / NotebookLM)
   * *Use for:* exploring, drafting, brainstorming, coding help.
   * *Don’t use for:* final products. For final products, *do* use an IDE to build your own UI and backend code for calling APIs and other AI tools.
-  * The ChatGPT website is its own UI. Don’t try to “wrap” that UI for a product--that's silly.  
+  * The ChatGPT website is its own UI. Don’t try to “wrap” that UI for a product—that's silly.  
 
 * **Coding agents** (e.g., Codex)
   * *Use for:* generating code, fixing bugs, writing tests, etc.
   * *Don’t use for:* hosting or delivering a user-facing final product.
-  * These help produce code for your app/product; they are not the app you deliver to end users. Don’t try to wrap coding agent UIs for your products--that's silly.
+  * These help produce code for your app/product; they are not the app you deliver to end users. Don’t try to wrap coding agent UIs for your products—that's silly.
 
 * **Language model APIs** (e.g., OpenAI API)
   * *Use for:* your app’s backend data processing—chat generation, retrieval, text-to-code, etc. You build your final product using APIs.
@@ -29,7 +29,7 @@
   * *Use for:* loading and running open source models; your app’s backend data processing—chat generation, retrieval, text-to-code.
   * Open source models tend to run **on your own machine** (you will need better equipment, more memory, GPUs, etc.)
   * You can build a final product around/with Hugging Face models with or without commercial language model APIs.
-  * *Don’t use for:* “wrapping” the Hugging Face website as your own product--that's silly.
+  * *Don’t use for:* “wrapping” the Hugging Face website as your own product—that's silly.
 
 * **Agentic tools** (e.g., Zapier, n8n)
   * *Use for:* building automated workflows for your own or small group use.
@@ -44,7 +44,7 @@
   * *To learn and research for yourself*: Use chatbots (e.g., ChatGPT, NotebookLM). 
   * *To build a product for others to use:* Prototype/test/understand coding logic, API calls, and model usage in notebooks → Build a finalized chatbot or other AI app in an IDE, while letting coding agents help write code and build project infrastructure.
   * *To build an automated workflow for yourself:*
-    * *Simple*: Use Zapier, n8n, etc., or ask a chatbot--you may get lucky. 
+    * *Simple*: Use Zapier, n8n, etc., or ask a chatbot—you may get lucky. 
     * *Advanced*: Use a coding agent to write the software to complete the workflow.
   * Never input sensitive data.
   * Don’t draft, don’t code, prompt!
