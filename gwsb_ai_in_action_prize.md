@@ -1,6 +1,6 @@
 # GW School of Business *AI in Action Awards*
 
-The GW School of Business (GWSB) invites faculty and staff to submit proposals for the **GWSB AI in Action Award**, which recognizes uses of artificial intelligence (AI) that advance teaching, research, and operations at the School. Along with GWSB’s commitment to applied and responsible AI, this prize is intended to catalyze practical experimentation and knowledge sharing across the GWSB community.
+The GW School of Business (GWSB) invites faculty and staff to submit proposals for the **GWSB AI in Action Awards**, which recognizes uses of artificial intelligence (AI) that advance teaching, research, and operations at the School. Along with GWSB’s commitment to applied and responsible AI, this prize is intended to catalyze practical experimentation and knowledge sharing across the GWSB community.
 
 Submissions may include completed or planned projects, such as tools, workflows, course innovations, research papers or reports, prototypes, or other approaches that demonstrate how AI can improve learning, decision-making, or institutional effectiveness. Proposals will be evaluated based on:
 
