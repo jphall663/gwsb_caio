@@ -6,7 +6,7 @@
 * [Initial Policy Analysis](policy_analysis_1/Draft_Policy_Analysis_1.pdf) (January 2026)
 * [Basic AI Usage Seminar](Basic_Usage_Seminar_CC_BY_NC_SA_1/Human_AI_Teaming_Seminar_1.pdf) (April 2026)
 * [Basic Document Analysis Seminar](Basic_Document_Analysis_Seminar_CC_BY_NC_SA_2/Human_AI_Teaming_Seminar_2.pdf) (April 2026)
-* 
+* [Responsible AI Use Policy: Process and Update](GWU_CAIO_Policy_Update.pdf) (July 2026)
 
 ## Links
 * [Basic Guidance on Plagiarism](basic_plagiarism.md)
