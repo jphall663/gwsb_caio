@@ -24,7 +24,7 @@
 GWSB faculty and staff may request access via GW Google Drive.
 
 #### Fall 2026 AI Office Hours
-* [Book an Intake Session](https://calendar.google.com/calendar/appointments/schedules/AcZssZ2-HZ-Kr-d4_tFob0NRxfBRZj5uXuOu9w_rUWYiZw3vXvOKBEcap1Yjb2gegwSTgkQzDJQzhQYa) (3-5 PM Fridays, in-person or virtual)
+* [Book an Intake Session](https://calendar.google.com/calendar/appointments/schedules/AcZssZ2-HZ-Kr-d4_tFob0NRxfBRZj5uXuOu9w_rUWYiZw3vXvOKBEcap1Yjb2gegwSTgkQzDJQzhQYa) (3-5 p.m. Fridays, in-person or virtual)
 
 #### Trainings
 * [Basic AI Usage Seminar Video](https://drive.google.com/file/d/1GO8j0vYhAtSYf8jikvKm9pyK93n_B5tA/view?usp=sharing)
