@@ -9,7 +9,7 @@ The *AI Insights from the Top Webinar Series* brings senior leaders into direct 
 **Krishnan Ethirajan, Chief Digital and AI Officer at Mosaic Insurance**  
 Wednesday, September 30, 2026  
 12:00-12:45 p.m. ET  
-Registration link: https://connect.gwu.edu/site/Calendar?id=133414&view=Detail
+[Register for the webinar](https://connect.gwu.edu/site/Calendar?id=133414&view=Detail)
 
 A conversation addressing how Mosaic is using and thinking about AI from strategic and operational perspectives, including expense advantage, front-office efficiency, risk selection, onboarding, AI incidents, AI insurance, and preparation for an AI-enabled workplace.
 
