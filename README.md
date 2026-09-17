@@ -9,7 +9,7 @@
 * [Responsible AI Use Policy: Process and Update](responsible_ai_use_policy/GWU_CAIO_Policy_Update.pdf) (July 2026)
 
 ## Educational Resources
-* [Transformer-based Language Models and Applications](https://docs.google.com/presentation/d/1RGdm9Iax30KklAMEb14tbsd0qlHMtjMzbGEZHSjOr7o/edit?usp=sharing) lecture slides (internal GW Google Drive)
+* [Transformer-based Language Models and Applications](https://docs.google.com/presentation/d/1RGdm9Iax30KklAMEb14tbsd0qlHMtjMzbGEZHSjOr7o/edit?usp=sharing) lecture slides (request access via GW Google Drive)
 * [Educational LLM Examples](https://github.com/jphall663/GWU_LLM_examples)
 
 ## Links
