@@ -21,7 +21,7 @@ The *AI in Action Awards Friday Seminar Series* features GWSB award recipients s
 
 | Date | Time | Presenter | Presentation | Slides | Recording |
 |------|------|-----------|--------------|--------|-----------|
-| September 11, 2026 | 12:30-1:00 p.m. | Faith Bradley | Capital AI | [Click Here]() | [Click Here](https://gwu-edu.zoom.us/clips/share/Nb6Iovy1Q2-7Hqecmhamag) |
+| September 11, 2026 | 12:30-1:00 p.m. | Faith Bradley | Capital AI | [Click Here](webinar_slides/capital_ai_at_gwsb_presentation.pdf) | [Click Here](https://gwu-edu.zoom.us/clips/share/Nb6Iovy1Q2-7Hqecmhamag) |
 | September 25, 2026 | 12:30-1:00 p.m. | Jungho Suh | Dr. Suh’s TA Bot: An AI-Powered Teaching Assistant | — | — |
 | September 25, 2026 | 1:00-1:30 p.m. | Kathy Korman Frey | AI Board of Advisors | — | — |
 | October 2, 2026 | 12:30-1:30 p.m. | Ziyuan Zhou, Long He, and Zhengling Qi | MarkMate: An AI-powered Grading Assistant | — | — |
