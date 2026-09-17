@@ -12,7 +12,7 @@
 * [Basic Guidance on Plagiarism](basic_plagiarism.md)
 * [Basic Tool Guidance](basic_tool.md)
 * [GWSB AI Forum Sign Up](https://forms.gle/Qf67V5SF461fsrHp6)
-* [GWSB *AI in Action Award*](gwsb_ai_in_action_prize.md)
+* [GWSB *AI in Action Awards*](gwsb_ai_in_action_prize.md)
 * [GWSB AI Seminar Series](seminar_series.md)
 * [Responsible AI Use Policy Development](responsible_ai_use.md)
 
