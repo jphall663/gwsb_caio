@@ -18,6 +18,7 @@
 * [GWSB AI Forum Sign Up](https://forms.gle/Qf67V5SF461fsrHp6)
 * [GWSB *AI in Action Awards*](gwsb_ai_in_action_prize.md)
 * [GWSB AI Seminar Series](seminar_series.md)
+* [GW University-wide AI Report](https://strategicframework.gwu.edu/sites/g/files/zaxdzs7071/files/2026-07/PRES-2526-588_AI@GW_Mapping_Report-FINAL.pdf)
 * [Responsible AI Use Policy Development](responsible_ai_use.md)
 
 ### Internal Links
