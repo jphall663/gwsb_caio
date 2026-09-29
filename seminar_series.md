@@ -22,8 +22,8 @@ The *AI in Action Awards Friday Seminar Series* features GWSB award recipients s
 | Date | Time | Presenter | Presentation | Slides | Recording |
 |------|------|-----------|--------------|--------|-----------|
 | September 11, 2026 | 12:30-1:00 p.m. | Faith Bradley | Capital AI | [Click Here](webinar_slides/capital_ai_at_gwsb_presentation.pdf) | [Click Here](https://gwu-edu.zoom.us/clips/share/Nb6Iovy1Q2-7Hqecmhamag) |
-| September 25, 2026 | 12:30-1:00 p.m. | Jungho Suh | Dr. Suh’s TA Bot: An AI-Powered Teaching Assistant | — | — |
-| September 25, 2026 | 1:00-1:30 p.m. | Kathy Korman Frey | AI Board of Advisors | — | — |
+| September 25, 2026 | 12:30-1:00 p.m. | Jungho Suh | Dr. Suh’s TA Bot: An AI-Powered Teaching Assistant | [Click Here](webinar_slides/dr_suhs_ta_bot_seminar.pdf) | [Click Here](https://drive.google.com/file/d/16dXGF9PIMk8lVPuuuu8jeMcnunxYw7hH/view?usp=drive_web) |
+| September 25, 2026 | 1:00-1:30 p.m. | Kathy Korman Frey | AI Board of Advisors | — | [Click Here](https://drive.google.com/file/d/1uDpqeEvGosv6HErEbLHM10Q289BqIOlN/view?usp=drive_web) |
 | October 2, 2026 | 12:30-1:30 p.m. | Ziyuan Zhou, Long He, and Zhengling Qi | MarkMate: An AI-powered Grading Assistant | — | — |
 | October 9, 2026 | 12:30-1:00 p.m. | Vineet Bhagwat and Chukwuma Dim | The Market's Mirror: Revealing Investor Disagreement with LLMs | — | — |
 | October 16, 2026 | 12:30-1:30 p.m. | Herman Aguinis | Method-driven theory advancements and AI implementation | — | — |
@@ -33,3 +33,4 @@ The *AI in Action Awards Friday Seminar Series* features GWSB award recipients s
 | November 20, 2026 | 12:30-1:00 p.m. | Oded Rozenbaum | Ollie the AI Teaching Assistant | — | — |
 | December 4, 2026 | 12:30-1:30 p.m. | Yixin Lu | Vibe Coding in the Business Classroom | — | — |
 | December 11, 2026 | 12:30-1:30 p.m. | Rodimiro Rodrigo | International Business in the AI-Augmented Workplace | — | — |
+Click Here
