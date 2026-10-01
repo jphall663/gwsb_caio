@@ -33,4 +33,3 @@ The *AI in Action Awards Friday Seminar Series* features GWSB award recipients s
 | November 20, 2026 | 12:30-1:00 p.m. | Oded Rozenbaum | Ollie the AI Teaching Assistant | — | — |
 | December 4, 2026 | 12:30-1:30 p.m. | Yixin Lu | Vibe Coding in the Business Classroom | — | — |
 | December 11, 2026 | 12:30-1:30 p.m. | Rodimiro Rodrigo | International Business in the AI-Augmented Workplace | — | — |
-Click Here
