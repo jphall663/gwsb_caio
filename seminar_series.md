@@ -11,9 +11,10 @@ Wednesday, September 30, 2026
 12:00-12:45 p.m. ET  
 Virtual via Zoom
 
-[Register for the webinar](https://connect.gwu.edu/site/Calendar?id=133414&view=Detail)
-
 A conversation addressing how Mosaic is using and thinking about AI from strategic and operational perspectives, including expense advantage, front-office efficiency, risk selection, onboarding, AI incidents, AI insurance, and preparation for an AI-enabled workplace.
+* [Register for the webinar](https://connect.gwu.edu/site/Calendar?id=133414&view=Detail)
+* [Watch the recording](https://share.articulate.com/hCyxiAYcrPK1kk8gxqAzO#/lessons/ORRjL0eaXT7CA8V0L4Xn1e7B9A7-Bw2m)
+
 
 ## AI in Action Awards Friday Seminar Series
 
