@@ -20,7 +20,7 @@ A conversation addressing how Mosaic is using and thinking about AI from strateg
 
 **Damian McKenna, Chief Operations Officer at Emodo**  
 Wednesday, October 28, 2026  
-1:00 PM - 1:45 PM 
+1:00 PM - 1:45 PM  
 Virtual via Zoom
 
 This webinar will explore how AI and machine learning are reshaping digital advertising, with a focus on measurement, real-world impact, and explainability. The conversation will also examine how interdisciplinary backgrounds can shape careers in AI and technology.
