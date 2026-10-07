@@ -16,6 +16,17 @@ A conversation addressing how Mosaic is using and thinking about AI from strateg
 * [Watch the recording](https://share.articulate.com/hCyxiAYcrPK1kk8gxqAzO#/lessons/ORRjL0eaXT7CA8V0L4Xn1e7B9A7-Bw2m)
 
 
+### October 2026 Webinar
+
+**Damian McKenna, Chief Operations Officer at Emodo**  
+Wednesday, October 28, 2026
+1:00 PM - 1:45 PM
+Virtual via Zoom
+
+This webinar will explore how AI and machine learning are reshaping digital advertising, with a focus on measurement, real-world impact, and explainability. The conversation will also examine how interdisciplinary backgrounds can shape careers in AI and technology.
+* [Register for the webinar](https://connect.gwu.edu/site/Calendar?id=133735&view=Detail)
+
+
 ## AI in Action Awards Friday Seminar Series
 
 The *AI in Action Awards Friday Seminar Series* features GWSB award recipients sharing practical AI work in teaching, research, and operations. Sessions are held in Duquès Hall 650. All times are Eastern Time. The schedule is subject to change.
