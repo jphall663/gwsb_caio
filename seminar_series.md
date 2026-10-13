@@ -37,7 +37,7 @@ The *AI in Action Awards Friday Seminar Series* features GWSB award recipients s
 | September 25, 2026 | 12:30-1:00 p.m. | Jungho Suh | Dr. Suh’s TA Bot: An AI-Powered Teaching Assistant | [Click Here](webinar_slides/dr_suhs_ta_bot_seminar.pdf) | [Click Here](https://drive.google.com/file/d/16dXGF9PIMk8lVPuuuu8jeMcnunxYw7hH/view?usp=drive_web) |
 | September 25, 2026 | 1:00-1:30 p.m. | Kathy Korman Frey | AI Board of Advisors | [Click Here](webinar_slides/ai_in_action_kkf.pdf) | [Click Here](https://drive.google.com/file/d/1uDpqeEvGosv6HErEbLHM10Q289BqIOlN/view?usp=drive_web) |
 | October 2, 2026 | 12:30-1:30 p.m. | Ziyuan Zhou, Long He, and Zhengling Qi | MarkMate: An AI-powered Grading Assistant | [Click Here](webinar_slides/markmate_slides.pdf) | [Click Here](https://drive.google.com/file/d/1DRMk6LSAusmdBbUtIz9npUbBm03XkXSi/view?usp=drive_web) |
-| October 9, 2026 | 12:30-1:00 p.m. | Vineet Bhagwat and Chukwuma Dim | The Market's Mirror: Revealing Investor Disagreement with LLMs | — | [Click Here](https://drive.google.com/file/d/1CrfU_ATTuoP6WhQFJt9OyXkf4-pRAi8k/view?usp=drive_web) |
+| October 9, 2026 | 12:30-1:00 p.m. | Vineet Bhagwat and Chukwuma Dim | The Market's Mirror: Revealing Investor Disagreement with LLMs | [Click Here](webinar_slides/markets_mirror_dim_gwu_ai.pdf) | [Click Here](https://drive.google.com/file/d/1CrfU_ATTuoP6WhQFJt9OyXkf4-pRAi8k/view?usp=drive_web) |
 | October 16, 2026 | 12:30-1:30 p.m. | Herman Aguinis | Method-driven theory advancements and AI implementation | — | — |
 | October 30, 2026 | 1:00-1:30 p.m. | Michael Tadesse | AI Applications in Marketing Strategy Education | — | — |
 | November 6, 2026 | 12:30-1:30 p.m. | Joel Gehman | Hybrid Human–AI Analysis of Corporate Impact Reporting | — | — |
