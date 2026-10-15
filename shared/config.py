@@ -43,9 +43,9 @@ FALLBACK_MODEL: str     = 'h2oai/h2o-danube3.1-4b-chat'
 CLIENT_NAME             = 'The George Washington School of Business'
 
 ### Open AI API
-API_KEY: str            = ''
+API_KEY: str            = os.environ.get('OPENAI_API_KEY', '')
 OPENAI_API_TIMEOUT: int = 600
-OPENAI_API_RETRIES: int = 0
+OPENAI_API_RETRIES: int = int(os.environ.get('OPENAI_API_RETRIES', '2'))
 
 
 

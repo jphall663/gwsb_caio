@@ -69,6 +69,8 @@ shared OpenAI client and default completion parameters.
 
 from copy import deepcopy
 from functools import wraps
+import os
+from typing import Any, Iterable, Optional
 
 from shared import config
 
@@ -133,7 +135,34 @@ The global OpenAI client instance configured with:
 
 """
 
-client = openai.OpenAI(api_key=API_KEY, timeout=OPENAI_API_TIMEOUT)
+client = (
+   openai.OpenAI(api_key=API_KEY, timeout=OPENAI_API_TIMEOUT, max_retries=0)
+   if API_KEY
+   else None
+)
+
+
+def get_openai_client(api_key: Optional[str] = None):
+   """Return the shared client, creating it lazily when necessary.
+
+   Existing callers that configure ``shared.config.API_KEY`` before importing
+   this module keep the original module-level ``client`` behavior. New callers
+   can rely on ``OPENAI_API_KEY`` without putting a secret in source code.
+   """
+
+   global client
+   if client is not None and api_key is None:
+      return client
+
+   resolved_key = api_key or config.API_KEY or os.environ.get('OPENAI_API_KEY', '')
+   if not resolved_key:
+      raise ValueError('OPENAI_API_KEY is not set.')
+
+   if api_key is not None:
+      return openai.OpenAI(api_key=resolved_key, timeout=OPENAI_API_TIMEOUT, max_retries=0)
+
+   client = openai.OpenAI(api_key=resolved_key, timeout=OPENAI_API_TIMEOUT, max_retries=0)
+   return client
 
 def retry_with_exponential_backoff(
     func=None,
@@ -270,7 +299,7 @@ def gpt_embed(text:str) -> list:
       embeddings API for the given ``text``.
    """
 
-   return client.embeddings.create(input=text, model=EMBEDDING_MODEL).data[0].embedding
+   return get_openai_client().embeddings.create(input=text, model=EMBEDDING_MODEL).data[0].embedding
 
 @retry_with_exponential_backoff
 def gpt_complete(prompt, lm_params_=None):
@@ -317,4 +346,50 @@ def gpt_complete(prompt, lm_params_=None):
    params['messages'] = [dict(message) for message in messages]
    params['messages'][1]['content'] = prompt
 
-   return client.chat.completions.create(**params)
+   return get_openai_client().chat.completions.create(**params)
+
+
+@retry_with_exponential_backoff
+def gpt_response(
+   prompt: str,
+   *,
+   model: Optional[str] = None,
+   instructions: Optional[str] = None,
+   reasoning_effort: Optional[str] = None,
+   tools: Optional[Iterable[dict[str, Any]]] = None,
+   tool_choice: Optional[Any] = None,
+   max_output_tokens: Optional[int] = None,
+   store: bool = False,
+   extra: Optional[dict[str, Any]] = None,
+):
+   """Create a response using the additive Responses API interface.
+
+   Reasoning configuration and API selection are intentionally independent:
+   callers choose this helper when Responses capabilities are needed and may
+   separately opt into a model-supported reasoning effort. ``extra`` provides
+   a narrow escape hatch for newly introduced Responses parameters without
+   forcing existing Chat Completions callers to migrate.
+   """
+
+   params: dict[str, Any] = {
+      'model': model or REMOTE_MODEL,
+      'input': prompt,
+      'store': store,
+   }
+   if instructions:
+      params['instructions'] = instructions
+   if reasoning_effort:
+      params['reasoning'] = {'effort': reasoning_effort}
+   if tools:
+      params['tools'] = list(tools)
+   if tool_choice is not None:
+      params['tool_choice'] = tool_choice
+   if max_output_tokens is not None:
+      params['max_output_tokens'] = max_output_tokens
+   if extra:
+      overlap = set(params).intersection(extra)
+      if overlap:
+         raise ValueError(f'extra cannot replace explicit parameters: {sorted(overlap)}')
+      params.update(extra)
+
+   return get_openai_client().responses.create(**params)

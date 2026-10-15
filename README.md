@@ -38,6 +38,7 @@ GWSB faculty and staff may request access via GW Google Drive.
 * [AI Inventory](https://github.com/jphall663/gwsb_caio/tree/main/inventory/README.md)
 * [Educational LLM Examples](https://github.com/jphall663/GWU_LLM_examples)
 * [Policy Analysis](https://github.com/jphall663/gwsb_caio/tree/main/policy_analysis/README.md)
+* [Public Syllabus Research](syllabus_research/README.md)
 
 ## Licensing 
 

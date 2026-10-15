@@ -220,6 +220,15 @@ staging
 prompt
 *.DS_Store
 
+.env
+.env.*
+!/syllabus_research/.env.example
+/syllabus_research/runs/
+/syllabus_research/.venv/
+/syllabus_research/.pytest_cache/
+/syllabus_research/**/__pycache__/
+
+
 # Overleaf presentation sources; keep compiled PDFs publishable
 /gwu_caio_boa_1/*
 !/gwu_caio_boa_1/GWU_CAIO_BoA_1.pdf

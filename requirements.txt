@@ -1,13 +1,15 @@
 beautifulsoup4
 matplotlib
 numpy
-openai
-openpyxl
+openai>=2.0.0
+openpyxl>=3.1.0
 pandas
 pdfkit
 pdfminer.six
 PyPDF2
+pypdf>=5.0.0
 python-docx
+pytest>=8.0.0
 scikit-learn
 six
 textract

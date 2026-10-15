@@ -1,0 +1,58 @@
+{
+  "profile_name": "Applied LLMs for Business Analytics",
+  "description": "Conceptual, application-focused master's course in LLM architecture and applications.",
+  "as_of_date": null,
+  "recency_months": 18,
+  "selection_target_min": 15,
+  "selection_target_max": 30,
+  "language": "English",
+  "audience": "Master's students in business analytics; conceptual and application focused; minimal mathematics.",
+  "topics": [
+    {"id": "transformers", "label": "Transformers (conceptual, minimal mathematics)", "required": true, "covered_elsewhere": false},
+    {"id": "prompting_icl", "label": "Prompting and in-context learning", "required": true, "covered_elsewhere": false},
+    {"id": "model_apis", "label": "Model APIs; hosted versus local/open-weight models", "required": true, "covered_elsewhere": false},
+    {"id": "rag", "label": "Retrieval-augmented generation (RAG)", "required": true, "covered_elsewhere": false},
+    {"id": "context_engineering", "label": "Context engineering", "required": true, "covered_elsewhere": false},
+    {"id": "structured_outputs", "label": "Structured outputs", "required": true, "covered_elsewhere": false},
+    {"id": "tool_use", "label": "Tool use and function calling", "required": true, "covered_elsewhere": false},
+    {"id": "agents", "label": "Agents", "required": true, "covered_elsewhere": false},
+    {"id": "evaluation", "label": "Evaluation", "required": true, "covered_elsewhere": false},
+    {"id": "responsible_use", "label": "Responsible use", "required": false, "covered_elsewhere": true}
+  ],
+  "seed_sources": [
+    {
+      "name": "Sebastian Raschka teaching materials",
+      "url": "https://sebastianraschka.com/teaching/",
+      "required_seed": true
+    }
+  ],
+  "explicit_inclusions": [],
+  "explicit_exclusions": [],
+  "selection": {
+    "minimum_substantive_topics": 3,
+    "require_public_outline": true,
+    "require_date_evidence": true,
+    "allowed_provider_types": ["university", "professional training", "independent instructor"],
+    "exclude_marketing_only": true
+  },
+  "models": {
+    "discovery": "gpt-5.5",
+    "analysis": "gpt-5.5"
+  },
+  "reasoning_effort": "medium",
+  "limits": {
+    "max_api_calls": 60,
+    "candidate_pool_target": 40,
+    "discovery_batch_size": 10,
+    "discovery_max_batches": 4,
+    "estimated_usd_limit": null,
+    "per_call_cost_reserve_usd": null,
+    "usd_per_million_input_tokens": null,
+    "usd_per_million_output_tokens": null,
+    "usd_per_web_search_call": null,
+    "max_input_characters_per_source": 80000,
+    "max_output_tokens": 12000,
+    "max_retrieval_retries": 2,
+    "request_timeout_seconds": 30
+  }
+}
