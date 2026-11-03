@@ -13,7 +13,7 @@ Virtual via Zoom
 
 A conversation addressing how Mosaic is using and thinking about AI from strategic and operational perspectives, including expense advantage, front-office efficiency, risk selection, onboarding, AI incidents, AI insurance, and preparation for an AI-enabled workplace.
 * [Register for the webinar](https://connect.gwu.edu/site/Calendar?id=133414&view=Detail)
-* [Watch the recording](https://share.articulate.com/hCyxiAYcrPK1kk8gxqAzO#/lessons/ORRjL0eaXT7CA8V0L4Xn1e7B9A7-Bw2m)
+* [Watch the recording](https://youtu.be/35SL7Nqn1YQ)
 
 
 ### October 2026 Webinar
@@ -25,6 +25,7 @@ Virtual via Zoom
 
 This webinar will explore how AI and machine learning are reshaping digital advertising, with a focus on measurement, real-world impact, and explainability. The conversation will also examine how interdisciplinary backgrounds can shape careers in AI and technology.
 * [Register for the webinar](https://connect.gwu.edu/site/Calendar?id=133735&view=Detail)
+* [Watch the recording](https://youtu.be/bBGxrrLoG6E)
 
 
 ## AI in Action Awards Friday Seminar Series
@@ -39,7 +40,7 @@ The *AI in Action Awards Friday Seminar Series* features GWSB award recipients s
 | October 2, 2026 | 12:30-1:30 p.m. | Ziyuan Zhou, Long He, and Zhengling Qi | MarkMate: An AI-powered Grading Assistant | [Click Here](webinar_slides/markmate_slides.pdf) | [Click Here](https://drive.google.com/file/d/1DRMk6LSAusmdBbUtIz9npUbBm03XkXSi/view?usp=drive_web) |
 | October 9, 2026 | 12:30-1:00 p.m. | Vineet Bhagwat and Chukwuma Dim | The Market's Mirror: Revealing Investor Disagreement with LLMs | [Click Here](webinar_slides/markets_mirror_dim_gwu_ai.pdf) | [Click Here](https://drive.google.com/file/d/1CrfU_ATTuoP6WhQFJt9OyXkf4-pRAi8k/view?usp=drive_web) |
 | October 16, 2026 | 12:30-1:30 p.m. | Herman Aguinis | Method-driven theory advancements and AI implementation | [Click Here](webinar_slides/method-driven_theory_advancements_and_AI_implementation.pdf) | [Click Here](https://drive.google.com/file/d/1wp6K4bGJFyt1fDB0zvmonnO6znab5YAs/view?usp=drive_web) |
-| October 30, 2026 | 1:00-1:30 p.m. | Michael Tadesse | AI Applications in Marketing Strategy Education | [Click Here](webinar_slides/mt_ai_marketing_classroom.pdf) | — |
+| October 30, 2026 | 1:00-1:30 p.m. | Michael Tadesse | AI Applications in Marketing Strategy Education | [Click Here](webinar_slides/mt_ai_marketing_classroom.pdf) | [Click Here](https://drive.google.com/file/d/1K5EtA6oDyvCuTb2NtLuNA7S1mQfDO-r5/view?usp=drive_web) |
 | November 6, 2026 | 12:30-1:30 p.m. | Joel Gehman | Hybrid Human–AI Analysis of Corporate Impact Reporting | — | — |
 | November 13, 2026 | 12:30-1:30 p.m. | Cameron Stopak | AI for School Ranking Analytics | — | — |
 | November 20, 2026 | 12:30-1:00 p.m. | Oded Rozenbaum | Ollie the AI Teaching Assistant | — | — |
