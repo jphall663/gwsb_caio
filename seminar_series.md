@@ -41,7 +41,7 @@ The *AI in Action Awards Friday Seminar Series* features GWSB award recipients s
 | October 9, 2026 | 12:30-1:00 p.m. | Vineet Bhagwat and Chukwuma Dim | The Market's Mirror: Revealing Investor Disagreement with LLMs | [Click Here](webinar_slides/markets_mirror_dim_gwu_ai.pdf) | [Click Here](https://drive.google.com/file/d/1CrfU_ATTuoP6WhQFJt9OyXkf4-pRAi8k/view?usp=drive_web) |
 | October 16, 2026 | 12:30-1:30 p.m. | Herman Aguinis | Method-driven theory advancements and AI implementation | [Click Here](webinar_slides/method-driven_theory_advancements_and_AI_implementation.pdf) | [Click Here](https://drive.google.com/file/d/1wp6K4bGJFyt1fDB0zvmonnO6znab5YAs/view?usp=drive_web) |
 | October 30, 2026 | 1:00-1:30 p.m. | Michael Tadesse | AI Applications in Marketing Strategy Education | [Click Here](webinar_slides/mt_ai_marketing_classroom.pdf) | [Click Here](https://drive.google.com/file/d/1K5EtA6oDyvCuTb2NtLuNA7S1mQfDO-r5/view?usp=drive_web) |
-| November 6, 2026 | 12:30-1:30 p.m. | Joel Gehman | Hybrid Human–AI Analysis of Corporate Impact Reporting | — | — |
+| November 6, 2026 | 12:30-1:30 p.m. | Joel Gehman | Hybrid Human–AI Analysis of Corporate Impact Reporting | [Click Here](webinar_slides/mandatory_ambiguity_ai_in_action.pdf) | — |
 | November 13, 2026 | 12:30-1:30 p.m. | Cameron Stopak | AI for School Ranking Analytics | — | — |
 | November 20, 2026 | 12:30-1:00 p.m. | Oded Rozenbaum | Ollie the AI Teaching Assistant | — | — |
 | December 4, 2026 | 12:30-1:30 p.m. | Yixin Lu | Vibe Coding in the Business Classroom | — | — |
