@@ -27,6 +27,15 @@ This webinar will explore how AI and machine learning are reshaping digital adve
 * [Register for the webinar](https://connect.gwu.edu/site/Calendar?id=133735&view=Detail)
 * [Watch the recording](https://youtu.be/bBGxrrLoG6E)
 
+### December 2026 Webinar
+
+**Agus Sudjianto, Senior Vice President Risk & Technology, H2O.ai, Senior Advisor, McKinsey**  
+Wednesday, December 9, 2026  
+12:30 PM - 1:15 PM 
+Virtual via Zoom
+
+This discussion will cover how AI is shaping business strategy, what it takes to put AI into practice within organizations and how students and professionals can prepare for the future of work.
+* [Register for the webinar](https://connect.gwu.edu/site/Calendar?id=134192&view=Detail)
 
 ## AI in Action Awards Friday Seminar Series
 
@@ -42,7 +51,7 @@ The *AI in Action Awards Friday Seminar Series* features GWSB award recipients s
 | October 16, 2026 | 12:30-1:30 p.m. | Herman Aguinis | Method-driven theory advancements and AI implementation | [Click Here](webinar_slides/method-driven_theory_advancements_and_AI_implementation.pdf) | [Click Here](https://drive.google.com/file/d/1wp6K4bGJFyt1fDB0zvmonnO6znab5YAs/view?usp=drive_web) |
 | October 30, 2026 | 1:00-1:30 p.m. | Michael Tadesse | AI Applications in Marketing Strategy Education | [Click Here](webinar_slides/mt_ai_marketing_classroom.pdf) | [Click Here](https://drive.google.com/file/d/1K5EtA6oDyvCuTb2NtLuNA7S1mQfDO-r5/view?usp=drive_web) |
 | November 6, 2026 | 12:30-1:30 p.m. | Joel Gehman | Hybrid Human–AI Analysis of Corporate Impact Reporting | [Click Here](webinar_slides/mandatory_ambiguity_ai_in_action.pdf) | [Click Here](https://drive.google.com/file/d/1mr4bONDoQV78aiZh1l6Iwt8cPNClNs6a/view?usp=drive_web) |
-| November 13, 2026 | 12:30-1:30 p.m. | Cameron Stopak | AI for School Ranking Analytics | — | — |
+| November 13, 2026 | 12:30-1:30 p.m. | Cameron Stopak | AI for School Ranking Analytics | [Click Here](https://docs.google.com/presentation/d/1STKwXe9OBIIUClHbUzI8jmm9PwtT_9FK/edit?usp=drive_link&ouid=100151748036949882924&rtpof=true&sd=true) | — |
 | November 20, 2026 | 12:30-1:00 p.m. | Oded Rozenbaum | Ollie the AI Teaching Assistant | — | — |
 | December 4, 2026 | 12:30-1:30 p.m. | Yixin Lu | Vibe Coding in the Business Classroom | — | — |
 | December 11, 2026 | 12:30-1:30 p.m. | Rodimiro Rodrigo | International Business in the AI-Augmented Workplace | — | — |
