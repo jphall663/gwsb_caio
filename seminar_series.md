@@ -31,7 +31,7 @@ This webinar will explore how AI and machine learning are reshaping digital adve
 
 **Agus Sudjianto, Senior Vice President Risk & Technology, H2O.ai, Senior Advisor, McKinsey**  
 Wednesday, December 9, 2026  
-12:30 PM - 1:15 PM 
+12:30 PM - 1:15 PM  
 Virtual via Zoom
 
 This discussion will cover how AI is shaping business strategy, what it takes to put AI into practice within organizations and how students and professionals can prepare for the future of work.
